@@ -56,8 +56,6 @@ Licht toe op welke manier je AI gebruikte in dit project.
   * [Rapport](url)
 
 ## Licentie
-> :warning: voeg jullie namen toe in de documenten hieronder en delete dan dit lijntje   
-
 This repository contains both software and design materials created as part of an industrial design energineering project at Ghent University.
 
 - **Software and code:** [MIT License](./LICENSE-MIT)  
