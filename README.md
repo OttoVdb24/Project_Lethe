@@ -1,22 +1,21 @@
 # Projecttitel
-*Omschrijving van je concept in 1 zin, e.g. Zablurb, een slimme stofzuiger die eenzaamheid tegengaat bij alleenstaande senioren.* 
+*Project Lethe, een slimme kapstok die kinderen helpt om hun hobby zakken te maken.* 
 
-🛠️ Built by ``Naam 1`` & ``Naam 2``   
+🛠️ Built by ``Hanne Dierickx`` & ``Otto Vandroogenbroeck``   
 🔥 Supervised by ``prof. dr. Bas Baccarne``, ``Yannick Christiaens`` & ``Wouter Devriese``    
 🌱 Grown at ``Ghent University`` 🏛️ ``Industrial Design Engineering`` ([project overview](https://github.com/basbaccarne/human-centered-design))       
 
-*Dag/Maand/Jaar van de laatste update*   
+*18/12/2025*   
 
 ## Samenvatting
-Max 200 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
+Project Lethe is een product gemaakt om stress te verminderen bij jonge gezinnen.
+De rush wanneer er vertrokken moet worden naar school of naar een hobby is universeel. Het is een moment wanneer ouders niet alleen zichzelf maar ook de kinderen en eventuele zakken klaar moeten krijgen. Om dit te verhelpen voerden we interviews en user tests uit bij gezinnen met kinderen in het lager onderwijs. Met als resultaat project Lethe.
+Lethe de slimme kapstok, zorgt ervoor dat er nooit nog een zak vergeten wordt.
+Ze doet dit door de kinderen zelf hun zakken te laten maken. De kapstok is verbonden met een app, waar de ouders de activiteiten van hun kinderen kunnen ingeven. Zo weet de kapstok, wie wanneer welke hobby heeft. En zal de kinderen op voorhand op trommelen om hun zak te komen maken. Doormiddel van een interactief touchscreen zien de kinderen wat er in de desbetreffende zak moet komen. Zit alles in de zak, en hangt die aan de kapstok, dan zegt Lethe, dankjewel en is er weer wat stress vermeden.
 
-- Wat is het probleem?
-- Hoe heb je dit onderzocht?
-- Wat is jouw oplossing?
-- Hoe lost jouw oplossing het probleem op?
-- Hero sketch/render/image, vb.
+
 <p align="center">
-  <img src="img/hero_example.png" width="100%">
+  <img src="img/AI_render.png" width="100%">
 </p>
 
 ## Introductie
@@ -40,18 +39,18 @@ Licht toe op welke manier je AI gebruikte in dit project.
 
 ## Bijlagen
 ### Discovery
-* Literatuuronderzoek (N=x)
-  * [Protocol](url)
-  * [Rapport](url)
-* Interviews (N=x)
-  * [Protocol](url)
-  * [Rapport](url)
+* Benchmarkonderzoek (N=10)
+  * [Protocol](./docs/Protocol%20benchmarking.pdf)
+  * [Rapport](./docs/Rapport%20benchmarking.pdf)
+* Interviews (N=3)
+  * [Protocol](./docs/Protocol%20user%20interview.pdf)
+  * [Rapport](./docs/Rapport%20user%20interview.pdf)
     
 ### Definition
-* User testing wave 1 (N=x)
+* User testing wave 1 (N=2)
   * [Protocol](url)
   * [Rapport](url)
-* User testing wave 2 (N=x)
+* User testing wave 2 (N=4)
   * [Protocol](url)
   * [Rapport](url)
 
