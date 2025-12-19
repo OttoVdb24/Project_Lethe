@@ -19,9 +19,17 @@ Ze doet dit door de kinderen zelf hun zakken te laten maken. De kapstok is verbo
 </p>
 
 ## Introductie
-Max 300 woorden.
-Kader je project. Introduceer het probleem en jouw doelstellingen (inclusief boundary conditions).
-Maak gebruik van bronverwijzingen ([zie APA stijl](https://www.scribbr.nl/category/apa-stijl/)). Zoals bijvoorbeeld (Thomas & Ritter, 2022) [^1] .
+Onderzoek toont aan dat vaste routines een positieve invloed hebben op de ontwikkeling van kinderen. Ze dragen bij aan een gezonde levensstijl, waaronder slaapkwaliteit, eetpatroon en sociaal-emotionele ontwikkeling (Bost et al., 2013)[^1]. Om deze voordelen te realiseren, worden ouders aangemoedigd om kinderen zelfstandigheid en verantwoordelijkheid bij te brengen in dagelijkse taken, zoals school- en hobbyactiviteiten (Selman & Dilworth-Bart, 2023)[^2].
+
+Uit eigen interviews met ouders (N=3) bleek dat zij deze zelfstandigheid wel willen stimuleren, maar dat dit tijdens stressvolle momenten, zoals de ochtendrush, moeilijk toepasbaar is. Onderzoek suggereert dat externe, neutrale hulpmiddelen de communicatie tussen ouder en kind kunnen ondersteunen tijdens dergelijke momenten (Chan et al., 2017)[^3]. Aanvullend marktonderzoek (N=10) toonde echter aan dat er momenteel geen product bestaat dat hier specifiek op inspeelt voor jonge gezinnen.
+
+Vanuit deze vaststelling ontstond Project Lethe: een slimme, interactieve kapstok die kinderen ondersteunt in het zelfstandig voorbereiden van school- en hobbytassen, met als bijkomend effect een vermindering van stress bij de ouders.
+
+De gehanteerde boundary conditions zijn:
+•	betaalbaar voor jonge gezinnen;
+•	verantwoordelijkheid en actie bij het kind;
+•	eenvoudig en intuïtief in gebruik.
+
 
 ## Inhoudstafel
 
@@ -48,10 +56,10 @@ Licht toe op welke manier je AI gebruikte in dit project.
     
 ### Definition
 * User testing wave 1 (N=2)
-  * [Protocol](url)
-  * [Rapport](url)
+  * [Protocol](./docs/Concept%20testing%20wave%201%20-%20protocol.pdf)
+  * [Rapport](./docs/concept%20testing%20wave%201%20-%20report.pdf)
 * User testing wave 2 (N=4)
-  * [Protocol](url)
+  * [Protocol](./docs/Concept%20testing%20wave%202%20-%20protocol.pdf)
   * [Rapport](url)
 
 ## Licentie
@@ -63,4 +71,10 @@ This repository contains both software and design materials created as part of a
 You are free to reuse and build upon this work, both commercially and non-commercially, as long as proper attribution is given to the original authors.
 
 ## Bronnen
- [^1]: Thomas, T., & Ritter, A. (2022). Wandering & sundowning in dementia. _Practical Neurology, 21_(3), 36–44.
+ [^1]: Bost, K. K., Wiley, A. R., Fiese, B., Hammons, A., & McBride, B. (2013). Associations between adult attachment style, emotion regulation, and preschool children’s food consumption. Journal of Developmental & Behavioral Pediatrics, 35(1), 50–61. https://doi.org/10.1097/01.dbp.0000439103.29889.18
+ 
+ [^2]: Selman, S. B., & Dilworth‐Bart, J. E. (2023). Routines and child development: A systematic review. Journal of Family Theory & Review, 16(2), 272–328. https://doi.org/10.1111/jftr.12549
+
+ [^3]: Chan, M., Lin, Y., Lin, L., Lin, T., Hsu, W., Chang, C., Liu, R., Chang, K., Lin, M., & Hsu, J. Y. (2017). WAKEY. CSCW ’17: Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing, 2287–2299. https://doi.org/10.1145/2998181.2998233
+
+
