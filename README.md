@@ -9,7 +9,9 @@
 
 ## Samenvatting
 Project Lethe is ontwikkeld om stress bij jonge gezinnen te verminderen. De rush bij het vertrekken naar school of een hobby is voor veel gezinnen herkenbaar. Op dat moment moeten ouders niet alleen zichzelf, maar ook hun kinderen en alle tassen in gereedheid brengen. <br>
+
 Om deze stress te verhelpen voerden we interviews en user tests uit bij gezinnen met kinderen in het lager onderwijs. Met als resultaat project Lethe, de slimme kapstok waardoor er nooit meer een zak vergeten wordt. <br>
+
 Ze doet dit door de kinderen te helpen het maken van hun zakken De kapstok is verbonden met een app, waar de ouders de activiteiten van hun kinderen kunnen ingeven. Zo weet Lethe wie wanneer welke hobby heeft en worden de kinderen tijdig opgeroepen om hun tas klaar te maken. Doormiddel van een interactief touchscreen zien de kinderen wat er in de desbetreffende zak moet komen. Zit alles in de zak, en hangt die aan de kapstok, dan bedankt Lethe het kind en wordt opnieuw een moment van stress vermeden.
 
 
