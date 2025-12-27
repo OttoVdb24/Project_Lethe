@@ -1,4 +1,9 @@
 ## Methodologie
+
+<p align="center">
+  <img src="img/methodologie.png" width="100%">
+</p>
+
 De methodologie is opgebouwd volgens het double diamond ontwerpmodel en bestaat uit de fasen discover en define.
 
 In de discover-fase (september–oktober) wordt het probleemveld verkend aan de hand van kwalitatief en vergelijkend onderzoek. Eerst worden diepte-interviews uitgevoerd met gezinnen met jonge kinderen (N=3) om inzichten te verkrijgen in hun ervaringen, noden en pijnpunten. Deze interviews vormen de basis voor het definiëren en aanscherpen van het probleem en het opstellen van eerste design requirements. Parallel hieraan wordt een benchmarkonderzoek uitgevoerd (N=10), waarbij bestaande oplossingen, producten en initiatieven worden geanalyseerd. De combinatie van deze inzichten resulteert in een aangescherpt probleemkader en de ontwikkeling van een persona die de kerngebruiker representeert. De discover-fase wordt afgerond met een eerste pitch waarin de onderzoeksbevindingen, het ontwerpvraagstuk en het initiële concept worden gevalideerd.
