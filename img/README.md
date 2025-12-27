@@ -1,4 +1,4 @@
-use this folder to story the media files you show in your report you can show them using, e.g.
+use this folder to store the media files you show in your report you can show them using, e.g.
 
 ```
 <p align="left">
@@ -8,6 +8,6 @@ use this folder to story the media files you show in your report you can show th
 </p>
 ```
 
-- ❗Make sure you have asked for permission when you show persons
+- ❗Make sure you have asked for permission when you show people
 - ❗If it's not needed to show the faces of people (camera angle or blur), prefer this.
 - 💡Animated gifs can be used to show animations.    
