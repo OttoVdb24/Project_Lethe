@@ -1,7 +1,7 @@
 ## Methodologie
 
 <p align="center">
-  <img src="./images/methodologie.png" width="100%">
+  <img src="./images/methodologie.png" alt="Methodologie proces" width="100%">
 </p>
 
 De methodologie is opgebouwd volgens het double diamond ontwerpmodel en bestaat uit de fasen discover en define.
