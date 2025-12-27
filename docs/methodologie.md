@@ -1,7 +1,7 @@
 ## Methodologie
 
 <p align="center">
-  <img src="img/render project Lethe.png" width="100%">
+  <img src="../img/methodologie.png" width="100%"> 
 </p>
 
 De methodologie is opgebouwd volgens het double diamond ontwerpmodel en bestaat uit de fasen discover en define.
