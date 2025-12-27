@@ -17,7 +17,7 @@ Ze doet dit door de kinderen te helpen het maken van hun zakken De kapstok is ve
 
 
 <p align="center">
-  <img src="img/AI_render.png" width="100%">
+  <img src="img/render project Lethe.png" width="100%">
 </p>
 
 ## Introductie
