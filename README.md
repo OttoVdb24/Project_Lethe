@@ -62,7 +62,7 @@ Licht toe op welke manier je AI gebruikte in dit project.
   * [Rapport](./docs/concept%20testing%20wave%201%20-%20report.pdf)
 * User testing wave 2 (N=4)
   * [Protocol](./docs/Concept%20testing%20wave%202%20-%20protocol.pdf)
-  * [Rapport](url)
+  * [Rapport](./docs/concept%20testing%20wave%202%20-%20report.pdf)
 
 ## Licentie
 This repository contains both software and design materials created as part of an industrial design energineering project at Ghent University.
