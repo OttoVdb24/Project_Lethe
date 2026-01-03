@@ -81,7 +81,6 @@ Uit het benchmark onderzoek stellen we vast dat er geen enkel product dit proble
 
 Volgens ons is het belangrijker dat we specifiek de kinderen targetten met ons product. Als we de kinderen kunnen aanzetten tot zelf zak maken, is dit een bron van stress minder.
 
-#### MosCoW analyse
 
 #### Belangrijkste product requirements
 Uit dit onderzoek haalden we een aantal belangrijke product requirements:
