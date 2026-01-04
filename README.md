@@ -28,9 +28,9 @@ Uit eigen interviews met ouders (N=3) bleek dat zij deze zelfstandigheid wel wil
 Vanuit deze vaststelling ontstond Project Lethe: een slimme, interactieve kapstok die kinderen ondersteunt in het zelfstandig voorbereiden van school- en hobbytassen, met als bijkomend effect een vermindering van stress bij de ouders.
 
 De gehanteerde boundary conditions zijn:
->•	betaalbaar voor jonge gezinnen;
-•	verantwoordelijkheid en actie bij het kind;
-•	eenvoudig en intuïtief in gebruik.
+>•	Betaalbaar voor jonge gezinnen; <br>
+•	Verantwoordelijkheid en actie bij het kind;<br>
+•	Eenvoudig en intuïtief in gebruik.
 
 
 ## Inhoudstafel
