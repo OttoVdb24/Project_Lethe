@@ -45,7 +45,7 @@ De gehanteerde boundary conditions zijn:
 Max. 500 woorden
 
 ## Noot inzake het gebruik van AI
-Licht toe op welke manier je AI gebruikte in dit project.
+Tijdens dit project is AI ingezet als ondersteunend hulpmiddel. In de discoveryfase hebben we LLM's gebruikt voor ideeëngeneratie, om verschillende invalshoeken te verkennen en het creatieve denkproces te verrijken. Daarnaast is AI toegepast ter verbetering en aanscherping van teksten, met als doel de helderheid, consistentie en kwaliteit van de communicatie te verhogen. De inhoudelijke keuzes zijn steeds door het team bepaald.
 
 ## Bijlagen
 ### Discovery
