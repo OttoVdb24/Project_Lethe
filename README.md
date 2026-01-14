@@ -28,9 +28,9 @@ Uit eigen interviews met ouders (N=3) bleek dat zij deze zelfstandigheid wel wil
 Vanuit deze vaststelling ontstond Project Lethe: een slimme, interactieve kapstok die kinderen ondersteunt in het zelfstandig voorbereiden van school- en hobbytassen, met als bijkomend effect een vermindering van stress bij de ouders.
 
 De gehanteerde boundary conditions zijn:
->•	betaalbaar voor jonge gezinnen;
-•	verantwoordelijkheid en actie bij het kind;
-•	eenvoudig en intuïtief in gebruik.
+>•	Betaalbaar voor jonge gezinnen; <br>
+•	Verantwoordelijkheid en actie bij het kind;<br>
+•	Eenvoudig en intuïtief in gebruik.
 
 
 ## Inhoudstafel
@@ -45,7 +45,7 @@ De gehanteerde boundary conditions zijn:
 Max. 500 woorden
 
 ## Noot inzake het gebruik van AI
-Licht toe op welke manier je AI gebruikte in dit project.
+Tijdens dit project is AI ingezet als ondersteunend hulpmiddel. In de discoveryfase hebben we LLM's gebruikt voor ideeëngeneratie, om verschillende invalshoeken te verkennen en het creatieve denkproces te verrijken. Daarnaast is AI toegepast ter verbetering en aanscherping van teksten, met als doel de helderheid, consistentie en kwaliteit van de communicatie te verhogen. De inhoudelijke keuzes zijn steeds door het team bepaald.
 
 ## Bijlagen
 ### Discovery
