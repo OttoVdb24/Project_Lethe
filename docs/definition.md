@@ -9,11 +9,13 @@ Het concept valt in twee delen te splitsen:
  “de uitvoeringsvorm van het product bepalen” 
 
 Omdat we voor beide delen meerdere oplossingen hadden besloten we om ze apart te testen. Eerst het deel voor de kinderen, nadien dat voor de ouders. 
-### Prototype
+### Prototypes
 De test voor met de kinderen gebruikten we kartonnen kapstokken die we aan de muur kleefden bij de mensen thuis. Met een beamer projecteerde we de interface van de kapstok op. Door een presentatie konden we de lichten van de kapstok laten uitgaan of veranderen, en andere symbolen projecteren.
 We maakten ook kartonnen dozen waar de kinderen hun zakken konden in leggen.  Ook hierop schenen we met de beamer om hetzelfde effect te krijgen als met de kapstokken.
  <p align="left">
-   <img src="/img/Setup2_Proto1.jpg" width="30%">
+  <img src="/img/Prototypes-1.jpg" width="30%">
+  <img src="/img/Prototypes-2.jpg" width="27%">
+
  </p>
  
 ### Test protocol
@@ -24,8 +26,7 @@ Deze oefening deden we zowel met de kapstok als met dozen waarin de zak geplaats
 Bij de **ouders** wilden we achterhalen welk type scherm het meest geschikt is, afhankelijk van welke informatie erop moet staan. Hiervoor lieten we hen een variant van card sorting uitvoeren.
 Op tafel tekenden we een afgebakend “schermoppervlak”. De testers kregen kaarten met mogelijke widgets (zoals weer, planning, familiefoto’s) en legden daarop wat zij graag op het scherm wilden zien. Daarna vroegen we hen alles te verwijderen wat zij niet als absoluut noodzakelijk beschouwden voor een goed werkend MVP.
  <p align="left">
-   <img src="/img/Wave_1_cardsorting.jpg" width="50%">
-   mss hier ook betere foto van maken?
+   <img src="/img/Wave_1_cardsorting.jpg" width="41%">
  </p>
 
 ### Resultaten
@@ -55,15 +56,14 @@ Wave 1 leerde ons dat een slimme kapstok met een scherm in the way to go is. Maa
 Voor onderzoeksvraag 1 maakten we een stevige houten kapstok die aan de tafel bevestigd kon worden. In de kapstok voorzagen we uitsnijdingen zodat delen van een tabletscherm erachter zichtbaar waren en zo een ingebouwd scherm werd gesimuleerd. Met behulp van Protopie en een bluetoothkeyboard konden we het scherm bedienen.
  
  <p align="left">
-   <img src="/img/Scherm_Kapstok.gif" width="30%">
-      <img src="/img/Leo en Sebas_2.jpeg" width="58.7%">
+   <img src="/img/Scherm_Kapstok.gif" width="20%">
+   <img src="/img/Prototypes-3.jpg" width="50%">
 
  </p>
 
 Voor de trigger test maakten we een kartonnen doosje waar een gsm in kan. Doordat de randen niet zichtbaar waren, leek het op een alleenstaand bakje met een scherm in. Hierop verscheen de vraag voor de kinderen om het bakje te activeren wanneer ze begonnen met eten, en wanneer ze gedaan hadden met eten. Eens klaar kregen ze de opdracht om naar de kapstok te gaan om hun zak te maken.
  <p align="left">
    <img src="/img/Tafel_Bakje.gif" width="50%">
-   Ik zou hier nog mooie foto zetten van onze proto's. 
  </p>
 
  
