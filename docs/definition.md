@@ -70,7 +70,7 @@ Voor de triggertest maakten we een kartonnen doosje waar een gsm in kan. Doordat
  
 ### Test protocol
 <p align="left">
-   <img src="wave 2 test 1 foto.jpeg" width="20%">
+   <img src="/img/wave 2 test 1 foto.jpeg" width="20%">
 
 
 ### Resultaten
