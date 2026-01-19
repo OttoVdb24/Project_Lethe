@@ -26,7 +26,9 @@ Bij deze test maakten we gebruik van het principe van Wizard of Oz-testing.
 
 Bij de **ouders** wilden we achterhalen welk type scherm het meest geschikt is, afhankelijk van welke informatie erop moet staan. Hiervoor lieten we hen een variant van card sorting uitvoeren.
 Op tafel tekenden we een afgebakend “schermoppervlak”. De testers kregen kaarten met mogelijke widgets (zoals weer, planning, familiefoto’s) en legden daarop wat zij graag op het scherm wilden zien. Daarna vroegen we hen alles te verwijderen wat zij niet als absoluut noodzakelijk beschouwden voor een goed werkend MVP.
+
  <p align="left">
+   <img src="/img/wave 1 test 2 protocol.jpg">
    <img src="/img/Wave_1_cardsorting.jpg" width="41%">
  </p>
 
