@@ -29,9 +29,9 @@ Op tafel tekenden we een afgebakend “schermoppervlak”. De testers kregen kaa
 
  <p align="left">
    <img src="/img/wave 1 test 2 protocol.jpg">
+</p>
    <img src="/img/Wave_1_cardsorting.jpg" width="41%">
  </p>
-
 
 ### Resultaten
 
