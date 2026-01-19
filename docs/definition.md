@@ -32,6 +32,7 @@ Op tafel tekenden we een afgebakend “schermoppervlak”. De testers kregen kaa
    <img src="/img/Wave_1_cardsorting.jpg" width="41%">
  </p>
 
+
 ### Resultaten
 
 | Onderzoeksvraag                 | Uitkomst                                                                                                      | Redenen                                                                                                                                                      |
