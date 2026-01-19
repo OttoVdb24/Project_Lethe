@@ -51,10 +51,7 @@ Uit dit project nemen we mee dat een duidelijke planning in combinatie met regel
 
 
 ## Noot inzake het gebruik van AI
-Tijdens dit project is AI ingezet als ondersteunend hulpmiddel. In de discoveryfase hebben we LLM's gebruikt voor ideeëngeneratie, om verschillende invalshoeken te verkennen en het creatieve denkproces te verrijken. Daarnaast is AI toegepast ter verbetering en aanscherping van teksten, met als doel de helderheid, consistentie en kwaliteit van de communicatie te verhogen. 
-
-Voor het eerste beeld in ons verslag hebben we een render gecreëerd met Vizcom. Deze render is voornamelijk bedoeld ter illustratie en biedt een aantrekkelijk, verhalend beeld van ons concept.
-
+Tijdens dit project is AI ingezet als ondersteunend hulpmiddel. In de discoveryfase hebben we LLM's gebruikt voor ideeëngeneratie, om verschillende invalshoeken te verkennen en het creatieve denkproces te verrijken. Daarnaast is AI toegepast ter verbetering en aanscherping van teksten, met als doel de helderheid, consistentie en kwaliteit van de communicatie te verhogen. Voor het eerste beeld in ons verslag hebben we een render gecreëerd met Vizcom. Deze render is voornamelijk bedoeld ter illustratie en biedt een aantrekkelijk, verhalend beeld van ons concept.
 De inhoudelijke keuzes zijn steeds door het team bepaald.
 
 ## Bijlagen
