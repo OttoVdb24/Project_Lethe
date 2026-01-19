@@ -79,6 +79,8 @@ Onderzoeksvraag 2
 <p align="left">
    <img src="/img/wave 2 test 2 protocol.jpg" width="70%">
 
+  -  [Protocol](/docs/Concept%20testing%20wave%202%20-%20protocol.pdf)
+- [Rapport](/docs/concept%20testing%20wave%202%20-%20report.pdf)
 ### Resultaten
 ###### Observaties – test  1
 -	De kinderen waren allemaal in staat om met hun eigen spullen de zak te maken. Moeilijkheden waren er met spullen die niet op de afgesproken plek lagen.
