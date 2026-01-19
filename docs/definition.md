@@ -8,10 +8,10 @@ Het concept valt in twee delen te splitsen:
 >De doelstelling van dit onderzoek 
  “de uitvoeringsvorm van het product bepalen” 
 
-Omdat we voor beide delen meerdere oplossingen hadden besloten we om ze apart te testen. Eerst het deel voor de kinderen, nadien dat voor de ouders. 
+Omdat we voor beide delen meerdere oplossingen hadden, besloten we om ze apart te testen. Eerst het deel voor de kinderen, nadien dat voor de ouders. 
 ### Prototypes
 De test voor met de kinderen gebruikten we kartonnen kapstokken die we aan de muur kleefden bij de mensen thuis. Met een beamer projecteerde we de interface van de kapstok op. Door een presentatie konden we de lichten van de kapstok laten uitgaan of veranderen, en andere symbolen projecteren.
-We maakten ook kartonnen dozen waar de kinderen hun zakken konden in leggen.  Ook hierop schenen we met de beamer om hetzelfde effect te krijgen als met de kapstokken.
+We maakten ook kartonnen dozen waar de kinderen hun zakken konden inleggen.  Ook hierop schenen we met de beamer om hetzelfde effect te krijgen als met de kapstokken.
  <p align="left">
   <img src="/img/Prototypes-1.jpg" width="30%">
   <img src="/img/Prototypes-2.jpg" width="27%">
@@ -22,6 +22,7 @@ We maakten ook kartonnen dozen waar de kinderen hun zakken konden in leggen.  Oo
 We vroegen de **kinderen** zich voor te stellen dat het avond was en dat ze met behulp van de slimme kapstok hun zak voor de volgende dag moesten klaarmaken. Via een projectie zagen ze het logo en de kleur van de juiste zak. Wanneer de correcte zak aan de kapstok hing, ging het licht uit. 
 Daarna beelden ze zich in dat het ochtend was en dat ze naar school vertrokken. De kapstok lichtte opnieuw op en doofde zodra ze de juiste zak namen.
 Deze oefening deden we zowel met de kapstok als met dozen waarin de zak geplaatst moest worden.
+Bij deze test maakten we gebruik van het principe van Wizard of Oz-testing.
 
 Bij de **ouders** wilden we achterhalen welk type scherm het meest geschikt is, afhankelijk van welke informatie erop moet staan. Hiervoor lieten we hen een variant van card sorting uitvoeren.
 Op tafel tekenden we een afgebakend “schermoppervlak”. De testers kregen kaarten met mogelijke widgets (zoals weer, planning, familiefoto’s) en legden daarop wat zij graag op het scherm wilden zien. Daarna vroegen we hen alles te verwijderen wat zij niet als absoluut noodzakelijk beschouwden voor een goed werkend MVP.
@@ -38,10 +39,10 @@ Op tafel tekenden we een afgebakend “schermoppervlak”. De testers kregen kaa
 | Een scherm in de slimme kapstok | |De kinderen moeten een overzicht krijgen wat er in de zak moet komen. Een klein scherm is hier ideaal voor.   |                                                                                                                                                              |
 
 
-Uit deze test reeks kwam dat ons product vooral naar de kinderen getarget dient te worden. De ouders zag de kapstok als een goede educatie tool die kinderen zelfstandigheid bijbrengt op een speelse manier. 
+Uit deze testreeks bleek dat ons product vooral gericht moet zijn op kinderen. Ouders beschouwen de kapstok als een waardevol educatief hulpmiddel dat op een speelse manier bijdraagt aan de zelfstandigheid van hun kinderen.
 >“Moesten de kinderen effectief zelf hun zakken kunnen maken, zou dat al heel wat stress wegnemen”.
 
-Andere belangrijke take-aways uit deze tekst reeks zijn:
+Andere belangrijke take-aways uit deze testreeks zijn:
 -	De kapstok zal allerlei soorten zakken moeten kunnen dragen
 -	Een alarm wanneer de zak niet op tijd klaar hangt of wordt weggenomen
 -	Een klein beloningssysteem, “Ik krijg ook geen snoepje als ik mijn werk gedaan heb” 
@@ -53,7 +54,7 @@ Wave 1 leerde ons dat een slimme kapstok met een scherm in the way to go is. Maa
 - Hoe moet de interactie met ons product beginnen. Moet er een alarmpje afgaan aan de haakjes, een melding op de smartphone, …
 
 ### Prototypes
-Voor onderzoeksvraag 1 maakten we een stevige houten kapstok die aan de tafel bevestigd kon worden. In de kapstok voorzagen we uitsnijdingen zodat delen van een tabletscherm erachter zichtbaar waren en zo een ingebouwd scherm werd gesimuleerd. Met behulp van Protopie en een bluetoothkeyboard konden we het scherm bedienen.
+Voor onderzoeksvraag 1 maakten we een stevige houten kapstok die aan de tafel bevestigd kon worden. In de kapstok maakten we insnijdingen zodat delen van een tabletscherm erdoor zichtbaar waren, waardoor een ingebouwd scherm werd gesimuleerd. Met behulp van Protopie en een bluetoothkeyboard konden we het scherm bedienen.
  
  <p align="left">
    <img src="/img/Scherm_Kapstok.gif" width="20%">
@@ -61,7 +62,7 @@ Voor onderzoeksvraag 1 maakten we een stevige houten kapstok die aan de tafel be
 
  </p>
 
-Voor de trigger test maakten we een kartonnen doosje waar een gsm in kan. Doordat de randen niet zichtbaar waren, leek het op een alleenstaand bakje met een scherm in. Hierop verscheen de vraag voor de kinderen om het bakje te activeren wanneer ze begonnen met eten, en wanneer ze gedaan hadden met eten. Eens klaar kregen ze de opdracht om naar de kapstok te gaan om hun zak te maken.
+Voor de triggertest maakten we een kartonnen doosje waar een gsm in kan. Doordat de randen niet zichtbaar waren, leek het op een alleenstaand bakje met een scherm in. Hierop verscheen de vraag voor de kinderen om het bakje te activeren wanneer ze begonnen met eten, en wanneer ze gedaan hadden met eten. Eens klaar kregen ze de opdracht om naar de kapstok te gaan om hun zak te maken.
  <p align="left">
    <img src="/img/Tafel_Bakje.gif" width="50%">
  </p>
@@ -83,4 +84,4 @@ Hier een storyboards met de testen
 -	De kinderen reageren zoals verwacht op het alarm van de kapstok.
 -	Het alarm moet overal gehoord kunnen worden. Vaak hangt de kapstok in de garage of in een hal en is deze niet hoorbaar in de leefruimtes. 
 ### Conclusie 
-Kinderen van verschillende leeftijden zijn in staat om zelf hun zak te maken doormiddel van de kapstok. We leerden het belang van duidelijke logo’s. Ook leerden we dat de kapstok best uiterlijke kenmerken van de kapstokken die kinderen op school gebruiken bezit. Een alarm in de kapstokken lijkt het best geschikt. Dit target de kinderen het meest rechtstreeks. 
+Kinderen van verschillende leeftijden zijn in staat om zelf hun zak te maken doormiddel van de kapstok. We leerden het belang van duidelijke pictogrammen. Ook leerden we dat de kapstok best uiterlijke kenmerken van de kapstokken die kinderen op school gebruiken bezit. Een alarm in de kapstokken lijkt het best geschikt. Dit target de kinderen het meest rechtstreeks. 
