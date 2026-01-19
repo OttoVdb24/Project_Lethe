@@ -92,3 +92,5 @@ Onderzoeksvraag 2
 -	Het alarm moet overal gehoord kunnen worden. Vaak hangt de kapstok in de garage of in een hal en is deze niet hoorbaar in de leefruimtes. 
 ### Conclusie 
 Kinderen van verschillende leeftijden zijn in staat om zelf hun zak te maken doormiddel van de kapstok. We leerden het belang van duidelijke pictogrammen. Ook leerden we dat de kapstok best uiterlijke kenmerken van de kapstokken die kinderen op school gebruiken bezit. Een alarm in de kapstokken lijkt het best geschikt. Dit target de kinderen het meest rechtstreeks. 
+
+Via deze link kunnen alle product requirements bekeken worden: [PRD](./docs/design_requirements.md)
