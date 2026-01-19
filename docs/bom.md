@@ -7,7 +7,3 @@
 | Speaker                   | https://www.kiwi-electronics.com/nl/kleine-ovale-luidspreker-8-ohm-1-watt-7283?search=speaker                                                                                                                                                                 | € 2.41  |
 
 
-
-- Welk materiaal heb je nodig voor de laatste versie van je prototype?
-- Maak voor componenten een overzicht met links naar aankooppagina en pricing
-- Wat hebben anderen nodig om dit te maken (zie vb. instructables)?
