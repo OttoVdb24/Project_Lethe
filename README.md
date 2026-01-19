@@ -63,7 +63,7 @@ Tijdens dit project is AI ingezet als ondersteunend hulpmiddel. In de discoveryf
   * [Rapport](./docs/Rapport%20user%20interview.pdf)
     
 ### Definition
-* [storyboard] (./docs/storyboard.pdf)
+* [storyboard](./docs/storyboard.pdf)
 * User testing wave 1 (N=2)
   * [Protocol](./docs/Concept%20testing%20wave%201%20-%20protocol.pdf)
   * [Rapport](./docs/concept%20testing%20wave%201%20-%20report.pdf)
