@@ -40,7 +40,15 @@ De gehanteerde boundary conditions zijn:
 5. [Bill of materials](./docs/bom.md)
 
 ## Kritische reflectie
-Max. 500 woorden
+De samenwerking binnen het team verliep over het algemeen goed, doordat de taken duidelijk werden verdeeld op basis van ieders sterke punten. Aan het begin van het semester hebben we gezamenlijk een planning opgesteld, waarin werd vastgelegd wanneer de verschillende onderdelen van de opdracht idealiter afgerond zouden zijn. Dit gaf ons vanaf het begin een helder overzicht van het project over het semester.
+
+Tijdens het project kwamen we minimaal één keer per week buiten de lessen samen, meestal in de vorm van een weekly sync. Wanneer er minder te bespreken was, verliep de afstemming informeler, bijvoorbeeld tijdens vervoer naar gebruikerstesten. 
+
+De taken werden steeds in overleg verdeeld en er deden zich geen grote problemen voor binnen het team. Wel ondervonden we moeilijkheden bij het vinden van respondenten voor onze concepttesten. Omdat we de testen bij voorkeur samen wilden uitvoeren en ver van elkaar wonen, richtten we ons op gezinnen in Kortrijk, wat lastiger bleek dan verwacht. Uiteindelijk hebben we dit opgelost door langs te gaan bij een lagere school, die een oproep plaatste in de wekelijkse nieuwsbrief.
+
+Het prototypen van onze testprototypes deden we grotendeels samen. Dit proces verliep efficiënt, omdat we direct konden overleggen en beslissingen konden nemen, waardoor er weinig tijd verloren ging.
+Uit dit project nemen we mee dat een duidelijke planning in combinatie met regelmatige afstemming goed werkt binnen een klein team. Daarnaast hebben we geleerd dat het belangrijk is om zo vroeg mogelijk te beginnen met het zoeken naar respondenten voor testen.
+
 
 ## Noot inzake het gebruik van AI
 Tijdens dit project is AI ingezet als ondersteunend hulpmiddel. In de discoveryfase hebben we LLM's gebruikt voor ideeëngeneratie, om verschillende invalshoeken te verkennen en het creatieve denkproces te verrijken. Daarnaast is AI toegepast ter verbetering en aanscherping van teksten, met als doel de helderheid, consistentie en kwaliteit van de communicatie te verhogen. De inhoudelijke keuzes zijn steeds door het team bepaald.
