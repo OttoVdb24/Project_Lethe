@@ -1,20 +1,20 @@
 ## Discovery
 
 ### Doestellingen
-De eerste onderzoeken hebben als doel inzichten te  verwerven in het dagelijks leven van jonge ouders. Om zo pijnpunten of stressoren te vinden. Door te praten met jonge gezinnen verkregen we een beter beeld van onze doelgroep. Wat er in hun levens speelt. Zowel socio-emotioneel, als technisch. 
-Zo wouden we te weten komen:
+De eerste onderzoeken hebben als doel inzichten te  verwerven in het dagelijks leven van jonge ouders. Om zo pijnpunten of stressoren te vinden. Door te praten met jonge gezinnen werd een beter beeld van onze doelgroep verkregen. Wat er in hun levens speelt. Zowel socio-emotioneel, als technisch. 
+Zo werd nagegaan:
 >Wat geeft er stress en wat zijn de voornaamste triggers hiervoor?
 Helpt een goede planning om stress te verminderen?
 
  Bijkomend was ook het technische aspect deel van het gesprek. Opvoeden is op een generatie tijd enorm veranderd. 
 > Hoe staan jonge gezinnen tegenover smart devices?
 
-In een tweede aspect van het onderzoek bekeken we de markt van dichterbij.
+In een tweede aspect van het onderzoek werd de markt van dichterbij bekeken.
 >Wat bestaat er al? 
 Welke functies hebben deze? 
 Hoeveel kosten die?
 
-Allemaal vragen waar we een antwoord op zochten.
+Allemaal vragen waarop een antwoord werd gezocht.
 
 ### Materiaal & methoden
 #### User interviews (N=3)
@@ -24,7 +24,7 @@ Daarnaast werd binnen de interviews ruimte gecreëerd voor een toekomstgericht l
   * [Protocol user interview](./Protocol%20user%20interview.pdf)
 
 #### Benchmark onderzoek (N=10)
-Tijdens de user interviews kwamen al een aantal benchmark producten aan bod. Om een gedetaileerder beeld te krijgen van wat er zoal op de markt is omtrent, stress vermindering bij jonge gezinnen, tijdens de ochtend rush, voerden we een benchmark onderzoek uit. Tien producten werden op vooraf bepaalde criteria gescoord.
+Tijdens de user interviews kwamen al een aantal benchmark producten aan bod. Om een gedetailleerder beeld te krijgen van wat er zoal op de markt is omtrent stressvermindering bij jonge gezinnen tijdens de ochtendrush, werd een benchmarkonderzoek uitgevoerd. Tien producten werden op vooraf bepaalde criteria gescoord.
 Deze criteria werden opgesteld tijdens de user interviews. 
 > - Verminderd het het stress niveau?
 >- Past dit binnen het budget van een gemiddeld gezin?
@@ -36,7 +36,7 @@ Deze criteria werden opgesteld tijdens de user interviews.
 
 #### User interviews
 De gezinnen die werden geinterviewd hadden kinderen tussen de 1 en 5 jaar oud.
-Ze ervaarden stuk voor stuk stress door het opvoeden. De stress ontwikkeld zich voornamelijk 's ochtends. Alles op tijd klaar krijgen is op zich al moeielijk. Daarbovenop komt nog eens de onvoorspelbaarheid van een jong kind. 
+Ze ervaarden stuk voor stuk stress door het opvoeden. De stress ontwikkeld zich voornamelijk 's ochtends. Alles op tijd klaar krijgen is op zich al moeilijk. Daarbovenop komt nog eens de onvoorspelbaarheid van een jong kind. 
 > "Alles kan goed gaan 's ochtends, en dan geeft ze over op mij en zichzelf. Dan weet je al, we gaan te laat zijn. (Mama van een dochter)
 
 Er kwam ook ter sprake hoe planning een grote invloed heeft op het stressniveau. Zo haalden ze aan hoe de school, sportclubs, ... allemaal op een andere manier communiceren. Dit maakt het moeilijk om een overzicht te krijgen.
@@ -55,12 +55,12 @@ Op de vraag, 'wat moet een nieuw product vooral zijn?' kwamen volgende antwoorde
 
 #### Benchmark onderzoek
 
-Het benchmark onderzoek leerde ons dat er al heel veel producten dit probleem proberen op te lossen. We kunnen ze in de drie categroriën onderverdelen:
+Uit het benchmarkonderzoek bleek dat er reeds veel producten zijn die dit probleem proberen op te lossen. Ze kunnen in drie categorieën worden onderverdeeld.
 - Familie tablets
 - Frigo kalenders
 - Familie planner apps
 
-Deze hebben allemaal hun eigen voor- en nadelen. Deze onderzochten we door middel van beangrijpe functies, parameters, enz. die we verzamelden tijdens de user interviews.
+Deze hebben allemaal hun eigen voor- en nadelen. Deze werden onderzocht door middel van belangrijke functies, parameters, enz. die werden verzameld tijdens de user interviews.
 We brachten alle informatie in een **decision matrix**.
 
 <p align="center">
@@ -68,20 +68,20 @@ We brachten alle informatie in een **decision matrix**.
 </p>
 
 **Algemeen** 
-kunnen we stellen dat geen enkel product uit deze benchmark echt een oplossing biedt voor dit probleem. De producten zijn :
+Algemeen kan worden gesteld dat geen enkel product uit deze benchmark daadwerkelijk een oplossing biedt voor dit probleem. De producten zijn :
 > Te duur
 Vragen te veel tijd
 Zijn niet gericht op kinderen
 
 ### Conclusies & implicaties
-Door met de ouders te praten, en samen te denken aan futuristische producten kregen we inzicht in het probleem dat we willen aanpakken:
+Via gesprekken met ouders en gezamenlijke ideevorming rond futuristische producten werd het onderliggende probleem scherper in kaart gebracht:
 **Hoe kunnen we door een slim product 's ochtends stress verminderen bij jonge ouders** 
-Uit het benchmark onderzoek stellen we vast dat er geen enkel product dit probleem aanpakt. Deze producten richten zich vaker op een macro niveau. Ze geven vaak informatie op week basis, en laten het daarbij. Er is geen call to action.
+Uit het benchmark onderzoek wordt vastgesteld dat er geen enkel product dit probleem aanpakt. Deze producten richten zich vaker op een macro niveau. Ze geven vaak informatie op week basis, en laten het daarbij. Er is geen call to action.
 
-Volgens ons is het belangrijker dat we specifiek de kinderen targetten met ons product. Als we de kinderen kunnen aanzetten tot zelf zak maken, is dit een bron van stress minder.
+Volgens ons is het effectiever om ons product specifiek op kinderen te richten. Indien zij worden aangezet om zelfstandig hun tas te maken, betekent dit een vermindering van stress.
 
 #### Belangrijkste product requirements
-Uit dit onderzoek haalden we een aantal belangrijke product requirements:
+Uit dit onderzoek werden een aantal belangrijke product requirements gehaald:
 
 | PR nummer | Requirement | Source|
 |-------|-----|---|
