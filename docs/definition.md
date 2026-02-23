@@ -58,7 +58,7 @@ Wave 1 toonde aan dat een slimme kapstok met een scherm de meest veelbelovende a
 
 ### Prototypes
 Voor onderzoeksvraag 1 werd een stevige houten kapstok gemaakt die aan de tafel bevestigd kon worden. In de kapstok werden er insnijdingen gemaakt zodat delen van een tabletscherm erdoor zichtbaar waren, waardoor een ingebouwd scherm werd gesimuleerd. Met behulp van Protopie en een bluetoothkeyboard kon het scherm worden bediend.
-  * [prototype_wave_2](./docs/extra%20informatie%20prototype%20wave%202.pdf)
+[prototype_wave_2](./docs/extra%20informatie%20prototype%20wave%202.pdf)
  
  <p align="left">
    <img src="/img/Scherm_Kapstok.gif" width="20%">
