@@ -71,7 +71,7 @@ De inhoudelijke keuzes zijn steeds door het team bepaald.
 * User testing wave 2 (N=4)
   * [Protocol](./docs/Concept%20testing%20wave%202%20-%20protocol.pdf)
   * [Rapport](./docs/concept%20testing%20wave%202%20-%20report.pdf)
-### Extra informatie
+* extra informatie
   * [prototype_wave_2](./docs/extra%20informatie%20prototype%20wave%202.pdf)
   * [trigger](./docs/extra%20informatie%20trigger.pdf)
 ## Licentie
