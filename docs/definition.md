@@ -58,6 +58,7 @@ Wave 1 toonde aan dat een slimme kapstok met een scherm de meest veelbelovende a
 
 ### Prototypes
 Voor onderzoeksvraag 1 werd een stevige houten kapstok gemaakt die aan de tafel bevestigd kon worden. In de kapstok werden er insnijdingen gemaakt zodat delen van een tabletscherm erdoor zichtbaar waren, waardoor een ingebouwd scherm werd gesimuleerd. Met behulp van Protopie en een bluetoothkeyboard kon het scherm worden bediend.
+  * [prototype_wave_2](./docs/extra%20informatie%20prototype%20wave%202.pdf)
  
  <p align="left">
    <img src="/img/Scherm_Kapstok.gif" width="20%">
@@ -94,3 +95,6 @@ Onderzoeksvraag 2
 Kinderen van verschillende leeftijden zijn in staat om zelf hun zak te maken doormiddel van de kapstok. We leerden het belang van duidelijke pictogrammen. Daarnaast bleek dat de kapstok idealiter uiterlijke kenmerken vertoont die aansluiten bij de kapstokken die kinderen op school gewend zijn te gebruiken. Een alarm in de kapstokken lijkt het best geschikt. Dit target de kinderen het meest rechtstreeks. 
 
 Via deze link kunnen alle product requirements bekeken worden: [PRD](/docs/design_requirements.md)
+
+
+[def]: ./docs/extra%20informatie%20prototype%20wave%202.pdf
