@@ -73,6 +73,7 @@ De inhoudelijke keuzes zijn steeds door het team bepaald.
   * [Rapport](./docs/concept%20testing%20wave%202%20-%20report.pdf)
 ### Extra informatie
   * [prototype_wave_2](./docs/extra%20informatie%20prototype%20wave%202.pdf)
+  * [trigger](./docs/extra%20informatie%20trigger.pdf)
 ## Licentie
 This repository contains both software and design materials created as part of an industrial design energineering project at Ghent University.
 

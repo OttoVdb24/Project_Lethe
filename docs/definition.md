@@ -67,6 +67,7 @@ Voor onderzoeksvraag 1 werd een stevige houten kapstok gemaakt die aan de tafel 
  </p>
 
 Voor de triggertest werd een kartonnen doosje gemaakt waar een gsm in past. Doordat de randen niet zichtbaar waren, leek het op een alleenstaand bakje met een scherm in. Hierop verscheen de vraag voor de kinderen om het bakje te activeren wanneer ze begonnen met eten, en wanneer ze gedaan hadden met eten. Eens klaar kregen ze de opdracht om naar de kapstok te gaan om hun zak te maken.
+[trigger](../docs/extra%20informatie%20trigger.pdf)
  <p align="left">
    <img src="/img/Tafel_Bakje.gif" width="50%">
  </p>
