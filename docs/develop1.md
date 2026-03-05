@@ -9,7 +9,7 @@ Deze fase werd uitgevoerd in de eerste vier weken van het tweede semester. Er we
 ## Literatuuronderzoek pedagogie
 Om vat te krijgen op de cognitieve processen die een kind doorloopt bij het aanleren van nieuwe handelingen, werd er onderzoek gedaan naar pedagogische psychologische frameworks.
 Op deze pagina zullen er een aantal frameworks kort besproken worden die toegepast kunnen worden op project Lethe, telkens met een kind als protagonist.
-[Literatuuronderzoek ](/Project_Lethe/docs/Literatuuronderzoek_pedagogie)
+[Literatuuronderzoek ](../docs/Literatuuronderzoek_pedagogie)
 ### Implicaties op ons ontwerp
 <p align="center">
   <img src="/img/Design_implicaties_literatuur onderzoek.png" width="100%">
