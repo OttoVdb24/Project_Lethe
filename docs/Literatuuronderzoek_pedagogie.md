@@ -42,7 +42,7 @@ Don Norman en Tim Shallice brachten een studie uit waarbij ze de 5 taken in kaar
 
 Mensen worden geboren met de mogelijkheid om EF te ontwikkelen. De ontwikkeling hiervan start rond het 3<sup>e</sup> tot 5<sup>e</sup> levensjaar. Het aanleren van deze functies kan op volgende manieren worden versterkt:
 - Aansporen tot zelfstandig leren
-- Agenda en plannings tools hanteren
+- Agenda en planning tools hanteren
 - Zelfreflectie stimuleren
 
 ## Implicaties op het ontwerp
