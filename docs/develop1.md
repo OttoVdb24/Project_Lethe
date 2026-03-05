@@ -12,7 +12,7 @@ Op deze pagina zullen er een aantal frameworks kort besproken worden die toegepa
 [Literatuuronderzoek ](/Project_Lethe/docs/Literatuuronderzoek_pedagogie)
 ### Implicaties op ons ontwerp
 <p align="center">
-  <img src="/Project_Lethe/img/Design_implicaties_literatuur onderzoek.png" width="100%">
+  <img src="/img/Design_implicaties_literatuur onderzoek.png" width="100%">
 </p>
 
 
