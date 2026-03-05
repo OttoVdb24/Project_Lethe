@@ -25,7 +25,7 @@ Hij geloofde dat kinderen leren door begeleide deelname met meer deskundige ande
 
 __Drie belangrijke concepten zijn:__
 1. __The more knowledgeable other (MKO):__ is  iedereen die meer weet dan de user over een specifieke taak. Dit kan een persoon zijn of een computer programma. 
-2. __De Zone van Naaste Ontwikkeling (ZNO):__ is de ideale ruimte om in te leren.Het is het verschil tussen wat je zelfstandig kunt doen en wat je kunt doen met hulp van een MKO. De ZNO is de plek waar er genoeg uitdaging is zonder dat het onmogelijk voelt. 
+2. __De Zone van Naaste Ontwikkeling (ZNO):__ is de ideale ruimte om in te leren. Het is het verschil tussen wat je zelfstandig kunt doen en wat je kunt doen met hulp van een MKO. De ZNO is de plek waar er genoeg uitdaging is zonder dat het onmogelijk voelt. 
 3. __Juist genoeg hulp geven (Scaffolding):__ is de concrete hulp die de MKO geeft. De MKO geeft tips, aanwijzingen en aanmoediging (de scaffolding) om de lerende te helpen de taak binnen de ZNO uit te voeren. Het doel is om net genoeg hulp te bieden zodat de lerende kan slagen. Naarmate de lerende beter wordt, bouwt de MKO de ondersteuning geleidelijk af, totdat de lerende de taak zelfstandig kan uitvoeren.
 (Psychology, 2025)[^2]
 
