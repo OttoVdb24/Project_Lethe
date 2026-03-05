@@ -1,0 +1,74 @@
+
+
+## Literatuur onderzoek pedagogie
+Om vat te krijgen op de cognitieve processen die een kind doorloopt bij het aanleren van nieuwe handelingen, werd er onderzoek gedaan naar pedagogische psychologische frameworks.
+Hieronder zullen er een aantal frameworks kort besproken worden, telkens met een kind als protagonist.
+
+
+### Albert Bandura’s Social Cognitive Theory
+__Algemene uitleg:__
+Mensen, voornamelijk kinderen leren door hun medemens te imiteren.
+
+__Dit gebeurt in vier stappen:__
+- __Attention:__ het kind moet gefocust zijn op de actie.
+- __Retention:__ het kind moet de actie kunnen onthouden.
+- __Reproduction:__ het kind moet de mogelijkheid hebben om het gedrag na te doen.
+- __Motivation:__ Het kind moet een reden hebben om het gedrag uittevoeren _(zowel intrinsiek als extrinsiek.)_
+
+(Tadayon-Nabavi & Sadegh-Bijandie,2012)[^1]
+
+
+### Vygotsky's Theory of cognitive development
+__Algemene uitleg:__
+De theorie van cognitieve ontwikkeling van Vygotsky benadrukt de rol van sociale interactie en cultuur bij het leren.
+Hij geloofde dat kinderen leren door begeleide deelname met meer deskundige anderen, zoals ouders of leeftijdsgenoten.
+
+__Drie belangrijke concepten zijn:__
+1. __The more knowledgeable other (MKO):__ is  iedereen die meer weet dan de user over een specifieke taak. Dit kan een persoon zijn of een computer programma. 
+2. __De Zone van Naaste Ontwikkeling (ZNO):__ is de ideale ruimte om in te leren.Het is het verschil tussen wat je zelfstandig kunt doen en wat je kunt doen met hulp van een MKO. De ZNO is de plek waar er genoeg uitdaging is zonder dat het onmogelijk voelt. 
+3. __Juist genoeg hulp geven (Scaffolding):__ is de concrete hulp die de MKO geeft. De MKO geeft tips, aanwijzingen en aanmoediging (de scaffolding) om de lerende te helpen de taak binnen de ZNO uit te voeren. Het doel is om net genoeg hulp te bieden zodat de lerende kan slagen. Naarmate de lerende beter wordt, bouwt de MKO de ondersteuning geleidelijk af, totdat de lerende de taak zelfstandig kan uitvoeren.
+(Psychology, 2025)[^2]
+
+## Executieve functie theorie
+__Algemene uitleg:__
+De theorie van executieve functies (EF) beschrijft een reeks  neurocognitieve processen — voornamelijk aangestuurd door de prefrontale cortex — die doelgericht gedrag, impulscontrole en emotieregulatie mogelijk maken.
+Don Norman en Tim Shallice brachten een studie uit waarbij ze de 5 taken in kaart brachten waarbij het (SAS) executieve systeem in werk zal worden gesteld:
+- Planning en besluitvorming: Situaties waarin meerdere stappen moeten worden voorbereid en afgewogen.
+- Foutencorrectie en probleemoplossing: Situaties waarin een handeling misgaat en het gedrag moet worden bijgestuurd.
+- Nieuwe, niet-geleerde sequenties: Situaties waarin de handeling nog niet routinematig is (bijv. iets voor het eerst doen).
+- Technische moeilijkheid of gevaar: Situaties die hoge concentratie vereisen om ongelukken te voorkomen.
+- Onderdrukken van gewoontes: Situaties waarin een sterke impuls of gewoonte moet worden weerstaan (inhibitie). 
+(Norman & Shallice, 1986)[^3]
+
+Mensen worden geboren met de mogelijkheid om EF te ontwikkelen. De ontwikkeling hiervan start rond het 3<sup>e</sup> tot 5<sup>e</sup> levensjaar. Het aanleren van deze functies kan op volgende manieren worden versterkt:
+- Aansporen tot zelfstandig leren
+- Agenda en plannings tools hanteren
+- Zelfreflectie stimuleren
+
+## Implicaties op ons ontwerp
+<p align="center">
+  <img src="/Project_Lethe/img/Design_implicaties_literatuur onderzoek.png" width="100%">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[^1]:Razieh Tadayon Nabavi,Mohammad Sadegh Bijandi. (2012). Bandura's Social Learning Theory & Social Cognitive Learning Theory. 
+[^2]:Psychology, S. (2025, October 16). Vygotsky's Sociocultural Theory of Cognitive Development. Simply Psychology. https://www.simplypsychology.org/vygotsky.html
+[^3]:Norman, D. A., & Shallice, T. (1986). Attention to action. In Consciousness and Self-Regulation (pp. 1–18). https://doi.org/10.1007/978-1-4757-0629-1_1
+

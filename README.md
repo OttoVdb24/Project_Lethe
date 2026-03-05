@@ -5,7 +5,7 @@
 🔥 Supervised by ``prof. dr. Bas Baccarne``, ``Yannick Christiaens`` & ``Wouter Devriese``    
 🌱 Grown at ``Ghent University`` 🏛️ ``Industrial Design Engineering`` ([project overview](https://github.com/basbaccarne/human-centered-design))       
 
-*19/01/2026*   
+*5/03/2026*   
 
 ## Samenvatting
 Project Lethe is ontwikkeld om stress bij jonge gezinnen te verminderen. De rush bij het vertrekken naar school of een hobby is voor veel gezinnen herkenbaar. Op dat moment moeten ouders niet alleen zichzelf, maar ook hun kinderen en alle tassen in gereedheid brengen. <br>
@@ -36,6 +36,7 @@ De gehanteerde boundary conditions zijn:
 1. [Methodologie](./docs/methodologie.md)
 2. [Discovery](./docs/discovery.md)
 3. [Defintion](./docs/definition.md)
+4. [Develop 1](./docs/develop1.md)
 4. [Design Requirements](./docs/design_requirements.md)
 5. [Bill of materials](./docs/bom.md)
 
