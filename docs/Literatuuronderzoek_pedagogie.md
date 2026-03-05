@@ -13,7 +13,7 @@ __Dit gebeurt in vier stappen:__
 - __Attention:__ het kind moet gefocust zijn op de actie.
 - __Retention:__ het kind moet de actie kunnen onthouden.
 - __Reproduction:__ het kind moet de mogelijkheid hebben om het gedrag na te doen.
-- __Motivation:__ Het kind moet een reden hebben om het gedrag uittevoeren _(zowel intrinsiek als extrinsiek.)_
+- __Motivation:__ Het kind moet een reden hebben om het gedrag uit te voeren _(zowel intrinsiek als extrinsiek.)_
 
 (Tadayon-Nabavi & Sadegh-Bijandie,2012)[^1]
 
