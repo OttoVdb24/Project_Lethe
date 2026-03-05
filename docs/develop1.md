@@ -17,6 +17,7 @@ Op deze pagina zullen er een aantal frameworks kort besproken worden die toegepa
 
 ## Expert interview 
 Om nog meer grip te krijgen op het pedagogische kader achter dit product, werd er een expert interview gedaan. `Lize Dierickx` master studente pedagogische wetenschappen aan de Ugent, gaf in een online interview haar visie op project Lethe.
+
 [📃Protocol Expert interview ](../reports%20and%20protocols/Protocol_expert%20interview.pdf) [📑Rapport Expert interview ](../reports%20and%20protocols/Rapport_expert%20interview.pdf)
 
 
