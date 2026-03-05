@@ -37,6 +37,7 @@ De theoretische analyse kan hier teruggevonden worden:
 ### Test protocol
 [📃Protocol benchmark testing ](../reports%20and%20protocols/Protocol_expert%20interview.pdf)
 De testen werden telkens uitgevoerd met een ouder en een kind. 
+
 __1. Planning maken op papier:__ er werd gevraagd om op een afgeprinte agenda alle activiteiten voor de week te schrijven die zij zouden willen dat de kapstok weet.
 
 __2. Planning op de app:__ nadien werd er gevraagd om de planning te maken op de 4 app's. _Er werd geen onderscheid gemaakt tussen de benchmarks en de figma app._
