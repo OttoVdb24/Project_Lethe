@@ -9,7 +9,7 @@ Deze fase werd uitgevoerd in de eerste vier weken van het tweede semester. Er we
 ## Literatuuronderzoek pedagogie
 Om vat te krijgen op de cognitieve processen die een kind doorloopt bij het aanleren van nieuwe handelingen, werd er onderzoek gedaan naar pedagogische psychologische frameworks.
 Op deze pagina zullen er een aantal frameworks kort besproken worden die toegepast kunnen worden op project Lethe, telkens met een kind als protagonist.
-[Literatuuronderzoek ](../docs/Literatuuronderzoek_pedagogie.md)
+[📃Literatuuronderzoek ](../docs/Literatuuronderzoek_pedagogie.md)
 ### Implicaties op ons ontwerp
 <p align="center">
   <img src="/Project_Lethe/img/Design_implicaties_literatuur onderzoek.png" width="100%">
@@ -29,8 +29,29 @@ Na feedback werd er beslist om een uitgewerktere functie analyse op te stellen. 
 
 
 ## Task based benchmark testing
-Deze test had als doel inzicht te krijgen in hoe een ouder met een kind samen een planning maakt. Hiervoor werd gebruikt gemaakt maken we gebruik van drie benchmark planningsapplicaties en een zelfgemaakte app. Deze hebben we theoretisch geanalyseerd. Die theoretische analyse en resultaten uit het onderzoek willen we bundel
+Deze test had als doel inzicht te krijgen in hoe een ouder met een kind samen een planning maakt. Hiervoor werd gebruik gemaakt van drie benchmark planningsapplicaties en een zelfgemaakte app. Alle apps werden theoretisch geanalyseerd. Die theoretische analyses en resultaten uit het onderzoek zullen woden gebruikt om onze applicatie uit te ontwikkelen.
 
+De theoretische analyse kan hier teruggevonden worden:
+[📃Analyse benchmark apps ](../docs/Analyse_Planningsapps.pdf)
+### Test protocol
+[📃Protocol benchmark testing ](../reports%20and%20protocols/Protocol_expert%20interview.pdf)
+De testen werden telkens uitgevoerd met een ouder en een kind. 
+__1. Planning maken op papier:__ er werd gevraagd om op een afgeprinte agenda alle activiteiten voor de week te schrijven die zij zouden willen dat de kapstok weet.
+__2. Planning op de app:__ nadien werd er gevraagd om de planning te maken op de 4 app's. _Er werd geen onderscheid gemaakt tussen de benchmarks en de figma app._
+__3. SAM-evaluatie:__ na elke app werd er een korte SAM evaluatie ingevuld door de ouder en het kind.
+<p align="right">
+  <img src="/Project_Lethe/img/SAM_vragenlijst.png" width="40%">
+</p>
 
+__4. Nabespreking:__ na de testen werd er tijd gemaakt om kwalitatief onderzoek te doen aan de hand van open vragen. Hierbij werden ook de bevindingen van deze test meegedeeld met de test personen.
+### Test resultaten
+[📑Rapport benchmark testing ](../reports%20and%20protocols/Rapport_expert%20interview.pdf)
 
-[📃Protocol benchmark testing ](/Project_Lethe/reports%20and%20protocols/Protocol_expert%20interview.pdf)[📑Rapport benchmark testing ](/Project_Lethe/reports%20and%20protocols/Rapport_expert%20interview.pdf)
+| ID  | Design requirement                                                                  | Voorbeeld app               |
+|-----|-------------------------------------------------------------------------------------|-----------------------------|
+| 4.1 | Het programma moet op een overzichtelijke manier en volgorde alle user input vragen | Unicorn kalender, Figma app |
+| 4.2 | Het programma mag geen afleidingen creëren                                          | Figma app                   |
+| 4.3 | De app moet een visueel leuke achtergrond hebben (volgens een thema)                | Unicorn kalender            |
+| 4.4 | Het kind moet actief meewerken aan het planning maken                               | Unicorn kalender, Figma app |
+| 4.5 | Typen moet worden vermeden om zo inclusief mogelijk te zijn                         | Figma app                   |
+| 4.6 | De planning moet een duidleijk overzicht van de week geven                          | Weeklo, Figma               |
