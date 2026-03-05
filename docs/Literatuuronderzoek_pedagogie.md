@@ -34,7 +34,7 @@ __Algemene uitleg:__
 De theorie van executieve functies (EF) beschrijft een reeks  neurocognitieve processen — voornamelijk aangestuurd door de prefrontale cortex — die doelgericht gedrag, impulscontrole en emotieregulatie mogelijk maken.
 Don Norman en Tim Shallice brachten een studie uit waarbij ze de 5 taken in kaart brachten waarbij het (SAS) executieve systeem in werk zal worden gesteld:
 - Planning en besluitvorming: Situaties waarin meerdere stappen moeten worden voorbereid en afgewogen.
-- Foutencorrectie en probleemoplossing: Situaties waarin een handeling misgaat en het gedrag moet worden bijgestuurd.
+- Foutcorrectie en probleemoplossing: Situaties waarin een handeling misgaat en het gedrag moet worden bijgestuurd.
 - Nieuwe, niet-geleerde sequenties: Situaties waarin de handeling nog niet routinematig is (bijv. iets voor het eerst doen).
 - Technische moeilijkheid of gevaar: Situaties die hoge concentratie vereisen om ongelukken te voorkomen.
 - Onderdrukken van gewoontes: Situaties waarin een sterke impuls of gewoonte moet worden weerstaan (inhibitie). 
