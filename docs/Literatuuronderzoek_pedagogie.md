@@ -13,7 +13,7 @@ __Dit gebeurt in vier stappen:__
 - __Attention:__ het kind moet gefocust zijn op de actie.
 - __Retention:__ het kind moet de actie kunnen onthouden.
 - __Reproduction:__ het kind moet de mogelijkheid hebben om het gedrag na te doen.
-- __Motivation:__ Het kind moet een reden hebben om het gedrag uittevoeren _(zowel intrinsiek als extrinsiek.)_
+- __Motivation:__ Het kind moet een reden hebben om het gedrag uit te voeren _(zowel intrinsiek als extrinsiek.)_
 
 (Tadayon-Nabavi & Sadegh-Bijandie,2012)[^1]
 
@@ -25,7 +25,7 @@ Hij geloofde dat kinderen leren door begeleide deelname met meer deskundige ande
 
 __Drie belangrijke concepten zijn:__
 1. __The more knowledgeable other (MKO):__ is  iedereen die meer weet dan de user over een specifieke taak. Dit kan een persoon zijn of een computer programma. 
-2. __De Zone van Naaste Ontwikkeling (ZNO):__ is de ideale ruimte om in te leren.Het is het verschil tussen wat je zelfstandig kunt doen en wat je kunt doen met hulp van een MKO. De ZNO is de plek waar er genoeg uitdaging is zonder dat het onmogelijk voelt. 
+2. __De Zone van Naaste Ontwikkeling (ZNO):__ is de ideale ruimte om in te leren. Het is het verschil tussen wat je zelfstandig kunt doen en wat je kunt doen met hulp van een MKO. De ZNO is de plek waar er genoeg uitdaging is zonder dat het onmogelijk voelt. 
 3. __Juist genoeg hulp geven (Scaffolding):__ is de concrete hulp die de MKO geeft. De MKO geeft tips, aanwijzingen en aanmoediging (de scaffolding) om de lerende te helpen de taak binnen de ZNO uit te voeren. Het doel is om net genoeg hulp te bieden zodat de lerende kan slagen. Naarmate de lerende beter wordt, bouwt de MKO de ondersteuning geleidelijk af, totdat de lerende de taak zelfstandig kan uitvoeren.
 (Psychology, 2025)[^2]
 
@@ -34,7 +34,7 @@ __Algemene uitleg:__
 De theorie van executieve functies (EF) beschrijft een reeks  neurocognitieve processen — voornamelijk aangestuurd door de prefrontale cortex — die doelgericht gedrag, impulscontrole en emotieregulatie mogelijk maken.
 Don Norman en Tim Shallice brachten een studie uit waarbij ze de 5 taken in kaart brachten waarbij het (SAS) executieve systeem in werk zal worden gesteld:
 - Planning en besluitvorming: Situaties waarin meerdere stappen moeten worden voorbereid en afgewogen.
-- Foutencorrectie en probleemoplossing: Situaties waarin een handeling misgaat en het gedrag moet worden bijgestuurd.
+- Foutcorrectie en probleemoplossing: Situaties waarin een handeling misgaat en het gedrag moet worden bijgestuurd.
 - Nieuwe, niet-geleerde sequenties: Situaties waarin de handeling nog niet routinematig is (bijv. iets voor het eerst doen).
 - Technische moeilijkheid of gevaar: Situaties die hoge concentratie vereisen om ongelukken te voorkomen.
 - Onderdrukken van gewoontes: Situaties waarin een sterke impuls of gewoonte moet worden weerstaan (inhibitie). 
@@ -42,7 +42,7 @@ Don Norman en Tim Shallice brachten een studie uit waarbij ze de 5 taken in kaar
 
 Mensen worden geboren met de mogelijkheid om EF te ontwikkelen. De ontwikkeling hiervan start rond het 3<sup>e</sup> tot 5<sup>e</sup> levensjaar. Het aanleren van deze functies kan op volgende manieren worden versterkt:
 - Aansporen tot zelfstandig leren
-- Agenda en plannings tools hanteren
+- Agenda en planning tools hanteren
 - Zelfreflectie stimuleren
 
 ## Implicaties op het ontwerp
