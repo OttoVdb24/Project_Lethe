@@ -72,9 +72,21 @@ De inhoudelijke keuzes zijn steeds door het team bepaald.
 * User testing wave 2 (N=4)
   * [Protocol](./docs/Concept%20testing%20wave%202%20-%20protocol.pdf)
   * [Rapport](./docs/concept%20testing%20wave%202%20-%20report.pdf)
-* extra informatie
+* Extra informatie
   * [prototype_wave_2](./docs/extra%20informatie%20prototype%20wave%202.pdf)
   * [trigger](./docs/extra%20informatie%20trigger.pdf)
+
+### Develop 1
+* Literatuur onderzoek pedagogie
+  * [Rapport](./docs/Literatuuronderzoek_pedagogie.md)
+* Expert interview `Lize Dierickx Ugent`
+  * [Protocol](./reports%20and%20protocols/Protocol_expert%20interview.pdf)
+  * [Rapport](./reports%20and%20protocols/Rapport_expert%20interview.pdf)
+* Task based benchmark testing (N=4)
+  * [App Analyse](./docs/Analyse_Planningsapps.pdf)
+  * [Protocol](./reports%20and%20protocols/Protocol_Benchmark_testing.pdf)
+  * [Rapport](./reports%20and%20protocols/Rapport_enchmarktesting.pdf)
+
 ## Licentie
 This repository contains both software and design materials created as part of an industrial design energineering project at Ghent University.
 
