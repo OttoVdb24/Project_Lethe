@@ -45,7 +45,7 @@ Mensen worden geboren met de mogelijkheid om EF te ontwikkelen. De ontwikkeling 
 - Agenda en plannings tools hanteren
 - Zelfreflectie stimuleren
 
-## Implicaties op ons ontwerp
+## Implicaties op het ontwerp
 <p align="center">
   <img src="/img/Design_implicaties_literatuur onderzoek.png" width="100%">
 </p>
