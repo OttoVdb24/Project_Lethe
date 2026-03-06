@@ -30,7 +30,7 @@ Na feedback werd er beslist om een uitgewerktere functie analyse op te stellen. 
 
 
 ## Task based benchmark testing
-Deze test had als doel inzicht te krijgen in hoe een ouder met een kind samen een planning maakt. Hiervoor werd gebruik gemaakt van drie benchmark planningsapplicaties en een zelfgemaakte app. Alle apps werden theoretisch geanalyseerd. Die theoretische analyses en resultaten uit het onderzoek zullen worden gebruikt om onze applicatie uit te ontwikkelen.
+Deze test had als doel inzicht te krijgen in hoe een ouder met een kind samen een planning maakt. Hiervoor werd gebruik gemaakt van drie benchmark planningapplicaties en een zelfgemaakte app. Alle apps werden theoretisch geanalyseerd. Die theoretische analyses en resultaten uit het onderzoek zullen worden gebruikt om onze applicatie uit te ontwikkelen.
 
 De theoretische analyse kan hier teruggevonden worden:
 [📃Analyse benchmark apps ](../docs/Analyse_Planningsapps.pdf)
