@@ -21,6 +21,12 @@ Om nog meer grip te krijgen op het pedagogische kader achter dit product, werd e
 [📃Protocol Expert interview ](../reports%20and%20protocols/Protocol_expert%20interview.pdf) [📑Rapport Expert interview ](../reports%20and%20protocols/Rapport_expert%20interview.pdf)
 
 
+## Divergatiefase 
+Het is een voordeel als de planning in samenwerking tussen kind en ouder wordt gemaakt. Er werd gedivergeerd om de mogelijke ondersteuningsvormen van het planning maken te onderzoeken. Waarna de verschillende oplossingen systematisch in kaart werden gebracht:
+<p align="center">
+  <img src="../img/Mogelijke schematisch in kaart brengen.png" width="100%">
+</p>
+
 
 ## Functie analyse
 Na feedback werd er beslist om een uitgewerktere functie analyse op te stellen. Deze heeft als doel om op een grafische manier alle functies, componenten en verbindingen tussen alle aspecten van het product weer te geven.
