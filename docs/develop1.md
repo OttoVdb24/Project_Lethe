@@ -31,7 +31,7 @@ Het is een voordeel als de planning in samenwerking tussen kind en ouder wordt g
 ## Hiërarchische taakanalyse
 Het maken van de weekplanning werd uiteengetrokken en in een hiërarchische taakanalyse gegoten:
 <p align="center">
-  <img src="../img/hiërachische taakanalyse.png" width="100%">
+  <img src="../img/hiërarchische taakanalyse.png" width="100%">
 </p>
 
 
