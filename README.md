@@ -77,6 +77,7 @@ De inhoudelijke keuzes zijn steeds door het team bepaald.
   * [trigger](./docs/extra%20informatie%20trigger.pdf)
 
 ### Develop 1
+* [storyboard](./img/storyboard.png)
 * Literatuur onderzoek pedagogie
   * [Rapport](./docs/Literatuuronderzoek_pedagogie.md)
 * Expert interview `Lize Dierickx Ugent`
