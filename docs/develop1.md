@@ -28,6 +28,13 @@ Het is een voordeel als de planning in samenwerking tussen kind en ouder wordt g
 </p>
 
 
+## Hiërarchische taakanalyse
+Het maken van de weekplanning werd uiteengetrokken en in een hiërarchische taakanalyse gegoten:
+<p align="center">
+  <img src="../img/hiërachische taakanalyse.png" width="100%">
+</p>
+
+
 ## Functie analyse
 Na feedback werd er beslist om een uitgewerktere functie analyse op te stellen. Deze heeft als doel om op een grafische manier alle functies, componenten en verbindingen tussen alle aspecten van het product weer te geven.
 <p align="center">
