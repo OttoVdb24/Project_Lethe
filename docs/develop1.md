@@ -35,7 +35,7 @@ Deze test had als doel inzicht te krijgen in hoe een ouder met een kind samen ee
 De theoretische analyse kan hier teruggevonden worden:
 [📃Analyse benchmark apps ](../docs/Analyse_Planningsapps.pdf)
 ### Test protocol
-[📃Protocol benchmark testing ](../reports%20and%20protocols/Protocol_expert%20interview.pdf)
+[📃Protocol benchmark testing ](../reports%20and%20protocols/Protocol_Benchmark_testing.pdf)
 De testen werden telkens uitgevoerd met een ouder en een kind. 
 
 __1. Planning maken op papier:__ er werd gevraagd om op een afgeprinte agenda alle activiteiten voor de week te schrijven die zij zouden willen dat de kapstok weet.
@@ -53,7 +53,7 @@ __4. Nabespreking:__ na de testen werd er tijd gemaakt om kwalitatief onderzoek 
 
 
 ### Test resultaten
-[📑Rapport benchmark testing ](../reports%20and%20protocols/Rapport_expert%20interview.pdf)
+[📑Rapport benchmark testing ](../reports%20and%20protocols/Rapport_enchmarktesting.pdf)
 
 | ID  | Design requirement                                                                  | Voorbeeld app               |
 |-----|-------------------------------------------------------------------------------------|-----------------------------|
