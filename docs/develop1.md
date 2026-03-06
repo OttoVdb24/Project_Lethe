@@ -60,6 +60,6 @@ __4. Nabespreking:__ na de testen werd er tijd gemaakt om kwalitatief onderzoek 
 | 4.1 | Het programma moet op een overzichtelijke manier en volgorde alle user input vragen | Unicorn kalender, Figma app |
 | 4.2 | Het programma mag geen afleidingen creëren                                          | Figma app                   |
 | 4.3 | De app moet een visueel leuke achtergrond hebben (volgens een thema)                | Unicorn kalender            |
-| 4.4 | Het kind moet actief meewerken aan het planning maken                               | Unicorn kalender, Figma app |
+| 4.4 | Het kind moet actief meewerken aan het maken van de planning                        | Unicorn kalender, Figma app |
 | 4.5 | Typen moet worden vermeden om zo inclusief mogelijk te zijn                         | Figma app                   |
 | 4.6 | De planning moet een duidleijk overzicht van de week geven                          | Weeklo, Figma               |
