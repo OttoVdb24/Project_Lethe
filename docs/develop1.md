@@ -23,7 +23,7 @@ Om nog meer grip te krijgen op het pedagogische kader achter dit product, werd e
 
 
 ## Functie analyse
-Na feedback werd er beslist om een uitgewerktere functie analyse op te stellen. Deze heeft als doel op een grafische manier alle functies, componenten en verbindingen tussen alle aspecten van het product weer te geven.
+Na feedback werd er beslist om een uitgewerktere functie analyse op te stellen. Deze heeft als doel om op een grafische manier alle functies, componenten en verbindingen tussen alle aspecten van het product weer te geven.
 <p align="center">
   <img src="../img/FunctieAnalyse.png" width="100%">
 </p>
