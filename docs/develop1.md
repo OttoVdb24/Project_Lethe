@@ -24,7 +24,7 @@ Om nog meer grip te krijgen op het pedagogische kader achter dit product, werd e
 ## Divergatiefase 
 Het is een voordeel als de planning in samenwerking tussen kind en ouder wordt gemaakt. Er werd gedivergeerd om de mogelijke ondersteuningsvormen van het planning maken te onderzoeken. Waarna de verschillende oplossingen systematisch in kaart werden gebracht:
 <p align="center">
-  <img src="../img/Mogelijke schematisch in kaart brengen.png" width="100%">
+  <img src="../img/Mogelijkheden schematisch in kaart brengen.png" width="100%">
 </p>
 
 
