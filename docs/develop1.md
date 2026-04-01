@@ -21,26 +21,39 @@ Om nog meer grip te krijgen op het pedagogische kader achter dit product, werd e
 [📃Protocol Expert interview ](../reports%20and%20protocols/Protocol_expert%20interview.pdf) [📑Rapport Expert interview ](../reports%20and%20protocols/Rapport_expert%20interview.pdf)
 
 
+## Divergatiefase 
+Het is een voordeel wanneer de planning in samenwerking tussen kind en ouder wordt opgesteld. Er werd eerst gedivergeerd om de mogelijke vormen van ondersteuning bij het maken van een planning te verkennen. Vervolgens werden de verschillende oplossingen systematisch in kaart gebracht en besproken met een pedagoog:
+<p align="center">
+  <img src="../img/Mogelijkheden planning schematisch in kaart brengen.png" width="100%">
+</p>
+
+
+## Hiërarchische taakanalyse
+Het maken van de weekplanning werd uiteengetrokken en in een hiërarchische taakanalyse gegoten:
+<p align="center">
+  <img src="../img/hiërarchische taakanalyse.png" width="100%">
+</p>
+
 
 ## Functie analyse
-Na feedback werd er beslist om een uitgewerktere functie analyse op te stellen. Deze heeft als doel op een grafische manier alle functies, componenten en verbindingen tussen alle aspecten van het product weer te geven.
+Na feedback werd er beslist om een uitgewerktere functie analyse op te stellen. Deze heeft als doel om op een grafische manier alle functies, componenten en verbindingen tussen alle aspecten van het product weer te geven.
 <p align="center">
   <img src="../img/FunctieAnalyse.png" width="100%">
 </p>
 
 
 ## Task based benchmark testing
-Deze test had als doel inzicht te krijgen in hoe een ouder met een kind samen een planning maakt. Hiervoor werd gebruik gemaakt van drie benchmark planningsapplicaties en een zelfgemaakte app. Alle apps werden theoretisch geanalyseerd. Die theoretische analyses en resultaten uit het onderzoek zullen woden gebruikt om onze applicatie uit te ontwikkelen.
+Deze test had als doel inzicht te krijgen in hoe een ouder met een kind samen een planning maakt. Hiervoor werd gebruik gemaakt van drie benchmark planningapplicaties en een zelfgemaakte app. Alle apps werden theoretisch geanalyseerd. Die theoretische analyses en resultaten uit het onderzoek zullen worden gebruikt om onze applicatie uit te ontwikkelen.
 
 De theoretische analyse kan hier teruggevonden worden:
 [📃Analyse benchmark apps ](../docs/Analyse_Planningsapps.pdf)
 ### Test protocol
-[📃Protocol benchmark testing ](../reports%20and%20protocols/Protocol_expert%20interview.pdf)
+[📃Protocol benchmark testing ](../reports%20and%20protocols/Protocol_Benchmark_testing.pdf)
 De testen werden telkens uitgevoerd met een ouder en een kind. 
 
-__1. Planning maken op papier:__ er werd gevraagd om op een afgeprinte agenda alle activiteiten voor de week te schrijven die zij zouden willen dat de kapstok weet.
+__1. Planning maken op papier:__ er werd gevraagd om op een afgeprinte agenda alle activiteiten voor de week te noteren, die zij willen dat de kapstok weet.
 
-__2. Planning op de app:__ nadien werd er gevraagd om de planning te maken op de 4 app's. _Er werd geen onderscheid gemaakt tussen de benchmarks en de figma app._
+__2. Planning op de app:__ nadien werd er gevraagd om de planning te maken met behulp van de 4 app's. _Er werd geen onderscheid gemaakt tussen de benchmarks en de figma app._
 
 __3. SAM-evaluatie:__ na elke app werd er een korte SAM evaluatie ingevuld door de ouder en het kind.
 
@@ -53,13 +66,13 @@ __4. Nabespreking:__ na de testen werd er tijd gemaakt om kwalitatief onderzoek 
 
 
 ### Test resultaten
-[📑Rapport benchmark testing ](../reports%20and%20protocols/Rapport_expert%20interview.pdf)
+[📑Rapport benchmark testing ](../reports%20and%20protocols/Rapport_enchmarktesting.pdf)
 
 | ID  | Design requirement                                                                  | Voorbeeld app               |
 |-----|-------------------------------------------------------------------------------------|-----------------------------|
 | 4.1 | Het programma moet op een overzichtelijke manier en volgorde alle user input vragen | Unicorn kalender, Figma app |
 | 4.2 | Het programma mag geen afleidingen creëren                                          | Figma app                   |
 | 4.3 | De app moet een visueel leuke achtergrond hebben (volgens een thema)                | Unicorn kalender            |
-| 4.4 | Het kind moet actief meewerken aan het planning maken                               | Unicorn kalender, Figma app |
+| 4.4 | Het kind moet actief meewerken aan het maken van de planning                        | Unicorn kalender, Figma app |
 | 4.5 | Typen moet worden vermeden om zo inclusief mogelijk te zijn                         | Figma app                   |
 | 4.6 | De planning moet een duidleijk overzicht van de week geven                          | Weeklo, Figma               |
