@@ -8,9 +8,9 @@
 *5/03/2026*   
 
 ## Samenvatting
-Project Lethe is ontwikkeld om stress bij jonge gezinnen te verminderen. De rush bij het vertrekken naar school of een hobby is voor veel gezinnen herkenbaar. Op dat moment moeten ouders niet alleen zichzelf, maar ook hun kinderen en alle tassen in gereedheid brengen. <br>
+Project Lethe is ontwikkeld om stress bij jonge gezinnen te verminderen. De rush bij het vertrekken naar school of een hobby is voor veel gezinnen herkenbaar. Op dat moment moeten ouders niet alleen zichzelf, maar ook hun kinderen en alle tassen in gereedheid brengen. Hierdoor zullen ouders vaak zelf de zakken etc. klaarmaken, omdat dit simpelweg sneller is. Dit is nochtans een ideaal leermoment tijdens de ontwikkeling van het kind.<br>
 
-Om deze stress te verhelpen werden er interviews en user tests uitgevoerd bij gezinnen met kinderen in het lager onderwijs. Met als resultaat project Lethe, de slimme kapstok waardoor er nooit meer een zak vergeten wordt. <br>
+Om hierop in te spelen en de stress bij de stress te verminderen werden er interviews en user tests uitgevoerd bij gezinnen met kinderen in het lager onderwijs. Met als resultaat project Lethe, de slimme kapstok die kinderen zelfstandigheid bijbrengt in een alledaagse omgeving. <br>
 
 Ze doet dit door de kinderen te helpen met het maken van hun zakken. De kapstok is verbonden met een app, waar de ouders de activiteiten van hun kinderen kunnen ingeven. Zo weet Lethe wie wanneer welke hobby heeft en worden de kinderen tijdig opgeroepen om hun tas klaar te maken. Doormiddel van een interactief touchscreen zien de kinderen wat er in de desbetreffende zak moet komen. Zit alles in de zak, en hangt die aan de kapstok, dan bedankt Lethe het kind en wordt opnieuw een moment van stress vermeden.
 
@@ -19,11 +19,11 @@ Ze doet dit door de kinderen te helpen met het maken van hun zakken. De kapstok 
 </p>
 
 ## Introductie
-Onderzoek toont aan dat vaste routines een positieve invloed hebben op de ontwikkeling van kinderen. Ze dragen bij aan een gezonde levensstijl, waaronder slaapkwaliteit, eetpatroon en sociaal-emotionele ontwikkeling (Bost et al., 2013)[^1]. Om deze voordelen te realiseren, worden ouders aangemoedigd om kinderen zelfstandigheid en verantwoordelijkheid bij te brengen in dagelijkse taken, zoals school- en hobbyactiviteiten (Selman & Dilworth-Bart, 2023)[^2].
+Onderzoek toont aan dat vaste routines een positieve invloed hebben op de ontwikkeling van kinderen. Ze dragen bij aan een gezonde levensstijl, waaronder slaapkwaliteit, eetpatroon en sociaal-emotionele ontwikkeling (Bost et al., 2013)[^1]. Om deze voordelen te realiseren, worden ouders aangemoedigd om kinderen zelfstandigheid en verantwoordelijkheid bij te brengen in dagelijkse taken, zoals school- en hobbyactiviteiten (Selman & Dilworth-Bart, 2023)[^2]. 
 
 Uit eigen interviews met ouders (N=3) bleek dat zij deze zelfstandigheid wel willen stimuleren, maar dat dit tijdens stressvolle momenten, zoals de ochtendrush, moeilijk toepasbaar is. Onderzoek suggereert dat externe, neutrale hulpmiddelen de communicatie tussen ouder en kind kunnen ondersteunen tijdens dergelijke momenten (Chan et al., 2017)[^3]. Aanvullend marktonderzoek (N=10) toonde echter aan dat er momenteel geen product bestaat dat hier specifiek op inspeelt voor jonge gezinnen.
 
-Vanuit deze vaststelling ontstond Project Lethe: een slimme, interactieve kapstok die kinderen ondersteunt in het zelfstandig voorbereiden van school- en hobbytassen, met als bijkomend effect een vermindering van stress bij de ouders.
+Vanuit deze vaststelling ontstond Project Lethe: een slimme, interactieve kapstok die kinderen ondersteunt in het zelfstandig voorbereiden van school- en hobbytassen, met als bijkomend effect een bevorderde ontwikkeling van excecutieve functies en vermindering van stress bij de ouders.
 
 De gehanteerde boundary conditions zijn:
 >•	Betaalbaar voor jonge gezinnen; <br>
@@ -37,8 +37,9 @@ De gehanteerde boundary conditions zijn:
 2. [Discovery](./docs/discovery.md)
 3. [Defintion](./docs/definition.md)
 4. [Develop 1](./docs/develop1.md)
-4. [Design Requirements](./docs/design_requirements.md)
-5. [Bill of materials](./docs/bom.md)
+5. [Develop 1](./docs/develop2.md)
+6. [Design Requirements](./docs/design_requirements.md)
+7. [Bill of materials](./docs/bom.md)
 
 ## Kritische reflectie
 De samenwerking binnen het team verliep over het algemeen goed, doordat de taken duidelijk werden verdeeld op basis van ieders sterke punten. Aan het begin van het semester hebben we gezamenlijk een planning opgesteld, waarin werd vastgelegd wanneer de verschillende onderdelen van de opdracht idealiter afgerond zouden zijn. Dit gaf ons vanaf het begin een helder overzicht van het project over het semester.
@@ -87,6 +88,19 @@ De inhoudelijke keuzes zijn steeds door het team bepaald.
   * [App Analyse](./docs/Analyse_Planningsapps.pdf)
   * [Protocol](./reports%20and%20protocols/Protocol_Benchmark_testing.pdf)
   * [Rapport](./reports%20and%20protocols/Rapport_enchmarktesting.pdf)
+
+### Develop 2
+* [storyboard](./img/storyboard.png)
+* Literatuur onderzoek pedagogie
+  * [Rapport](./docs/Literatuuronderzoek_pedagogie.md)
+* Expert interview `Lize Dierickx Ugent`
+  * [Protocol](./reports%20and%20protocols/Protocol_expert%20interview.pdf)
+  * [Rapport](./reports%20and%20protocols/Rapport_expert%20interview.pdf)
+* Task based benchmark testing (N=4)
+  * [App Analyse](./docs/Analyse_Planningsapps.pdf)
+  * [Protocol](./reports%20and%20protocols/Protocol_Benchmark_testing.pdf)
+  * [Rapport](./reports%20and%20protocols/Rapport_enchmarktesting.pdf)
+
 
 ## Licentie
 This repository contains both software and design materials created as part of an industrial design energineering project at Ghent University.
