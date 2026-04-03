@@ -37,7 +37,7 @@ De gehanteerde boundary conditions zijn:
 2. [Discovery](./docs/discovery.md)
 3. [Defintion](./docs/definition.md)
 4. [Develop 1](./docs/develop1.md)
-5. [Develop 1](./docs/develop2.md)
+5. [Develop 2](./docs/develop2.md)
 6. [Design Requirements](./docs/design_requirements.md)
 7. [Bill of materials](./docs/bom.md)
 

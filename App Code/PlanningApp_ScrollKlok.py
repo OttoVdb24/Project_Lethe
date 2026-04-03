@@ -41,7 +41,7 @@ Voetbalveld_img = pygame.image.load("Graphics/Voetbalveld_vooraanzicht.png").con
 Voetbalveld_img = pygame.transform.scale(Voetbalveld_img,(screen.get_width(), screen.get_height()))
 Ballet_img = pygame.image.load("Graphics/Balletzaal.png").convert()
 Ballet_img = pygame.transform.scale(Ballet_img,(screen.get_width(), screen.get_height()))
-#AchtergrondFoto = Ballet_img
+AchtergrondFoto = Ballet_img
 AchtergrondFoto = Voetbalveld_img
 
 Sym_voetbal = pygame.image.load("Graphics/symbolen/Sym_voetbal.png").convert_alpha()
@@ -102,7 +102,7 @@ for surface in (bovenvlak,ondervlak,sleepvlak,planningvlak,klokvlak,planRechthoe
 
 
 #Dagkollommen variabelen____________________________________________________________________________________________
-DagRect_Width = 0.1201*screen.get_width()
+DagRect_Width = 0.124*screen.get_width()
 DagRect_Height = 350
 DagRect_Gap = 0.01*screen.get_width()
 DagRects = []
@@ -153,6 +153,7 @@ PlanRect_Height = 0.85*screen.get_height()
 PlanRect_Color = Achtergrond_kleur
 PlanRect_TitelColor = (20,20,20)
 PlanExt_knop = Button(Exit_img,planningvlak,(screen.get_width()/2+PlanRect_Width/2-Exit_img.get_width())-20,screen.get_height()-PlanRect_Height+20)
+PlanExt_knop_b = False
 PlanKop_Offset = 20
 
 PlanRect = pygame.Rect(screen.get_width()/2-PlanRect_Width/2,screen.get_height()-PlanRect_Height,PlanRect_Width,PlanRect_Height)
@@ -172,13 +173,12 @@ PlanRect2_2 = pygame.Rect(Plan_Linkerrand,PlanRect2.bottom-240,PlanRect2.width,2
 PlanRect3 = pygame.Rect(PlanRect.centerx+20,PlanRect2.top,(PlanRect.centerx-Plan_Linkerrand),280)
 PlanRect3_1 = pygame.Rect(PlanRect3.left,PlanRect3.top+60,(PlanRect.centerx-Plan_Linkerrand),260)
 
-PlanBevestig_Knop = Button_Rechthoek(PlanRect.width/4,60,0, Bevestig_kleur,planningvlak,PlanRect.centerx+PlanRect.width/16,
-                                     PlanRect.bottom-60,Font_KnopText,TekstKleur_licht,'Bevestigen')
-PlanAnnuleer_Knop = Button_Rechthoek(PlanRect.width/4,60,0,Annuleer_kleur,planningvlak, PlanRect.centerx-PlanRect.width/4-PlanRect.width/16,
-                                     PlanRect.bottom-60,Font_KnopText,TekstKleur_licht,'Annuleer')
+PlanBevestig_Knop_width = 0.3*PlanRect.width
+PlanBevestig_Knop = Button_Rechthoek(PlanBevestig_Knop_width,0.3*PlanBevestig_Knop_width,0, Bevestig_kleur,planningvlak,PlanRect3.centerx-PlanRect.width/8,
+                                     PlanRect.bottom-0.35*PlanBevestig_Knop_width - 10,Font_KnopText,TekstKleur_licht,'Bevestigen')
 
 PlanBox1 = PlanBox(planningvlak,PlanRect3_1,'black',1,(0.07*PlanRect.height)) #Initieren van planboxen, zal dan in de running het aantal bepalen
-print(PlanRect.height)
+
 # Text input_______________________________________________________________________________________________________________________
 Text_dict = {"PlanText_Active": False, "NieuweActiText_active": False, "User_IP":""}
 
@@ -191,15 +191,20 @@ NieuweActiRect_height = 0.6*screen.get_height()
 NieuweActiRect_Pos = (nieuweActivlak.get_width()/2-NieuweActiRect_width/2,nieuweActivlak.get_height()/2-NieuweActiRect_height/2)
 NieuweActiRect = pygame.Rect(NieuweActiRect_Pos[0],NieuweActiRect_Pos[1],NieuweActiRect_width,NieuweActiRect_height)
 NieuweActiRect_color = Achtergrond_kleur
+
+#Knoppen
 NieuweActiExt_knop = Button(Exit_img,nieuweActivlak, NieuweActiRect.right-Exit_img.get_width()-20, NieuweActiRect.top+20)
-NieuweActiAnnuleer_knop = Button_Rechthoek(NieuweActiRect_width/3,30,0,Annuleer_kleur,nieuweActivlak, NieuweActiRect.left + NieuweActiRect.width/12,NieuweActiRect.bottom-30,Font_KnopText,TekstKleur_licht,"Annuleer")
-NieuweActiBevestig_knop = Button_Rechthoek(NieuweActiRect.width/3,30,0,Bevestig_kleur,nieuweActivlak,NieuweActiRect.centerx+NieuweActiRect.width/12,NieuweActiRect.bottom-30,Font_KnopText,TekstKleur_licht,'Bevestigen')
+
+
+NieuweActiBevestig_knop = Button_Rechthoek(NieuweActiRect.width*0.3,0.09*NieuweActiRect_width,0,Bevestig_kleur,nieuweActivlak,
+                                           NieuweActiRect.centerx-NieuweActiRect.width*0.15,NieuweActiRect.bottom-0.1*NieuweActiRect_width,Font_KnopText,TekstKleur_licht,'Bevestigen')
 
 
 NieuweActiInput_Rect_Width = 0.6*NieuweActiRect_width
 NieuweActiInput_Rect_Height = 55
 NieuweActiInput_Rect = pygame.Rect(NieuweActiRect.centerx-NieuweActiInput_Rect_Width/2,NieuweActiRect.centery-NieuweActiInput_Rect_Height/2,NieuweActiInput_Rect_Width,NieuweActiInput_Rect_Height)
 NieuweActiInput_Text = "Typ hier ..."
+
 #Keyboard variabelen_______________________________________________________________________________________________________________
 TextRect_width = width*0.4
 TextRect_height = height*0.1
@@ -265,6 +270,10 @@ for i in range(rows):
         rect = pygame.Rect(x, y, KleurRect_side, KleurRect_side)
         KleurRects.append(rect)
 
+#Beveiligingsscherm-------------------------------------------------------------
+
+
+
 #___________________________________________________________________________________________________________________________
 while running:
 
@@ -283,7 +292,6 @@ while running:
 
     
     
-    print(Actieve_Status)
     #Sleepbare rechthoeken maken
     if BovenRechthoeken(ActiRect_Pos_x,ActiRect_Pos_y,ActiRect_Width,ActiRect_Height,Mouse,Mouse_Pos,Mouse_JustPressed,ActiRect_Slepen,ActiRect_Offset_x,ActiRect_Offset_y,sleepvlak,bovenvlak,ActiRect_StartPos_x,ActiRect_StartPos_Y,Font_Acti,StandaardActiviteiten,Actieve_Status) and Actieve_Status=="Hoofdscherm":
         Actieve_Status = "NieuweActiviteit_Maken"
@@ -296,7 +304,7 @@ while running:
         if not Text_dict["NieuweActiText_active"]:
          
             #Exit voorwaarde maken
-            if NieuweActiExt_knop.draw(1,Mouse,Mouse_Pos) or NieuweActiAnnuleer_knop.draw(1,Mouse,Mouse_Pos):
+            if NieuweActiExt_knop.draw(1,Mouse,Mouse_Pos,Mouse_JustPressed):
                 Actieve_Status = "Hoofdscherm"
                 DagRect_collision = [False]*7
                 overlay.set_alpha(0)
@@ -325,9 +333,7 @@ while running:
     elif any(DagRect_collision):      #and PlanningTrigger==False: #Elif want de user moet losgelaten hebben
 
         if PlanActiviteit[1] == "Andere":   #Wanneer de andere geslepen werd.
-            Actieve_Status = "NieuweActiviteit_Maken"
-     
-        
+            Actieve_Status = "NieuweActiviteit_Maken"      
         
         else: #Planning openen 
             Actieve_Status = "Planning"
@@ -343,21 +349,26 @@ while running:
         if not PlanningLoop:
             PlanningLoop = True
             PlanBox1.Actief = [False]*len(PlanActiviteit[4])
+        
+        if PlanExt_knop_b and not KleurKiezerActive: 
+            DagRect_collision = [False]*7 #HardCoded, er zullen altijd 7 dagen zijn vriendje :)
+            overlay.set_alpha(0)
+            PlanningLoop = False
+            Actieve_Status = "Hoofdscherm"
 
-        KleurKiezerActive= Planningsscherm_maken(overlay,planningvlak,PlanRect_Color,PlanRect,Font_PlanTitel,PlanRect_TitelColor,PlanRect1,Font_PlanKop1,Font_PlanKop2,PlanRect2_1,
+
+
+        PlanExt_knop_b, KleurKiezerActive = Planningsscherm(overlay,planningvlak,PlanRect_Color,PlanRect,Font_PlanTitel,PlanRect_TitelColor,PlanRect1,Font_PlanKop1,Font_PlanKop2,PlanRect2_1,
                                                 PlanRect2_2,PlanRect3,Mouse,Mouse_Pos,Mouse_JustPressed,PlanBox1,PlanActiviteit,
                                                 Text_dict,Time,HighlightRect1,Klok1_U,Klok1_M,HighlightRect2,Klok2_U,Klok2_M,klokvlak, 
-                                                KleurRects, KleurKiezerActive,KleurkiezerRect)
-        
+                                                KleurRects, KleurKiezerActive,KleurkiezerRect,PlanExt_knop)
+
+
+
+
 
 
         if not Text_dict["PlanText_Active"]:
-            #Uit planning gaan
-            if PlanExt_knop.draw(1,Mouse,Mouse_Pos) or PlanAnnuleer_Knop.draw(1,Mouse,Mouse_Pos): #ExitKnoppen plaatsen
-                DagRect_collision = [False]*7 #HardCoded, er zullen altijd 7 dagen zijn vriendje :)
-                overlay.set_alpha(0)
-                PlanningLoop = False
-                Actieve_Status = "Hoofdscherm"
 
             #Lijst van benodigdheden maken 
             ActieveBenodigdheden = list(zip(PlanActiviteit[4],PlanBox1.Actief))
@@ -365,8 +376,8 @@ while running:
 
             #Bevestigingsknop maken en uitlezen. Ook nieuwe activiteit toevoegen aan geplande activiteiten lijst
             if PlanBevestig_Knop.draw(1,Mouse,Mouse_Pos):   
-                GeplandeActiviteiten.append([len(GeplandeActiviteiten), PlanActiviteit[1],[800],[800],ActieveBenodigdheden,DagRect_collision.index(True),PlanActiviteit[5]])
-                
+                GeplandeActiviteiten.append([len(GeplandeActiviteiten), PlanActiviteit[1],[800],[800],ActieveBenodigdheden,DagRect_collision.index(True),PlanActiviteit[5], PlanActiviteit[6]])
+                print(PlanActiviteit)
                 print(GeplandeActiviteiten)
                 
                 DagRect_collision = [False]*7 #HardCoded, er zullen altijd 7 dagen zijn vriendje :)
@@ -376,17 +387,8 @@ while running:
                 Actieve_Status = "Hoofdscherm"
 
 
-
-    #Agenda activiteiten opzetten
-        
-    Agenda_lst = AgendaRechthoeken(GeplandeActiviteiten,DagRects,DagRect_Width,planRechthoeken,Font_GeplandeActi,Mouse_JustPressed,Mouse_Pos,Agenda_lst)
-
-
-    if Agenda_lst[0] and Actieve_Status =="Hoofdscherm":
-        Actieve_Status ="DeleteMelding"
-
     if Actieve_Status == "DeleteMelding":
-        Delete_lst = DeleteMelding(deletevlak,overlay,Font_PlanKop1, Font_KnopText,Mouse,Mouse_Pos,Mouse_JustPressed,Bevestig_kleur,Annuleer_kleur)
+        Delete_lst = DeleteMelding(deletevlak,overlay,Font_PlanKop1, Font_KnopText,Mouse,Mouse_Pos,Mouse_JustPressed,Bevestig_kleur,Exit_img,Annuleer_kleur)
 
         if Delete_lst[0]:
             Actieve_Status ="Hoofdscherm"
@@ -398,6 +400,30 @@ while running:
             Actieve_Status ="Hoofdscherm"
             GeplandeActiviteiten.pop(Agenda_lst[1])
             Agenda_lst[0]=False
+
+
+
+
+
+    #Agenda activiteiten opzetten
+    if Actieve_Status =="BeveiligingScherm":
+        Beveiliging_return = Beveiliging(deletevlak,overlay,Font_PlanKop1, Font_PlanKop2, Font_KnopText,Mouse,Mouse_Pos,Mouse_JustPressed,Bevestig_kleur,Exit_img)
+        if Beveiliging_return == "Correct":
+            Actieve_Status = "DeleteMelding"
+        elif Beveiliging_return == "Exit":
+            Actieve_Status = "Hoofdscherm"
+            Agenda_lst[0]=False
+
+
+        
+    Agenda_lst = AgendaRechthoeken(GeplandeActiviteiten,DagRects,DagRect_Width,planRechthoeken,Font_GeplandeActi,Mouse_JustPressed,Mouse_Pos,Agenda_lst)
+
+
+    if Agenda_lst[0] and Actieve_Status =="Hoofdscherm":
+        Actieve_Status ="BeveiligingScherm"
+
+
+
         
    
 
@@ -489,7 +515,7 @@ while running:
             NieuweActiInput_Text="Typ hier..."
 
 
-        elif Mouse_JustPressed and  NieuweActiAnnuleer_knop.rect.collidepoint(Mouse_Pos):
+        elif Mouse_JustPressed and  NieuweActiExt_knop.rect.collidepoint(Mouse_Pos):
             Text_dict["NieuweActiText_active"] = False
             Text_dict["User_IP"] = ""
             NieuweActiInput_Text="Typ hier..."
