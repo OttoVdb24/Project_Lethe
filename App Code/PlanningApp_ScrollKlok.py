@@ -66,7 +66,7 @@ Sym_zwemmen = pygame.transform.scale_by(Sym_zwemmen,1.3)
 
 
 #Algemene variabelen ----------------------------------------------------------------------------------------------
-Annuleer_kleur = pygame.Color(120,120,120)
+Annuleer_kleur = pygame.Color(120,120,120,60)
 Bevestig_kleur = pygame.Color(180,220,180)
 Achtergrond_kleur = pygame.Color(235,241,248)
 Overlay_alpha = 100
@@ -297,9 +297,13 @@ while running:
         Actieve_Status = "NieuweActiviteit_Maken"
 
 
-    #Nieuwe Activiteit plannen
+    #Nieuwe Activiteit maken
     if Actieve_Status == "NieuweActiviteit_Maken":
         NieuweActiviteit_maken(NieuweActiInput_Rect, Mouse_Pos, Mouse_JustPressed, Text_dict,overlay,nieuweActivlak,NieuweActiRect_color,NieuweActiRect,Font_PlanKop1,Font_KnopText, NieuweActiInput_Text,Time)
+        if Text_dict["User_IP"]=="":
+            NieuweActiBevestig_knop.color= Annuleer_kleur
+        else:
+            NieuweActiBevestig_knop.color = Bevestig_kleur
 
         if not Text_dict["NieuweActiText_active"]:
          
@@ -310,6 +314,7 @@ while running:
                 overlay.set_alpha(0)
             
             #Bevestigknop 
+            
             if NieuweActiBevestig_knop.draw(1,Mouse,Mouse_Pos):
                 Actieve_Status = "Hoofdscherm"
                 Actieve_Status = "Planning"
