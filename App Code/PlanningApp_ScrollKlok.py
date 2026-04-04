@@ -21,7 +21,7 @@ Font_Keyboard = pygame.font.Font('Montserrat-Black.ttf',28)
 
 
 info = pygame.display.Info()
-screen = pygame.display.set_mode((info.current_w*0.9, 0.7*info.current_h),pygame.RESIZABLE)
+screen = pygame.display.set_mode((info.current_w, info.current_h),pygame.FULLSCREEN)
 width = screen.get_width()
 height = screen.get_height()
 
@@ -584,6 +584,7 @@ while running:
 
     # Rising edge detectie
     Mouse_JustPressed = (Touch_Down and not Touch_Down_prev)
+    Mouse_JustPressed=pygame.mouse.get_just_pressed()
 
     # Update vorige state
     Touch_Down_prev = Touch_Down
