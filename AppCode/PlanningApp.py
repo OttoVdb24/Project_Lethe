@@ -20,11 +20,11 @@ RegularFont = os.path.join(basis,"Fonts","Montserrat-Regular.ttf")
 
 Font_Dagen = pygame.font.Font(BlackFont,24)
 Font_Acti = pygame.font.Font(BlackFont,20)
-Font_PlanTitel = pygame.font.Font(RegularFont,40)
-Font_PlanKop1 = pygame.font.Font(RegularFont,24)
-Font_PlanKop2 = pygame.font.Font(RegularFont,20)
-Font_KnopText = pygame.font.Font(BlackFont,18)
-Font_Klok = pygame.font.Font(RegularFont,30)
+Font_PlanTitel = pygame.font.Font(RegularFont,30)
+Font_PlanKop1 = pygame.font.Font(RegularFont,20)
+Font_PlanKop2 = pygame.font.Font(RegularFont,18)
+Font_KnopText = pygame.font.Font(BlackFont,16)
+Font_Klok = pygame.font.Font(RegularFont,24)
 Font_GeplandeActi = pygame.font.Font(BlackFont,18)
 Font_Keyboard = pygame.font.Font(BlackFont,28)
 
@@ -67,13 +67,13 @@ Sym_muziek = laad_symbool("Sym_Muziek.png")
 Sym_zwemmen = laad_symbool("Sym_Zwemmen.png")
 
 
-Sym_voetbal = pygame.transform.scale_by(Sym_voetbal,1)
-Sym_rugby = pygame.transform.scale_by(Sym_rugby,1)
-Sym_volley = pygame.transform.scale_by(Sym_volley,1)
-Sym_basket = pygame.transform.scale_by(Sym_basket,1)
-Sym_andere = pygame.transform.scale_by(Sym_andere,1)
-Sym_muziek = pygame.transform.scale_by(Sym_muziek,1)
-Sym_zwemmen = pygame.transform.scale_by(Sym_zwemmen,1)
+Sym_voetbal = pygame.transform.scale_by(Sym_voetbal,0.8)
+Sym_rugby = pygame.transform.scale_by(Sym_rugby,0.8)
+Sym_volley = pygame.transform.scale_by(Sym_volley,0.8)
+Sym_basket = pygame.transform.scale_by(Sym_basket,0.8)
+Sym_andere = pygame.transform.scale_by(Sym_andere,0.8)
+Sym_muziek = pygame.transform.scale_by(Sym_muziek,0.8)
+Sym_zwemmen = pygame.transform.scale_by(Sym_zwemmen,0.8)
 
 
 
@@ -133,7 +133,7 @@ GeplandeActiviteiten = []
 Dagen_Tellen = [0]*7
 
 
-ActiRect_Width = 0.2*screen.get_width()
+ActiRect_Width = 0.18*screen.get_width()
 ActiRect_Height = 0.5*ActiRect_Width
 ActiRect_Gap = 00.003*screen.get_width()
 ActiRects =[]
