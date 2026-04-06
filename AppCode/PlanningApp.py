@@ -1,5 +1,9 @@
 import pygame
 from Functies import *
+import os
+
+basis = os.path.dirname(__file__)
+
 
 pygame.init()
 
@@ -9,15 +13,20 @@ Mouse_JustPressed = False
 Actieve_Status = 'Hoofdscherm'
 
 #Lettertypes aanmaken __________________________________________________________________________________________________
-Font_Dagen = pygame.font.Font("Montserrat-Black.ttf",24)
-Font_Acti = pygame.font.Font("Montserrat-Black.ttf",28)
-Font_PlanTitel = pygame.font.Font("Montserrat-Regular.ttf",45)
-Font_PlanKop1 = pygame.font.Font("Montserrat-Regular.ttf",30)
-Font_PlanKop2 = pygame.font.Font("Montserrat-Regular.ttf",28)
-Font_KnopText = pygame.font.Font("Montserrat-Black.ttf",21)
-Font_Klok = pygame.font.Font('Montserrat-Regular.ttf',34)
-Font_GeplandeActi = pygame.font.Font('Montserrat-Black.ttf',18)
-Font_Keyboard = pygame.font.Font('Montserrat-Black.ttf',28)
+
+BlackFont = os.path.join(basis,"Fonts", "Montserrat-Black.ttf")
+RegularFont = os.path.join(basis,"Fonts","Montserrat-Regular.ttf")
+
+
+Font_Dagen = pygame.font.Font(BlackFont,24)
+Font_Acti = pygame.font.Font(BlackFont,28)
+Font_PlanTitel = pygame.font.Font(RegularFont,45)
+Font_PlanKop1 = pygame.font.Font(RegularFont,30)
+Font_PlanKop2 = pygame.font.Font(RegularFont,28)
+Font_KnopText = pygame.font.Font(BlackFont,21)
+Font_Klok = pygame.font.Font(RegularFont,34)
+Font_GeplandeActi = pygame.font.Font(BlackFont,18)
+Font_Keyboard = pygame.font.Font(BlackFont,28)
 
 
 info = pygame.display.Info()
@@ -35,22 +44,27 @@ overlay.fill((0, 0, 0))  # zwarte overlay
 
 
 #Graphics Importeren____________________________________________________________________________________________________
-Exit_img = pygame.image.load("Graphics/Exit_teken.png").convert_alpha()
+GraphicsMap = os.path.join(basis,"Graphics")
+
+Exit_img = pygame.image.load(os.path.join(GraphicsMap,"Exit_teken.png")).convert_alpha()
 Exit_img = pygame.transform.scale_by(Exit_img, 0.035)
-Voetbalveld_img = pygame.image.load("Graphics/Voetbalveld_vooraanzicht.png").convert()
+Voetbalveld_img = pygame.image.load(os.path.join(GraphicsMap,"Voetbalveld_Vooraanzicht.png")).convert()
 Voetbalveld_img = pygame.transform.scale(Voetbalveld_img,(screen.get_width(), screen.get_height()))
-Ballet_img = pygame.image.load("Graphics/Balletzaal.png").convert()
+Ballet_img = pygame.image.load(os.path.join(GraphicsMap,"Balletzaal.png")).convert()
 Ballet_img = pygame.transform.scale(Ballet_img,(screen.get_width(), screen.get_height()))
-AchtergrondFoto = Ballet_img
 AchtergrondFoto = Voetbalveld_img
 
-Sym_voetbal = pygame.image.load("Graphics/symbolen/Sym_voetbal.png").convert_alpha()
-Sym_rugby = pygame.image.load("Graphics/symbolen/Sym_rugby.png").convert_alpha()
-Sym_volley = pygame.image.load("Graphics/symbolen/Sym_volley.png").convert_alpha()
-Sym_basket = pygame.image.load("Graphics/symbolen/Sym_basket.png").convert_alpha()
-Sym_andere = pygame.image.load("Graphics/symbolen/Sym_Andere.png").convert_alpha()
-Sym_muziek = pygame.image.load("Graphics/symbolen/Sym_Muziek.png").convert_alpha()
-Sym_zwemmen = pygame.image.load("Graphics/symbolen/Sym_zwemmen.png").convert_alpha()
+SymbolenMap = os.path.join(GraphicsMap,"Symbolen")
+def laad_symbool(bestand):
+    return pygame.image.load(os.path.join(SymbolenMap, bestand)).convert_alpha()
+
+Sym_voetbal = laad_symbool("Sym_Voetbal.png")
+Sym_rugby = laad_symbool("Sym_Rugby.png")
+Sym_volley = laad_symbool("Sym_Volley.png")
+Sym_basket = laad_symbool("Sym_Basket.png")
+Sym_andere = laad_symbool("Sym_Andere.png")
+Sym_muziek = laad_symbool("Sym_Muziek.png")
+Sym_zwemmen = laad_symbool("Sym_Zwemmen.png")
 
 
 Sym_voetbal = pygame.transform.scale_by(Sym_voetbal,1.3)
@@ -289,6 +303,7 @@ while running:
     Mouse_Pos = pygame.mouse.get_pos()
     Mouse = pygame.mouse.get_pressed()
     Time = pygame.time.get_ticks()
+    Mouse_JustPressed= pygame.mouse.get_just_pressed()
 
     
     
@@ -583,8 +598,7 @@ while running:
                     Text_dict["User_IP"] += event.unicode
 
     # Rising edge detectie
-    Mouse_JustPressed = (Touch_Down and not Touch_Down_prev)
-    Mouse_JustPressed=pygame.mouse.get_just_pressed()
+
 
     # Update vorige state
     Touch_Down_prev = Touch_Down
