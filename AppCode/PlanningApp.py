@@ -134,7 +134,7 @@ Dagen_Tellen = [0]*7
 
 
 ActiRect_Width = 0.13*screen.get_width()
-ActiRect_Height = 0.6*ActiRect_Width
+ActiRect_Height = 0.7*ActiRect_Width
 ActiRect_Gap = 00.003*screen.get_width()
 ActiRects =[]
 ActiRect_Pos_x=[]
