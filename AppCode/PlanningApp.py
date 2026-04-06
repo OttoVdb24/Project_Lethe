@@ -19,7 +19,7 @@ RegularFont = os.path.join(basis,"Fonts","Montserrat-Regular.ttf")
 
 
 Font_Dagen = pygame.font.Font(BlackFont,24)
-Font_Acti = pygame.font.Font(BlackFont,20)
+Font_Acti = pygame.font.Font(BlackFont,16)
 Font_PlanTitel = pygame.font.Font(RegularFont,30)
 Font_PlanKop1 = pygame.font.Font(RegularFont,20)
 Font_PlanKop2 = pygame.font.Font(RegularFont,18)
@@ -133,7 +133,7 @@ GeplandeActiviteiten = []
 Dagen_Tellen = [0]*7
 
 
-ActiRect_Width = 0.18*screen.get_width()
+ActiRect_Width = 0.12*screen.get_width()
 ActiRect_Height = 0.5*ActiRect_Width
 ActiRect_Gap = 00.003*screen.get_width()
 ActiRects =[]
