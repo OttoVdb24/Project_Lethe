@@ -19,12 +19,12 @@ RegularFont = os.path.join(basis,"Fonts","Montserrat-Regular.ttf")
 
 
 Font_Dagen = pygame.font.Font(BlackFont,24)
-Font_Acti = pygame.font.Font(BlackFont,28)
-Font_PlanTitel = pygame.font.Font(RegularFont,45)
-Font_PlanKop1 = pygame.font.Font(RegularFont,30)
-Font_PlanKop2 = pygame.font.Font(RegularFont,28)
-Font_KnopText = pygame.font.Font(BlackFont,21)
-Font_Klok = pygame.font.Font(RegularFont,34)
+Font_Acti = pygame.font.Font(BlackFont,24)
+Font_PlanTitel = pygame.font.Font(RegularFont,40)
+Font_PlanKop1 = pygame.font.Font(RegularFont,24)
+Font_PlanKop2 = pygame.font.Font(RegularFont,20)
+Font_KnopText = pygame.font.Font(BlackFont,18)
+Font_Klok = pygame.font.Font(RegularFont,30)
 Font_GeplandeActi = pygame.font.Font(BlackFont,18)
 Font_Keyboard = pygame.font.Font(BlackFont,28)
 
@@ -67,13 +67,13 @@ Sym_muziek = laad_symbool("Sym_Muziek.png")
 Sym_zwemmen = laad_symbool("Sym_Zwemmen.png")
 
 
-Sym_voetbal = pygame.transform.scale_by(Sym_voetbal,1.3)
-Sym_rugby = pygame.transform.scale_by(Sym_rugby,1.3)
-Sym_volley = pygame.transform.scale_by(Sym_volley,1.3)
-Sym_basket = pygame.transform.scale_by(Sym_basket,1.3)
-Sym_andere = pygame.transform.scale_by(Sym_andere,1.3)
-Sym_muziek = pygame.transform.scale_by(Sym_muziek,1.3)
-Sym_zwemmen = pygame.transform.scale_by(Sym_zwemmen,1.3)
+Sym_voetbal = pygame.transform.scale_by(Sym_voetbal,1)
+Sym_rugby = pygame.transform.scale_by(Sym_rugby,1)
+Sym_volley = pygame.transform.scale_by(Sym_volley,1)
+Sym_basket = pygame.transform.scale_by(Sym_basket,1)
+Sym_andere = pygame.transform.scale_by(Sym_andere,1)
+Sym_muziek = pygame.transform.scale_by(Sym_muziek,1)
+Sym_zwemmen = pygame.transform.scale_by(Sym_zwemmen,1)
 
 
 
@@ -133,7 +133,7 @@ GeplandeActiviteiten = []
 Dagen_Tellen = [0]*7
 
 
-ActiRect_Width = 0.12*screen.get_width()
+ActiRect_Width = 0.18*screen.get_width()
 ActiRect_Height = 0.5*ActiRect_Width
 ActiRect_Gap = 00.003*screen.get_width()
 ActiRects =[]
@@ -287,6 +287,7 @@ for i in range(rows):
 #Beveiligingsscherm-------------------------------------------------------------
 
 
+preMouse = False
 
 #___________________________________________________________________________________________________________________________
 while running:
@@ -303,7 +304,16 @@ while running:
     Mouse_Pos = pygame.mouse.get_pos()
     Mouse = pygame.mouse.get_pressed()
     Time = pygame.time.get_ticks()
-    Mouse_JustPressed= pygame.mouse.get_just_pressed()
+
+    if Mouse[0] and not preMouse:
+        Mouse_JustPressed=True
+        
+    elif Mouse[0] and preMouse:
+        Mouse_JustPressed=False
+    elif not Mouse[0] and preMouse:
+        Mouse_JustPressed=False 
+    
+    preMouse = Mouse[0]
 
     
     
@@ -601,7 +611,7 @@ while running:
 
 
     # Update vorige state
-    Touch_Down_prev = Touch_Down
+  
 
     pygame.display.flip()
 
