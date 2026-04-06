@@ -133,8 +133,8 @@ GeplandeActiviteiten = []
 Dagen_Tellen = [0]*7
 
 
-ActiRect_Width = 0.12*screen.get_width()
-ActiRect_Height = 0.5*ActiRect_Width
+ActiRect_Width = 0.13*screen.get_width()
+ActiRect_Height = 0.8*ActiRect_Width
 ActiRect_Gap = 00.003*screen.get_width()
 ActiRects =[]
 ActiRect_Pos_x=[]
