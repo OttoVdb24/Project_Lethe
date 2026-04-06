@@ -19,7 +19,7 @@ RegularFont = os.path.join(basis,"Fonts","Montserrat-Regular.ttf")
 
 
 Font_Dagen = pygame.font.Font(BlackFont,24)
-Font_Acti = pygame.font.Font(BlackFont,24)
+Font_Acti = pygame.font.Font(BlackFont,20)
 Font_PlanTitel = pygame.font.Font(RegularFont,40)
 Font_PlanKop1 = pygame.font.Font(RegularFont,24)
 Font_PlanKop2 = pygame.font.Font(RegularFont,20)
@@ -133,7 +133,7 @@ GeplandeActiviteiten = []
 Dagen_Tellen = [0]*7
 
 
-ActiRect_Width = 0.18*screen.get_width()
+ActiRect_Width = 0.2*screen.get_width()
 ActiRect_Height = 0.5*ActiRect_Width
 ActiRect_Gap = 00.003*screen.get_width()
 ActiRects =[]
@@ -407,7 +407,6 @@ while running:
             #Bevestigingsknop maken en uitlezen. Ook nieuwe activiteit toevoegen aan geplande activiteiten lijst
             if PlanBevestig_Knop.draw(1,Mouse,Mouse_Pos):   
                 GeplandeActiviteiten.append([len(GeplandeActiviteiten), PlanActiviteit[1],[800],[800],ActieveBenodigdheden,DagRect_collision.index(True),PlanActiviteit[5], PlanActiviteit[6]])
-                print(PlanActiviteit)
                 print(GeplandeActiviteiten)
                 
                 DagRect_collision = [False]*7 #HardCoded, er zullen altijd 7 dagen zijn vriendje :)

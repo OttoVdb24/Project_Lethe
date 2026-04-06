@@ -331,13 +331,11 @@ def Planningsscherm(overlay,planningvlak,PlanRect_Color,PlanRect,Font_PlanTitel,
             pygame.draw.rect(planningvlak,ColorPicker[i],rect,0,5)
             if Mouse_JustPressed and rect.collidepoint(Mouse_Pos):
                 PlanActiviteit[5]=ColorPicker[i]
-                print("Kleur")
         return False, KleurKiezerActive
 
     else:
     
         if PlanExt_knop.draw(1,Mouse,Mouse_Pos,Mouse_JustPressed):
-                print("Tik")
                 return True, False
 
 
