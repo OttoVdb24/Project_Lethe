@@ -1,6 +1,15 @@
 import pygame
+from subprocess import call
 
 
+
+class CallPy(object):
+
+    def __init__(self):
+        pass
+    def call_python_file(self, path):
+        call(["Python3","{}".format(path)])
+    
 
 class Button:
   def __init__ (self,image,surface,X,Y):
@@ -40,18 +49,26 @@ class Button_Rechthoek:
     self.rect = pygame.Rect(self.X,self.Y,self.width,self.height)
     self.buttontext = TextFont.render(text_str,1,textcolor)
     self.pressed = 0
+    self.radius = 10
+    self.GeraaktKleur = pygame.Color(80,80,80,80)
 
   def draw(self,zichtbaar,mouse,mouse_pos):
+    Color = self.color
     self.action = False
     self.zichtbaar = zichtbaar
-    if self.rect.collidepoint(mouse_pos) and mouse[0] and self.pressed ==0:
-      self.pressed=1
+    if self.rect.collidepoint(mouse_pos) and mouse[0]:
+        Color = self.GeraaktKleur
+        if self.pressed ==0:
+            self.pressed=1
+
     elif self.pressed == 1 and mouse[0]==False:
+      
       self.pressed=0
       self.action = True
+    
 
     if self.zichtbaar:
-      pygame.draw.rect(self.surface,self.color,self.rect,self.dikte,10) 
+      pygame.draw.rect(self.surface,Color,self.rect,self.dikte,self.radius) 
       self.surface.blit(self.buttontext,(self.rect.centerx-self.buttontext.get_width()/2,self.rect.centery-self.buttontext.get_height()/2))    
     return self.action
   
@@ -187,6 +204,8 @@ class KlokScroll:
             self.surface.blit(uur_txt, uur_rect)
 
         return self.Txt[(self.Scroll_Index + 2) % len(self.Txt)]
+
+
 
 
 

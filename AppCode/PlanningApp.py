@@ -7,8 +7,6 @@ basis = os.path.dirname(__file__)
 
 pygame.init()
 
-Touch_Down = False
-Touch_Down_prev = False
 Mouse_JustPressed = False
 Actieve_Status = 'Hoofdscherm'
 
@@ -30,7 +28,7 @@ Font_Keyboard = pygame.font.Font(BlackFont,28)
 
 
 info = pygame.display.Info()
-screen = pygame.display.set_mode((info.current_w, info.current_h),pygame.FULLSCREEN)
+screen = pygame.display.set_mode((0.8*info.current_w, 0.8*info.current_h))
 width = screen.get_width()
 height = screen.get_height()
 
