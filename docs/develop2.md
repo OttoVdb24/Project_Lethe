@@ -28,6 +28,7 @@ Op basis van de usability goals bleek dat het ophangsysteem verder onderzocht mo
 <p align="center">
   <img src="../img/vergelijkende matrix ophanhsysteem.png" width="100%">
 </p>
+
 [📃Protocol benchmark onderzoek ](../docs/Protocol%20Benchmark%20ophangsysteem.pdf)
 [📃Rapport benchmark onderzoek ](../docs/Rapport%20Benchmark%20ophangsysteem.pdf)
 
