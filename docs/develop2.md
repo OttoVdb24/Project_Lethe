@@ -53,3 +53,8 @@ Ook voerden we een korte test uit rond het mentaal model van een kapstokhaak. Om
 
 ### App
 Daarnaast werd de verder uitgewerkte app samen met de kinderen en hun ouders opnieuw doorlopen om bijkomende feedback te verzamelen.
+
+## Vormkeuze
+We brachten alle resultaten samen en bepaalden op basis daarvan de vorm waarmee we verdergaan. Het ontwerp wordt zo compact mogelijk gehouden, terwijl het scherm en de handvaten groot genoeg blijven voor comfortabel gebruik.
+
+De afmetingen van de handvaten werden bepaald volgens het principe van design for the tall. We baseerden ons op de handgrootte van een volwassene, zodat zowel ouders als opgroeiende kinderen de kapstok eenvoudig kunnen dragen. Dit resulteerde in een minimale breedte van 94 mm.
