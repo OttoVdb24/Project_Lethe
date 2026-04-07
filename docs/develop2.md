@@ -26,7 +26,7 @@ Op basis van de usability goals bleek dat het ophangsysteem verder onderzocht mo
 -	Verticale dovetail 
 -	Magnetische strip
 <p align="center">
-  <img src="../img/vergelijkende matrix ophangsysteem.png" width="100%">
+  <img src="../img/vergelijkende matrix ophanhsysteem.png" width="100%">
 </p>
 
 ## Task based testing (N=4)
