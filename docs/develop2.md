@@ -48,7 +48,7 @@ Resultaten:
 ### Kapstokhaak
 Ook voerden we een korte test uit rond het mentaal model van een kapstokhaak. Omdat de prototypes geen haakje bevatten, vroegen we de kinderen om er één te tekenen. De tekeningen waren sterk gelijkaardig, wat wijst op een gedeeld mentaal model van hoe een kapstokhaak eruitziet.
 <p align="left">
-  <img src="../img/tekening haakje.png" width="50%">
+  <img src="../img/tekening haakje.png" width="10%">
 </p>
 
 ### App
