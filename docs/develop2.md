@@ -28,6 +28,8 @@ Op basis van de usability goals bleek dat het ophangsysteem verder onderzocht mo
 <p align="center">
   <img src="../img/vergelijkende matrix ophanhsysteem.png" width="100%">
 </p>
+[📃Protocol benchmark onderzoek ](../docs/Protocol%20Benchmark%20ophangsysteem.pdf)
+[📃Rapport benchmark onderzoek ](../docs/Rapport%20Benchmark%20ophangsysteem.pdf)
 
 ## Task based testing (N=4)
 We voerden gebruikerstesten uit bij gezinnen thuis. 
@@ -53,6 +55,9 @@ Ook voerden we een korte test uit rond het mentaal model van een kapstokhaak. Om
 
 ### App
 Daarnaast werd de verder uitgewerkte app samen met de kinderen en hun ouders opnieuw doorlopen om bijkomende feedback te verzamelen.
+
+[📃Protocel task based testing ](../docs/Protocol_ophangsysteem_testing.pdf)
+[📃Rapport task based testing ](../docs/Rapport_ophangsysteel_testing.pdf)
 
 ## Vormkeuze
 We brachten alle resultaten samen en bepaalden op basis daarvan de vorm waarmee we verdergaan. Het ontwerp wordt zo compact mogelijk gehouden, terwijl het scherm en de handvaten groot genoeg blijven voor comfortabel gebruik.
