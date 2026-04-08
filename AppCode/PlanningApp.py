@@ -25,7 +25,7 @@ Font_PlanKop1 = pygame.font.Font(RegularFont,20)
 Font_PlanKop2 = pygame.font.Font(RegularFont,18)
 Font_KnopText = pygame.font.Font(BlackFont,16)
 Font_Klok = pygame.font.Font(RegularFont,20)
-Font_GeplandeActi = pygame.font.Font(BlackFont,18)
+Font_GeplandeActi = pygame.font.Font(BlackFont,16)
 Font_Keyboard = pygame.font.Font(BlackFont,28)
 
 

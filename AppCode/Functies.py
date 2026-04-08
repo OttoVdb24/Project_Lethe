@@ -373,7 +373,7 @@ def AgendaRechthoeken(GeplandeActiviteiten,DagRects,DagRect_Width,planRechthoeke
         symbool = GeplandeActiviteiten[i][7]
         dag = GeplandeActiviteiten[i][5]
         j = Dagen_Tellen[dag]
-        GeplandRect = pygame.Rect(DagRects[GeplandeActiviteiten[i][5]].left, DagRects[0].top + j*(0.5*DagRect_Width + 5) ,DagRect_Width,DagRect_Width*0.5)
+        GeplandRect = pygame.Rect(DagRects[GeplandeActiviteiten[i][5]].left, DagRects[0].top + j*(0.6*DagRect_Width + 5) ,DagRect_Width,DagRect_Width*0.6)
         pygame.draw.rect(planRechthoeken,GeplandeActiviteiten[i][6],GeplandRect,0,10)
         
         Activiteit_Text= Font_GeplandeActi.render(GeplandeActiviteiten[i][1],1,'white')
