@@ -182,7 +182,9 @@ Nadien werden de kinderen nog gevraagd om een activiteit te verwijderen.
 
 *Meer info is te vinden op pagina 8*[📃Rapport task based testing ](../docs/Rapport_ophangsysteel_testing.pdf)
 <p align="left">
-  <img src="../img/Develop2_AppTest.jpeg" width="50%">
+  <img src="../img/Develop2_AppTest.jpeg" width="49%">
+    <img src="../img/PlanningApp_Gepland_Nieuw.png" width="50%">
+
 
 </p>
 
@@ -191,7 +193,8 @@ Nadien werden de kinderen nog gevraagd om een activiteit te verwijderen.
 ### Kapstokhaak
 Aanvullend werd een korte test uitgevoerd met betrekking tot het mentale model van kinderen omtrent een kapstokhaak. De prototypes bevatte geen haakje, er werd gevraagd aan de kinderen om er zelf één te tekenen. De resulterende tekeningen vertoonden een sterke onderlinge gelijkenis, wat duidt op een gedeeld mentaal model van de visuele representatie van een kapstokhaak.
 <p align="left">
-  <img src="../img/PlanningApp_Gepland_Nieuw.png" width="80%">
+  <img src="../img/tekening haakje.png" width="10%">
+
 </p>
 
 ## Vormkeuze
