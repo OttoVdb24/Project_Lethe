@@ -8,7 +8,7 @@ class CallPy(object):
     def __init__(self):
         pass
     def call_python_file(self, path):
-        call(["Python3","{}".format(path)])
+        call(["python3","{}".format(path)])
     
 
 class Button:
