@@ -283,7 +283,7 @@ def OnderkantFunctie(screen, ondervlak,DagRect_Width,DagRect_Gap,DagRect_Height,
 
 def Planningsscherm(overlay,planningvlak,PlanRect_Color,PlanRect,Font_PlanTitel,PlanRect_TitelColor,PlanRect1,Font_PlanKop1,Font_PlanKop2,PlanRect2_1,
                           PlanRect2_2,PlanRect3,Mouse,Mouse_Pos,Mouse_JustPressed,PlanBox1,PlanActiviteit,Text_dict, Time,HighLightRect,Klok1_U,Klok1_M ,
-                          HighlightRect2,Klok2_U,Klok2_M,klokvlak,KleurRects, KleurKiezerActive,KleurkiezerRect, PlanExt_knop):
+                          HighlightRect2,Klok2_U,Klok2_M,klokvlak,KleurRects, KleurKiezerActive,KleurkiezerRect, PlanExt_knop,Kleur_kiezerButton):
    
 # Plannings window maken
 
@@ -302,8 +302,7 @@ def Planningsscherm(overlay,planningvlak,PlanRect_Color,PlanRect,Font_PlanTitel,
     # Tussenlijn
     pygame.draw.line(planningvlak,(200,200,200),(PlanRect.left+1,PlanRect1.bottom),(PlanRect.right-1,PlanRect1.bottom),1)
 
-    Kleur_kiezerButton = pygame.Rect(PlanRect3.left, PlanRect1.centery-30,60,60)
-    pygame.draw.rect(planningvlak,PlanActiviteit[5],Kleur_kiezerButton,0,20)
+    pygame.draw.rect(planningvlak,PlanActiviteit[5],Kleur_kiezerButton,0,int (Kleur_kiezerButton.width*0.2))
     Kleurkies_Txt = Font_PlanKop2.render("Andere kleur",1,PlanRect_TitelColor)
     Kleurkies_TxtRect = pygame.Rect(Kleur_kiezerButton.left,Kleur_kiezerButton.top, Kleur_kiezerButton.width+Kleurkies_Txt.width+15,Kleur_kiezerButton.height)
     planningvlak.blit(Kleurkies_Txt,(Kleur_kiezerButton.right+10,PlanRect1.centery-Kleurkies_Txt.get_height()/2))
@@ -357,8 +356,7 @@ def Planningsscherm(overlay,planningvlak,PlanRect_Color,PlanRect,Font_PlanTitel,
     
         if PlanExt_knop.draw(1,Mouse,Mouse_Pos,Mouse_JustPressed):
                 return True, False
-    pygame.draw.rect(planningvlak,'red',PlanRect2_1,1)
-    pygame.draw.rect(planningvlak,'red',PlanRect2_2,1)
+   
 
 
 

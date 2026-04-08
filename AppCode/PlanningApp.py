@@ -251,6 +251,8 @@ Klok2_U = KlokScroll(planningvlak,0,HighlightRect2,50,20,20,Font_Klok)
 Klok2_M = KlokScroll(planningvlak,1,HighlightRect2,50,20,20,Font_Klok)
 
 #Kleur kiezer_______________________________________________________________________________________________________________
+Kleur_kiezerButton = pygame.Rect(PlanRect3.left, PlanExt_knop.rect.top,Exit_img.width,Exit_img.height)
+
 KleurKiezerActive = False
 
 KleurKiezerRect_width = 0.9*PlanRect3_1.width
@@ -395,7 +397,7 @@ while running:
         PlanExt_knop_b, KleurKiezerActive = Planningsscherm(overlay,planningvlak,PlanRect_Color,PlanRect,Font_PlanTitel,PlanRect_TitelColor,PlanRect1,Font_PlanKop1,Font_PlanKop2,PlanRect2_1,
                                                 PlanRect2_2,PlanRect3,Mouse,Mouse_Pos,Mouse_JustPressed,PlanBox1,PlanActiviteit,
                                                 Text_dict,Time,HighlightRect1,Klok1_U,Klok1_M,HighlightRect2,Klok2_U,Klok2_M,klokvlak, 
-                                                KleurRects, KleurKiezerActive,KleurkiezerRect,PlanExt_knop)
+                                                KleurRects, KleurKiezerActive,KleurkiezerRect,PlanExt_knop,Kleur_kiezerButton)
 
 
 
