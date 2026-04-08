@@ -172,7 +172,7 @@ class KlokScroll:
 
 
         for i in range(-2,3):
-            text_rect = pygame.Rect(self.X, HighlightRect.top+i*(self.TextRect_Height+10)+ self.Yoffset[i]*self.TextRect_Height, self.TextRect_Width, self.TextRect_Height)
+            text_rect = pygame.Rect(self.X, HighlightRect.top+i*(self.TextRect_Height+5)+ self.Yoffset[i]*self.TextRect_Height, self.TextRect_Width, self.TextRect_Height)
             self.TextRects.append(text_rect)
         self.ScrollRect = pygame.Rect(self.TextRects[0].left-ScrollOffset/2, self.TextRects[0].top-ScrollOffset/2, self.TextRect_Width+ScrollOffset, (self.TextRects[len(self.TextRects)-1].bottom +ScrollOffset/2) -(self.TextRects[0].top-ScrollOffset/2))
                 

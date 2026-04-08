@@ -24,7 +24,7 @@ Font_PlanTitel = pygame.font.Font(RegularFont,30)
 Font_PlanKop1 = pygame.font.Font(RegularFont,20)
 Font_PlanKop2 = pygame.font.Font(RegularFont,18)
 Font_KnopText = pygame.font.Font(BlackFont,16)
-Font_Klok = pygame.font.Font(RegularFont,24)
+Font_Klok = pygame.font.Font(RegularFont,20)
 Font_GeplandeActi = pygame.font.Font(BlackFont,18)
 Font_Keyboard = pygame.font.Font(BlackFont,28)
 
@@ -51,7 +51,7 @@ overlay.fill((0, 0, 0))  # zwarte overlay
 GraphicsMap = os.path.join(basis,"Graphics")
 
 Exit_img = pygame.image.load(os.path.join(GraphicsMap,"Exit_teken.png")).convert_alpha()
-Exit_img = pygame.transform.scale_by(Exit_img, 0.035)
+Exit_img = pygame.transform.scale_by(Exit_img, 0.03)
 Voetbalveld_img = pygame.image.load(os.path.join(GraphicsMap,"Voetbalveld_Vooraanzicht.png")).convert()
 Voetbalveld_img = pygame.transform.scale(Voetbalveld_img,(screen.get_width(), screen.get_height()))
 Ballet_img = pygame.image.load(os.path.join(GraphicsMap,"Balletzaal.png")).convert()
@@ -166,13 +166,13 @@ ActiRect_StartPos_Y = ActiRect_Pos_y.copy()
 
 #Planningsscherm variabele________________________________________________________________________________________________
 
-PlanRect_Width = 0.6*screen.get_width()
+PlanRect_Width = 0.7*screen.get_width()
 PlanRect_Height = 0.85*screen.get_height()
 PlanRect_Color = Achtergrond_kleur
 PlanRect_TitelColor = (20,20,20)
 PlanExt_knop = Button(Exit_img,planningvlak,(screen.get_width()/2+PlanRect_Width/2-Exit_img.get_width())-20,screen.get_height()-PlanRect_Height+20)
 PlanExt_knop_b = False
-PlanKop_Offset = 20
+PlanKop_Offset = 15
 
 PlanRect = pygame.Rect(screen.get_width()/2-PlanRect_Width/2,screen.get_height()-PlanRect_Height,PlanRect_Width,PlanRect_Height)
 Plan_Linkerrand = PlanRect.left+20 
@@ -181,7 +181,7 @@ PlanningLoop = False
 #Hulp rechthoeken
 PlanRect1 = pygame.Rect(Plan_Linkerrand,PlanRect.top,2*(PlanRect.centerx-Plan_Linkerrand),90)
 #pygame.draw.rect(planningvlak,('black'),PlanRect1)
-PlanRect2 = pygame.Rect(Plan_Linkerrand,PlanRect1.bottom+PlanKop_Offset,1*(PlanRect.centerx-Plan_Linkerrand),(height-(PlanRect1.bottom+PlanKop_Offset))*0.9)
+PlanRect2 = pygame.Rect(Plan_Linkerrand,PlanRect1.bottom+PlanKop_Offset,1*(PlanRect.centerx-Plan_Linkerrand),(height-(PlanRect1.bottom+PlanKop_Offset)))
 #pygame.draw.rect(planningvlak,('red'),PlanRect2)
 PlanRect2_1 = pygame.Rect(Plan_Linkerrand,PlanRect2.top,PlanRect2.width,PlanRect2.height/2)
 #pygame.draw.rect(planningvlak,('green'),PlanRect2_1)
@@ -232,19 +232,19 @@ Keyboard_Klaar = Button_Rechthoek(0.1*width,TextRect.height,0,Bevestig_kleur,key
 Keyboard_Annuleer = Button_Rechthoek(0.1*width,TextRect.height,0,Annuleer_kleur,keyboardvlak,TextRect.left-0.1*width,TextRect.top,Font_KnopText,TekstKleur_licht,"Annuleer")
 
 #Klok Scroll____________________________________________________________________________________________________________________________
-HighlightRect_width = PlanRect2_1.width
+HighlightRect_width = PlanRect2.width*0.65
 HighlightRect_height = PlanRect2_1.height*0.15
 
 
-HighlightRect1 = pygame.Rect(1.1*PlanRect2_1.left, PlanRect2_1.centery-HighlightRect_height/2,
-                             HighlightRect_width*0.45,HighlightRect_height)
+HighlightRect1 = pygame.Rect(1.1*PlanRect2_1.left, PlanRect2_1.centery-HighlightRect_height*0,
+                             HighlightRect_width,HighlightRect_height)
 
 
 Klok1_U = KlokScroll(planningvlak,0,HighlightRect1,50,20,20,Font_Klok)
 Klok1_M = KlokScroll(planningvlak,1,HighlightRect1,50,20,20,Font_Klok)
 
-HighlightRect2 = pygame.Rect(1.1*PlanRect2_2.left, PlanRect2_2.centery-HighlightRect_height/2,
-                             HighlightRect_width*0.45,HighlightRect_height)
+HighlightRect2 = pygame.Rect(1.1*PlanRect2_2.left, PlanRect2_2.centery-HighlightRect_height*0,
+                             HighlightRect_width,HighlightRect_height)
 
 
 Klok2_U = KlokScroll(planningvlak,0,HighlightRect2,50,20,20,Font_Klok)
