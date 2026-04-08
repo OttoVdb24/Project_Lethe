@@ -42,7 +42,7 @@ De gehanteerde boundary conditions zijn:
 7. [Bill of materials](./docs/bom.md)
 
 ## Kritische reflectie
-De samenwerking binnen het team verliep over het algemeen goed, doordat de taken duidelijk werden verdeeld op basis van ieders sterke punten. Aan het begin van het semester hebben we gezamenlijk een planning opgesteld, waarin werd vastgelegd wanneer de verschillende onderdelen van de opdracht idealiter afgerond zouden zijn. Dit gaf ons vanaf het begin een helder overzicht van het project over het semester.
+De samenwerking binnen het team verliep over het algemeen goed, doordat de taken duidelijk werden verdeeld op basis van ieders sterke punten. Aan het begin van het semester hebben we gezamenlijk een planning opgesteld, waarin werd vastgelegd wanneer de verschillende onderdelen van de opdracht idealiter afgerond zouden zijn. Dit gaf ons vanaf het begin een helder overzicht van het project.
 
 Tijdens het project kwamen we minimaal één keer per week buiten de lessen samen, meestal in de vorm van een weekly sync. Wanneer er minder te bespreken was, verliep de afstemming informeler, bijvoorbeeld tijdens vervoer naar gebruikerstesten. 
 
@@ -50,6 +50,8 @@ De taken werden steeds in overleg verdeeld en er deden zich geen grote problemen
 
 Het prototypen van onze testprototypes deden we grotendeels samen. Dit proces verliep efficiënt, omdat we direct konden overleggen en beslissingen konden nemen, waardoor er weinig tijd verloren ging.
 Uit dit project nemen we mee dat een duidelijke planning in combinatie met regelmatige afstemming goed werkt binnen een klein team. Daarnaast hebben we geleerd dat het belangrijk is om zo vroeg mogelijk te beginnen met het zoeken naar respondenten voor testen.
+
+Door de oproep was er een pool van gebruikers ontstaan. Hierdoor werd het mogelijk om testen uit te voeren bij gebruikers die het product al kenden en gebruikers die een verse blik hadden op het geheel.
 
 
 ## Noot inzake het gebruik van AI
