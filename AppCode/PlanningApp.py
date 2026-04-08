@@ -1,7 +1,9 @@
 import pygame
 from Functies import *
 import os
+import sys
 
+print(sys.platform)
 basis = os.path.dirname(__file__)
 
 
