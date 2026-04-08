@@ -175,11 +175,11 @@ PlanningLoop = False
 #Hulp rechthoeken
 PlanRect1 = pygame.Rect(Plan_Linkerrand,PlanRect.top,2*(PlanRect.centerx-Plan_Linkerrand),90)
 #pygame.draw.rect(planningvlak,('black'),PlanRect1)
-PlanRect2 = pygame.Rect(Plan_Linkerrand,PlanRect1.bottom+PlanKop_Offset,1*(PlanRect.centerx-Plan_Linkerrand),0.65*PlanRect.height)
+PlanRect2 = pygame.Rect(Plan_Linkerrand,PlanRect1.bottom+PlanKop_Offset,1*(PlanRect.centerx-Plan_Linkerrand),(height-(PlanRect1.bottom+PlanKop_Offset))*0.9)
 #pygame.draw.rect(planningvlak,('red'),PlanRect2)
-PlanRect2_1 = pygame.Rect(Plan_Linkerrand,PlanRect2.top,PlanRect2.width,240)
+PlanRect2_1 = pygame.Rect(Plan_Linkerrand,PlanRect2.top,PlanRect2.width,PlanRect2.height/2)
 #pygame.draw.rect(planningvlak,('green'),PlanRect2_1)
-PlanRect2_2 = pygame.Rect(Plan_Linkerrand,PlanRect2.bottom-240,PlanRect2.width,240)
+PlanRect2_2 = pygame.Rect(Plan_Linkerrand,PlanRect2.centery,PlanRect2.width,PlanRect2.height/2)
 #pygame.draw.rect(planningvlak,('blue'),PlanRect2_2)
 
 PlanRect3 = pygame.Rect(PlanRect.centerx+20,PlanRect2.top,(PlanRect.centerx-Plan_Linkerrand),280)
@@ -227,17 +227,17 @@ Keyboard_Annuleer = Button_Rechthoek(0.1*width,TextRect.height,0,Annuleer_kleur,
 
 #Klok Scroll____________________________________________________________________________________________________________________________
 HighlightRect_width = PlanRect2_1.width
-HighlightRect_height = PlanRect2_1.height*0.2
+HighlightRect_height = PlanRect2_1.height*0.15
 
 
-HighlightRect1 = pygame.Rect(1.1*PlanRect2_1.left, PlanRect2_1.centery+HighlightRect_height,
+HighlightRect1 = pygame.Rect(1.1*PlanRect2_1.left, PlanRect2_1.centery-HighlightRect_height/2,
                              HighlightRect_width*0.45,HighlightRect_height)
 
 
 Klok1_U = KlokScroll(planningvlak,0,HighlightRect1,50,20,20,Font_Klok)
 Klok1_M = KlokScroll(planningvlak,1,HighlightRect1,50,20,20,Font_Klok)
 
-HighlightRect2 = pygame.Rect(1.1*PlanRect2_2.left, PlanRect2_2.centery+HighlightRect_height,
+HighlightRect2 = pygame.Rect(1.1*PlanRect2_2.left, PlanRect2_2.centery-HighlightRect_height/2,
                              HighlightRect_width*0.45,HighlightRect_height)
 
 

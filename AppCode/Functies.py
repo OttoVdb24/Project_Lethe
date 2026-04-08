@@ -302,14 +302,15 @@ def Planningsscherm(overlay,planningvlak,PlanRect_Color,PlanRect,Font_PlanTitel,
     # Tussenlijn
     pygame.draw.line(planningvlak,(200,200,200),(PlanRect.left+1,PlanRect1.bottom),(PlanRect.right-1,PlanRect1.bottom),1)
 
-    Kleur_kiezerRect = pygame.Rect(PlanRect3.left, PlanRect1.centery-30,60,60)
-    pygame.draw.rect(planningvlak,PlanActiviteit[5],Kleur_kiezerRect,0,20)
-    Kleurkies_Txt = Font_PlanKop2.render("Klik op het vierkantje voor een andere kleur",1,PlanRect_TitelColor)
-    planningvlak.blit(Kleurkies_Txt,(Kleur_kiezerRect.right+10,PlanRect1.centery-Kleurkies_Txt.get_height()/2))
-        
-    if (Mouse_JustPressed and Kleur_kiezerRect.collidepoint(Mouse_Pos)):
+    Kleur_kiezerButton = pygame.Rect(PlanRect3.left, PlanRect1.centery-30,60,60)
+    pygame.draw.rect(planningvlak,PlanActiviteit[5],Kleur_kiezerButton,0,20)
+    Kleurkies_Txt = Font_PlanKop2.render("Andere kleur",1,PlanRect_TitelColor)
+    Kleurkies_TxtRect = pygame.Rect(Kleur_kiezerButton.left,Kleur_kiezerButton.top, Kleur_kiezerButton.width+Kleurkies_Txt.width+15,Kleur_kiezerButton.height)
+    planningvlak.blit(Kleurkies_Txt,(Kleur_kiezerButton.right+10,PlanRect1.centery-Kleurkies_Txt.get_height()/2))
+    
+    if (Mouse_JustPressed and Kleurkies_TxtRect.collidepoint(Mouse_Pos)): #grote overkoepelende rechthoek rond text
         KleurKiezerActive= True
-    elif Mouse_JustPressed and not KleurkiezerRect.collidepoint(Mouse_Pos):
+    elif Mouse_JustPressed and not KleurkiezerRect.collidepoint(Mouse_Pos) :
         KleurKiezerActive = False
     
 
@@ -356,6 +357,9 @@ def Planningsscherm(overlay,planningvlak,PlanRect_Color,PlanRect,Font_PlanTitel,
     
         if PlanExt_knop.draw(1,Mouse,Mouse_Pos,Mouse_JustPressed):
                 return True, False
+    pygame.draw.rect(planningvlak,'red',PlanRect2_1,1)
+    pygame.draw.rect(planningvlak,'red',PlanRect2_2,1)
+
 
 
 
