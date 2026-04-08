@@ -181,7 +181,10 @@ Nadien werden de kinderen nog gevraagd om een activiteit te verwijderen.
 - De annuleer knop bij het planningmaken werd per ongeluk getriggerd terwijl de klok werd ingesteld.
 
 *Meer info is te vinden op pagina 8*[📃Rapport task based testing ](../docs/Rapport_ophangsysteel_testing.pdf)
+<p align="left">
+  <img src="../img/Develop2_AppTest.jpeg" width="50%">
 
+</p>
 
 
 
