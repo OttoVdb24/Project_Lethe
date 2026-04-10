@@ -92,16 +92,12 @@ De inhoudelijke keuzes zijn steeds door het team bepaald.
   * [Rapport](./reports%20and%20protocols/Rapport_enchmarktesting.pdf)
 
 ### Develop 2
-* [storyboard](./img/storyboard.png)
-* Literatuur onderzoek pedagogie
-  * [Rapport](./docs/Literatuuronderzoek_pedagogie.md)
-* Expert interview `Lize Dierickx Ugent`
-  * [Protocol](./reports%20and%20protocols/Protocol_expert%20interview.pdf)
-  * [Rapport](./reports%20and%20protocols/Rapport_expert%20interview.pdf)
-* Task based benchmark testing (N=4)
-  * [App Analyse](./docs/Analyse_Planningsapps.pdf)
-  * [Protocol](./reports%20and%20protocols/Protocol_Benchmark_testing.pdf)
-  * [Rapport](./reports%20and%20protocols/Rapport_enchmarktesting.pdf)
+* Benchmark onderzoek verbindingssystemen (N=10)
+  * [Protocol](./docs/Protocol%20Benchmark%20ophangsysteem.pdf)
+  * [Rapport](./docs/Rapport%20Benchmark%20ophangsysteem.pdf)
+* Task based testing (N=4)
+  * [Protocol](./reports%20and%20protocols/Protocol_ophangsysteem_testing.pdf)
+  * [Rapport](./reports%20and%20protocols/Rapport_ophangsysteel_testing.pdf)
 
 
 ## Licentie
