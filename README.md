@@ -93,8 +93,8 @@ De inhoudelijke keuzes zijn steeds door het team bepaald.
 
 ### Develop 2
 * Benchmark onderzoek verbindingssystemen (N=10)
-  * [Protocol](./docs/Protocol%20Benchmark%20ophangsysteem.pdf)
-  * [Rapport](./docs/Rapport%20Benchmark%20ophangsysteem.pdf)
+  * [Protocol](./reports%20and%20protocols/Protocol%20Benchmark%20ophangsysteem.pdf)
+  * [Rapport](./reports%20and%20protocols/Rapport%20Benchmark%20ophangsysteem.pdf)
 * Task based testing (N=4)
   * [Protocol](./reports%20and%20protocols/Protocol_ophangsysteem_testing.pdf)
   * [Rapport](./reports%20and%20protocols/Rapport_ophangsysteel_testing.pdf)

@@ -139,15 +139,15 @@ Op basis van de usability goals bleek dat het ophangsysteem verder onderzocht mo
 
 </table>
 
-[📃Protocol benchmark onderzoek ](../docs/reports%20and%20protocols/Protocol%20Benchmark%20ophangsysteem.pdf)
-[📃Rapport benchmark onderzoek ](../docs/reports%20and%20protocols/Rapport%20Benchmark%20ophangsysteem.pdf)
+[📃Protocol benchmark onderzoek ](../reports%20and%20protocols/Protocol%20Benchmark%20ophangsysteem.pdf)
+[📃Rapport benchmark onderzoek ](../reports%20and%20protocols/Rapport%20Benchmark%20ophangsysteem.pdf)
 ## Task based testing (N=4)
 Gebruikerstesten werden uitgevoerd bij twee gezinnen thuis. De test had drie grote delen:
 - Ergonomie testen van het bevestigen van de kapstok
 - Usability testen van de planningsapp
 - Cocreatie van de kapstok haak
 
-[📃Protocel task based testing ](/reports%20and%20protocols/Protocol_ophangsysteem_testing.pdf)
+[📃Protocel task based testing ](../reports%20and%20protocols/Protocol_ophangsysteem_testing.pdf)
 [📃Rapport task based testing ](../reports%20and%20protocols/Rapport_ophangsysteel_testing.pdf) 
 
 ### Bevestigingssysteem, hadnvaten en grootte
@@ -179,7 +179,7 @@ Nadien werden de kinderen nog gevraagd om een activiteit te verwijderen.
 - Het slepen van de activiteiten werd niet getriggerd
 - De annuleer knop bij het planningmaken werd per ongeluk getriggerd terwijl de klok werd ingesteld.
 
-*Meer info is te vinden op pagina 8*[📃Rapport task based testing ](../docs/Rapport_ophangsysteel_testing.pdf)
+*Meer info is te vinden op pagina 8*[📃Rapport task based testing ](../reports%20and%20protocols/Rapport_ophangsysteel_testing.pdf)
 <p align="left">
   <img src="../img/Develop2_AppTest.jpeg" width="49%">
     <img src="../img/PlanningApp_Gepland_Nieuw.png" width="50%">
