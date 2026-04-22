@@ -307,40 +307,42 @@ def Planningsscherm(overlay,planningvlak,PlanRect_Color,PlanRect,Font_PlanTitel,
     Kleurkies_TxtRect = pygame.Rect(Kleur_kiezerButton.left,Kleur_kiezerButton.top, Kleur_kiezerButton.width+Kleurkies_Txt.width+15,Kleur_kiezerButton.height)
     planningvlak.blit(Kleurkies_Txt,(Kleur_kiezerButton.right+10,PlanRect1.centery-Kleurkies_Txt.get_height()/2))
     
-    if (Mouse_JustPressed and Kleurkies_TxtRect.collidepoint(Mouse_Pos)): #grote overkoepelende rechthoek rond text
-        KleurKiezerActive= True
-    elif Mouse_JustPressed and not KleurkiezerRect.collidepoint(Mouse_Pos) :
-        KleurKiezerActive = False
+    if not Text_dict["PlanText_Active"]:
+        if (Mouse_JustPressed and Kleurkies_TxtRect.collidepoint(Mouse_Pos)): #grote overkoepelende rechthoek rond text
+            KleurKiezerActive= True
+        elif Mouse_JustPressed and not KleurkiezerRect.collidepoint(Mouse_Pos) :
+            KleurKiezerActive = False
     
 
 
 
 
 
+    if not Text_dict["PlanText_Active"]:
+        # Tijd instellen tekst
+        PlanKop2 = Font_PlanKop1.render("Vertrekken om:",1,(40,40,40))
+        planningvlak.blit(PlanKop2,(PlanRect2_1.left,PlanRect2_1.top))
+        HighLightRectColor = PlanActiviteit[5]
+        pygame.draw.rect(klokvlak,HighLightRectColor,HighLightRect,0,20)
+        Klok1_Uur = Klok1_U.draw(Mouse_JustPressed,Mouse,Mouse_Pos)
+        Klok1_Min = Klok1_M.draw(Mouse_JustPressed,Mouse,Mouse_Pos)
 
-    # Tijd instellen tekst
-    PlanKop2 = Font_PlanKop1.render("Vertrekken om:",1,(40,40,40))
-    planningvlak.blit(PlanKop2,(PlanRect2_1.left,PlanRect2_1.top))
-    HighLightRectColor = PlanActiviteit[5]
-    pygame.draw.rect(klokvlak,HighLightRectColor,HighLightRect,0,20)
-    Klok1_Uur = Klok1_U.draw(Mouse_JustPressed,Mouse,Mouse_Pos)
-    Klok1_Min = Klok1_M.draw(Mouse_JustPressed,Mouse,Mouse_Pos)
+
+        
+        PlanKop2 = Font_PlanKop1.render("Tas klaarmaken om:",1,(40,40,40))        
+        planningvlak.blit(PlanKop2,(PlanRect2_2.left,PlanRect2_2.top))
+        pygame.draw.rect(klokvlak,HighLightRectColor,HighlightRect2,0,20)
+        Klok2_Uur = Klok2_U.draw(Mouse_JustPressed,Mouse,Mouse_Pos)
+        Klok2_Min = Klok2_M.draw(Mouse_JustPressed,Mouse,Mouse_Pos)
+
+
+        PlanKop1 = Font_PlanKop1.render("Wat moet er in de zak?",1,(40,40,40))
+        planningvlak.blit(PlanKop1,(PlanRect3.left,PlanRect3.top))
 
 
     
-    PlanKop2 = Font_PlanKop1.render("Tas klaarmaken om:",1,(40,40,40))        
-    planningvlak.blit(PlanKop2,(PlanRect2_2.left,PlanRect2_2.top))
-    pygame.draw.rect(klokvlak,HighLightRectColor,HighlightRect2,0,20)
-    Klok2_Uur = Klok2_U.draw(Mouse_JustPressed,Mouse,Mouse_Pos)
-    Klok2_Min = Klok2_M.draw(Mouse_JustPressed,Mouse,Mouse_Pos)
+    if not KleurKiezerActive and not Text_dict["PlanText_Active"]:
 
-
-    PlanKop1 = Font_PlanKop1.render("Wat moet er in de zak?",1,(40,40,40))
-    planningvlak.blit(PlanKop1,(PlanRect3.left,PlanRect3.top))
-
-
-    
-    if not KleurKiezerActive:
         PlanBox1.draw(Font_PlanKop2,1,PlanActiviteit[4],Mouse_JustPressed,Mouse_Pos,len(PlanActiviteit[4]),Text_dict,Time)
 
     if KleurKiezerActive:

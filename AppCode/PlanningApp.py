@@ -385,12 +385,14 @@ while running:
         if not PlanningLoop:
             PlanningLoop = True
             PlanBox1.Actief = [False]*len(PlanActiviteit[4])
-        
-        if PlanExt_knop_b and not KleurKiezerActive: 
-            DagRect_collision = [False]*7 #HardCoded, er zullen altijd 7 dagen zijn vriendje :)
-            overlay.set_alpha(0)
-            PlanningLoop = False
-            Actieve_Status = "Hoofdscherm"
+
+
+        if not Text_dict["PlanText_Active"]:
+            if PlanExt_knop_b and not KleurKiezerActive: 
+                DagRect_collision = [False]*7 #HardCoded, er zullen altijd 7 dagen zijn vriendje :)
+                overlay.set_alpha(0)
+                PlanningLoop = False
+                Actieve_Status = "Hoofdscherm"
 
 
 
@@ -456,7 +458,9 @@ while running:
 
     if Agenda_lst[0] and Actieve_Status =="Hoofdscherm":
         Actieve_Status ="BeveiligingScherm"
-
+        print("delete")
+    else:
+        Agenda_lst = [False, 0]
 
 
         
