@@ -56,7 +56,7 @@ overlay.set_alpha(60)
 
 
 #StartKnoppen___________________________________________
-Knop_Titels = ["Overzicht", "Zak maken", "Planning maken",]
+Knop_Titels = ["Week overzicht", "Zak maken", "Planning maken",]
 Knop_width = width/(len(Knop_Titels)+1)
 Knop_height = 0.5*Knop_width
 Knop_gap = 0.01*width

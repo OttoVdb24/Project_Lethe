@@ -463,6 +463,12 @@ while running:
         Agenda_lst = [False, 0]
 
 
+    if Actieve_Status=="Hoofdscherm":
+        AlgemeneExt_knop = Button(Exit_img,bovenvlak,(screen.get_width()-1.3*Exit_img.get_width()),0.3*Exit_img.get_height())
+        if AlgemeneExt_knop.draw(1,Mouse,Mouse_Pos,Mouse_JustPressed):
+            running = False
+    
+
         
    
 
