@@ -198,9 +198,8 @@ Aanvullend werd een korte test uitgevoerd met betrekking tot het mentale model v
 
 ## Vormkeuze
 Alle resultaten werden samengebracht en dienden als basis voor de selectie van de vorm waarmee verder wordt gegaan. Het ontwerp wordt zo compact mogelijk gehouden, waarbij het scherm en de handvaten voldoende groot blijven voor comfortabel gebruik.
-De afmetingen van de handvaten werden bepaald aan de hand van het principe **design for the tall**. Als referentiemaat werd de handgrootte van een volwassene gehanteerd, zodat zowel ouders als opgroeiende kinderen de kapstok zonder moeite kunnen dragen. Dit resulteerde in een minimale **hoogte van 94 mm.**
+De afmetingen van de handvaten werden bepaald aan de hand van het principe **design for the tall**. Als referentiemaat werd de handgrootte van een volwassene gehanteerd, zodat zowel ouders als opgroeiende kinderen de kapstok zonder moeite kunnen dragen. Dit resulteerde in een minimale **hoogte van 99 mm.**
 
-*Ik moet de foto nog annoteren het komt er aan hahah*
 
 <p align="left">
   <img src="../img/Develop2_RenderAnnotatie.jpg" width="80%">
