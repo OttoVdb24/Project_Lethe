@@ -1,9 +1,15 @@
 # Example file showing a basic pygame "game loop"
 import pygame
+import sys
 
 # pygame setup
 pygame.init()
-screen = pygame.display.set_mode((1280, 720))
+
+info = pygame.display.Info()
+if sys.platform == "linux":
+    screen = pygame.display.set_mode((info.current_w, info.current_h), pygame.FULLSCREEN)
+else:
+    screen = pygame.display.set_mode((0.8*info.current_w, 0.8*info.current_h))
 width = screen.get_width()
 height = screen.get_height()
 screenRec = pygame.Rect(0,0,width,height)

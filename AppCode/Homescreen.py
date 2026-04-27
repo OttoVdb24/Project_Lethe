@@ -4,13 +4,21 @@ from Functies import *
 from subprocess import call
 pygame.init()
 import os
+import sys
+
 
 
 basis = os.path.dirname(__file__)
 c =CallPy()
 
 info = pygame.display.Info()
-screen = pygame.display.set_mode((0.8*info.current_w, 0.8*info.current_h))
+
+
+if sys.platform == "linux":
+    screen = pygame.display.set_mode((info.current_w, info.current_h), pygame.FULLSCREEN)
+else:
+    screen = pygame.display.set_mode((0.8*info.current_w, 0.8*info.current_h))
+
 width = screen.get_width()
 height = screen.get_height()
 screenRect = pygame.Rect(0,0,width,height)
