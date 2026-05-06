@@ -1,7 +1,7 @@
 import pygame
 from subprocess import call
 import math
-
+import os
 
 
 class CallPy(object):
@@ -76,10 +76,10 @@ class Button_Rechthoek:
 class symboolButton:
     def __init__(self, symbool, titel, surface, X,Y, width, height, font,color):
         self.symbool = symbool
-        self.color = color
         self.surface = surface
         self.X = X
         self.Y = Y
+        
         self.ButtonRect = pygame.Rect(X,Y,width, height)
         symboolRect_Width = 0.5*width
         #self.symbool.set_colorkey((255,255,255))
@@ -90,13 +90,12 @@ class symboolButton:
         self.Klaar= False    #Wordt hoog wanneer het item is toegevoed aan de zak
         self.titel = font.render(titel,1,(255,255,255))
     
-    def draw(self, mouse_pos, mouse_justpressed):
+    def draw(self, mouse_pos, mouse_justpressed,color):
         
-        pygame.draw.rect(self.surface,self.color,self.ButtonRect,0,20)
+        pygame.draw.rect(self.surface,color,self.ButtonRect,0,20)
         self.surface.blits([(self.symbool,(self.SymboolRect.topleft)),(self.titel,(self.SymboolRect.centerx-self.titel.width/2,self.ButtonRect.bottom-1.1*self.titel.height))])
         
         if mouse_justpressed and self.ButtonRect.collidepoint(mouse_pos):
-            print('Yes')
             return True
         else:
             return False
@@ -234,8 +233,42 @@ class KlokScroll:
 
         return self.Txt[(self.Scroll_Index + 2) % len(self.Txt)]
 
+class LottieAnimatie:
+    def __init__(self, frames_map, fps=30):
+        self.frames = frames_map      # lijst van pygame Surfaces
+        self.fps = fps
+        self.huidig_frame = 0
+        self.actief = False
+        self.timer = 0
 
+    def start(self):
+        self.actief = True
+        self.huidig_frame = 0
+        self.timer = 0
 
+    def update(self, dt):
+        if not self.actief:
+            return
+        self.timer += dt
+        if self.timer >= 1000 / self.fps:
+            self.timer = 0
+            self.huidig_frame += 1
+            if self.huidig_frame >= len(self.frames):
+                self.actief = False  # animatie klaar
+                self.huidig_frame = len(self.frames) - 1
+
+    def draw(self, scherm, x, y):
+        if self.actief:
+            scherm.blit(self.frames[self.huidig_frame], (x-self.frames[self.huidig_frame].width/2, y-self.frames[self.huidig_frame].height/2))
+
+def laad_frames(map_pad):
+    frames = []
+    bestanden = sorted(os.listdir(map_pad))
+    for bestand in bestanden:
+        if bestand.endswith(".gif"):
+            img = pygame.image.load(os.path.join(map_pad, bestand)).convert_alpha()
+            frames.append(img)
+    return frames
 
 
 

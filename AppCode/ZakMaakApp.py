@@ -3,8 +3,7 @@ import pygame
 import sys
 import os
 from Functies import *
-import math
-
+import time
 basis = os.path.dirname(__file__)
 
 # pygame setup________________________________________________________________________________
@@ -75,7 +74,7 @@ Annuleer_kleur = pygame.Color(120,120,120,60)
 Bevestig_kleur = pygame.Color(180,220,180)
 achtergrondKleur = pygame.Color(188,229,255)
 buttonKleur = pygame.Color(10,10,10,20)
-
+Fout_kleur = pygame.Color(241,98,113)
 Overlay_alpha = 100
 TekstKleur_licht = pygame.Color(255,255,255)
 TekstKleur_donker = pygame.Color(10,10,10)
@@ -83,12 +82,12 @@ KeyboardColor = [(2,0,83),(18,38,133)]
 
 #Surfaces_____________________________________________________________________________________________________________
 buttonVlak = pygame.Surface((screen.get_width(),screen.get_height()),pygame.SRCALPHA)
-overlay = pygame.Surface((screen.get_width(),screen.get_height()))
-MeldingVlak = pygame.Surface((screen.get_width(),screen.get_height()))
+overlay = pygame.Surface((screen.get_width(),screen.get_height()),pygame.SRCALPHA)
+MeldingVlak = pygame.Surface((screen.get_width(),screen.get_height()),pygame.SRCALPHA)
 
 for surface in (buttonVlak, overlay, MeldingVlak):
-    surface.set_colorkey(achtergrondKleur)
-
+    surface.set_colorkey('green')
+overlay.fill(achtergrondKleur)
 
 # Data______________________________________________________________________________________________________________
 #Lijst ["Titel", [Uur zak maken], [Uur vertrekken], [Benodigdheden],[Symbolen],Symbool activiteit]
@@ -113,11 +112,39 @@ titelRect_height = titel_txt.get_height()
 titelRect = pygame.Rect((screenRec.width-titelRect_width)/2,actiSymboolRect.bottom,
                         titelRect_width,titelRect_height)
 
+#Melding______________________________________________________________________________________________________________
+MeldingRect_width = 0.5*width
+MeldingRect_height = 0.5*height
+MeldingRect = pygame.Rect((screen.width-MeldingRect_width)/2,(screen.height-MeldingRect_height)/2,MeldingRect_width,MeldingRect_height)
+
 #Knoppen_____________________________________________________________________________________________________________
 
 benodigdhedenButtons = maakBenodigdhedenButtons(
-    Activiteit, buttonVlak, width, height, Font_PlanKop1, buttonKleur, titelRect.bottom
+    Activiteit, buttonVlak, width, height, Font_PlanKop1, buttonKleur, titelRect.bottom)
+
+buttonStatus = [0]*len(Activiteit[3])
+meldingButton_width = 0.3*MeldingRect_width
+meldingButton_heigt = 0.5*meldingButton_width
+meldingJaButton = Button_Rechthoek(
+    meldingButton_width, meldingButton_heigt, 0, Bevestig_kleur, MeldingVlak,
+    MeldingRect.centerx- meldingButton_width -0.3*meldingButton_width,  
+    MeldingRect.bottom - meldingButton_heigt,
+    Font_Acti, 'white', "Ja"
 )
+
+meldingNeeButton = Button_Rechthoek(
+    meldingButton_width, meldingButton_heigt, 0, Fout_kleur, MeldingVlak,
+    MeldingRect.centerx + 0.3*meldingButton_width,                         # rechts van center
+    MeldingRect.bottom - meldingButton_heigt,
+    Font_Acti, 'white', "Nee"
+)
+
+animatieMap = os.path.join(GraphicsMap,"Animatie_succes")
+
+frames = laad_frames(animatieMap)
+animatie = LottieAnimatie(frames, fps=30)
+klok = pygame.Clock()
+startAnimatieTijd = 0
 
 
 #Game loop ____________________________________________________________________________________________________________
@@ -128,6 +155,10 @@ while running:
     mouse_pos = pygame.mouse.get_pos()
     mouse_justpressed = pygame.mouse.get_just_pressed()
     mouse_justpressed = mouse_justpressed[0]
+    mouse = pygame.mouse.get_pressed()
+
+    dt = klok.tick(60)
+
 
 
 
@@ -136,13 +167,47 @@ while running:
         buttonVlak.blit(actiSymbool,actiSymboolRect.topleft)
 
         buttonVlak.blit(titel_txt,titelRect.topleft)
-        for button in benodigdhedenButtons:
-            button.draw(mouse_pos,mouse_justpressed)
+        for i,button in enumerate(benodigdhedenButtons):
+            if button.draw(mouse_pos,mouse_justpressed, buttonKleur if buttonStatus[i] == 0 else Bevestig_kleur):
+                buttonStatus[i] = True
+
+        
+        #Controle
+        if buttonStatus == [True]*len(Activiteit[3]):
+                State = "Meldingscherm"
+
 
 
         # Blitten naar screen
         screen.blit(buttonVlak,(0,0))
-    
+
+    if State =="Meldingscherm":
+        
+        pygame.draw.rect(MeldingVlak,(120,120,120,90),MeldingRect,0,20)
+        MeldingTitel = Font_PlanKop1.render("Zit alles in je zak?",1,'white')
+        MeldingVlak.blit(MeldingTitel,(MeldingRect.centerx-MeldingTitel.width/2,1.1*MeldingRect.top))
+        if meldingJaButton.draw(1,mouse,mouse_pos):
+            State="Klaarscherm"
+            animatie.start()
+            startAnimatieTijd = time.time()
+
+
+        if meldingNeeButton.draw(1,mouse,mouse_pos):
+            buttonStatus = [False]*len(Activiteit[3])
+            State = 'Beginscherm'
+        screen.blits([(overlay,(0,0)),(MeldingVlak,(0,0))])
+
+        
+
+    if State== "Klaarscherm":
+        animatie.update(dt)
+        animatie.draw(screen, width/2,height/2)
+        if time.time()-startAnimatieTijd>5:
+            running = False
+
+
+
+
 
 
 
