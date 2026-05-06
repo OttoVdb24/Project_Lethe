@@ -1,5 +1,6 @@
 import pygame
 from subprocess import call
+import math
 
 
 
@@ -72,6 +73,34 @@ class Button_Rechthoek:
       self.surface.blit(self.buttontext,(self.rect.centerx-self.buttontext.get_width()/2,self.rect.centery-self.buttontext.get_height()/2))    
     return self.action
   
+class symboolButton:
+    def __init__(self, symbool, titel, surface, X,Y, width, height, font,color):
+        self.symbool = symbool
+        self.color = color
+        self.surface = surface
+        self.X = X
+        self.Y = Y
+        self.ButtonRect = pygame.Rect(X,Y,width, height)
+        symboolRect_Width = 0.5*width
+        #self.symbool.set_colorkey((255,255,255))
+        self.symbool = pygame.transform.scale_by(self.symbool,(symboolRect_Width/self.symbool.width))
+        
+        self.SymboolRect = pygame.Rect(self.ButtonRect.centerx-symboolRect_Width/2,self.ButtonRect.centery-0.5*self.symbool.height,
+                                       symboolRect_Width,self.symbool.get_height())
+        self.Klaar= False    #Wordt hoog wanneer het item is toegevoed aan de zak
+        self.titel = font.render(titel,1,(255,255,255))
+    
+    def draw(self, mouse_pos, mouse_justpressed):
+        
+        pygame.draw.rect(self.surface,self.color,self.ButtonRect,0,20)
+        self.surface.blits([(self.symbool,(self.SymboolRect.topleft)),(self.titel,(self.SymboolRect.centerx-self.titel.width/2,self.ButtonRect.bottom-1.1*self.titel.height))])
+        
+        if mouse_justpressed and self.ButtonRect.collidepoint(mouse_pos):
+            print('Yes')
+            return True
+        else:
+            return False
+
 
 class PlanBox:
     def __init__ (self, surface,planrect,color,lijn,height):
@@ -590,6 +619,55 @@ def TextInputscherm(surface, font, Text_dict,TextRect,Time):
         pygame.draw.line(surface,(180,180,180),(TextRect.left+20,TextRect.top+15),(TextRect.left+20,TextRect.bottom-15))  
         
 
+def maakBenodigdhedenButtons(activiteit, buttonVlak, width, height, font, kleur, TitelRecBottom):
+    symbolen = activiteit[4]
+    titels = activiteit[3]
+    aantal = len(titels)
+    
+    buttons = []
+    
+    # Bepaal aantal kolommen: max 3, min 2
+    if aantal <= 3:
+        kolommen = 3
+    elif (aantal%2) == 0:
+        kolommen = 2
+    else:
+        kolommen = 3  # max 3 naast elkaar
+    
+    rijen = math.ceil(aantal / kolommen)
+    
+    # Bereken button afmetingen op basis van kolommen
+    button_breedte = 0.20 * width if kolommen == 3 else 0.25 * width
+    button_hoogte = 0.25 * height if rijen > 1 else 0.3 * height
+    
+    # Marges en spacing
+    totale_breedte = kolommen * button_breedte
+    x_spacing = (width - totale_breedte) / (kolommen + 1)
+    
+    totale_hoogte = rijen * button_hoogte
+    y_spacing = ((height - TitelRecBottom)- totale_hoogte) / (rijen + 1)
+    
+    for i in range(aantal):
+        rij = i // kolommen
+        kolom = i % kolommen
+        
+        x = x_spacing + kolom * (button_breedte + x_spacing)
+        y = TitelRecBottom + y_spacing + rij * (button_hoogte + y_spacing) 
+        
+        knop = symboolButton(
+            symbolen[i],
+            titels[i],
+            buttonVlak,
+            x,
+            y,
+            button_breedte,
+            button_hoogte,
+            font,
+            kleur
+        )
+        buttons.append(knop)
+    
+    return buttons
 
 
 
