@@ -29,7 +29,7 @@ RegularFont = os.path.join(basis,"Fonts","Montserrat-Regular.ttf")
 Font_Titel = pygame.font.Font(BlackFont,32)
 Font_Acti = pygame.font.Font(BlackFont,16)
 Font_PlanTitel = pygame.font.Font(RegularFont,30)
-Font_PlanKop1 = pygame.font.Font(BlackFont,20)
+Font_PlanKop1 = pygame.font.Font(BlackFont,24)
 Font_PlanKop2 = pygame.font.Font(RegularFont,18)
 Font_KnopText = pygame.font.Font(BlackFont,16)
 Font_Klok = pygame.font.Font(RegularFont,20)
@@ -65,6 +65,8 @@ Sym_Handdoek = laad_symbool(Map,"Handdoek.svg")
 Sym_Badmuts = laad_symbool(Map,"Badmuts.svg")
 Sym_Zwembril = laad_symbool(Map,"Zwembril.svg")
 Sym_zwembroek = laad_symbool(Map,"Zwembroek.svg")
+
+StreakMap = os.path.join(GraphicsMap,"Streak")
 
 
 
@@ -114,7 +116,7 @@ titelRect = pygame.Rect((screenRec.width-titelRect_width)/2,actiSymboolRect.bott
 
 #Melding______________________________________________________________________________________________________________
 MeldingRect_width = 0.5*width
-MeldingRect_height = 0.5*height
+MeldingRect_height = 0.4*height
 MeldingRect = pygame.Rect((screen.width-MeldingRect_width)/2,(screen.height-MeldingRect_height)/2,MeldingRect_width,MeldingRect_height)
 
 #Knoppen_____________________________________________________________________________________________________________
@@ -139,14 +141,23 @@ meldingNeeButton = Button_Rechthoek(
     Font_Acti, 'white', "Nee"
 )
 
-animatieMap = os.path.join(GraphicsMap,"Animatie_succes")
+AlgemeneExt_knop = Button(Exit_img,buttonVlak,(screen.get_width()-1.3*Exit_img.get_width()),0.3*Exit_img.get_height())
 
-frames = laad_frames(animatieMap)
-animatie = LottieAnimatie(frames, fps=30)
+
+
+KlaaranimatieMap = os.path.join(GraphicsMap,"Animatie_succes")
+Klaarframes = laad_frames(KlaaranimatieMap)
+Klaaranimatie = LottieAnimatie(Klaarframes,1, fps=30)
+
+BalkanimatieMap = os.path.join(GraphicsMap,"Animatie_balk")
+Balkframes = laad_frames(BalkanimatieMap)
+Balkanimatie = LottieAnimatie(Balkframes,2,fps=30)
+
+
 klok = pygame.Clock()
 startAnimatieTijd = 0
 
-
+#_______________________________________________________________________________________________________________________
 #Game loop ____________________________________________________________________________________________________________
 while running:
     for surface in (screen, buttonVlak,MeldingVlak):
@@ -163,23 +174,33 @@ while running:
 
 
     if State == "Beginscherm":
-        #Symbool en titel 
-        buttonVlak.blit(actiSymbool,actiSymboolRect.topleft)
+        # Symbool en titel
+        buttonVlak.blit(actiSymbool, actiSymboolRect.topleft)
+        buttonVlak.blit(titel_txt, titelRect.topleft)
 
-        buttonVlak.blit(titel_txt,titelRect.topleft)
-        for i,button in enumerate(benodigdhedenButtons):
-            if button.draw(mouse_pos,mouse_justpressed, buttonKleur if buttonStatus[i] == 0 else Bevestig_kleur):
+        for i, button in enumerate(benodigdhedenButtons):
+            if button.draw(mouse_pos, mouse_justpressed, buttonKleur if buttonStatus[i] == 0 else Bevestig_kleur):
                 buttonStatus[i] = True
 
-        
-        #Controle
-        if buttonStatus == [True]*len(Activiteit[3]):
-                State = "Meldingscherm"
+        if AlgemeneExt_knop.draw(1, mouse, mouse_pos, mouse_justpressed):
+            running = False
 
+        # Balk animatie tekenen
+        Balkanimatie.update(dt)
+        Balkanimatie_X = width-1.1*Balkanimatie.frames[Balkanimatie.huidig_frame].width
+        Balkanimatie_Y = 0.75*height
+        Balkanimatie.draw(buttonVlak, Balkanimatie_X, Balkanimatie_Y)
 
+        # Klikdetectie op de balk animatie
+        balk_rect = Balkanimatie.get_rect(Balkanimatie_X, Balkanimatie_Y)
+        if mouse_justpressed and balk_rect.collidepoint(mouse_pos):
+            Balkanimatie.toggle()
 
-        # Blitten naar screen
-        screen.blit(buttonVlak,(0,0))
+        # Controle
+        if buttonStatus == [True] * len(Activiteit[3]):
+            State = "Meldingscherm"
+
+        screen.blit(buttonVlak, (0, 0))
 
     if State =="Meldingscherm":
         
@@ -188,7 +209,7 @@ while running:
         MeldingVlak.blit(MeldingTitel,(MeldingRect.centerx-MeldingTitel.width/2,1.1*MeldingRect.top))
         if meldingJaButton.draw(1,mouse,mouse_pos):
             State="Klaarscherm"
-            animatie.start()
+            Klaaranimatie.toggle()
             startAnimatieTijd = time.time()
 
 
@@ -200,8 +221,8 @@ while running:
         
 
     if State== "Klaarscherm":
-        animatie.update(dt)
-        animatie.draw(screen, width/2,height/2)
+        Klaaranimatie.update(dt)
+        Klaaranimatie.draw(screen, width/2,height/2)
         if time.time()-startAnimatieTijd>5:
             running = False
 

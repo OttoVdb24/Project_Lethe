@@ -232,18 +232,29 @@ class KlokScroll:
             self.surface.blit(uur_txt, uur_rect)
 
         return self.Txt[(self.Scroll_Index + 2) % len(self.Txt)]
+    
 
 class LottieAnimatie:
-    def __init__(self, frames_map, fps=30):
-        self.frames = frames_map      # lijst van pygame Surfaces
+    def __init__(self, frames_map, scale, fps=30):
+        self.frames = frames_map
         self.fps = fps
         self.huidig_frame = 0
         self.actief = False
         self.timer = 0
+        self.scalefactor = scale
+        self.richting = -1  # 1 = vooruit, -1 = achteruit
 
-    def start(self):
+    def toggle(self):
+        """Wissel richting en start animatie opnieuw in die richting."""
+        if self.richting == 1:
+            # Was vooruit → nu achteruit starten vanaf laatste frame
+            self.richting = -1
+            self.huidig_frame = len(self.frames) - 1
+        else:
+            # Was achteruit → nu vooruit starten vanaf eerste frame
+            self.richting = 1
+            self.huidig_frame = 0
         self.actief = True
-        self.huidig_frame = 0
         self.timer = 0
 
     def update(self, dt):
@@ -252,26 +263,44 @@ class LottieAnimatie:
         self.timer += dt
         if self.timer >= 1000 / self.fps:
             self.timer = 0
-            self.huidig_frame += 1
-            if self.huidig_frame >= len(self.frames):
-                self.actief = False  # animatie klaar
+            self.huidig_frame += self.richting
+            # Vooruit: stop op laatste frame
+            if self.richting == 1 and self.huidig_frame >= len(self.frames):
                 self.huidig_frame = len(self.frames) - 1
+                self.actief = False
+            # Achteruit: stop op eerste frame
+            elif self.richting == -1 and self.huidig_frame < 0:
+                self.huidig_frame = 0
+                self.actief = False
 
     def draw(self, scherm, x, y):
-        if self.actief:
-            scherm.blit(self.frames[self.huidig_frame], (x-self.frames[self.huidig_frame].width/2, y-self.frames[self.huidig_frame].height/2))
+        frame = self.frames[self.huidig_frame]
+        frame = pygame.transform.scale_by(frame,self.scalefactor)
+
+        scherm.blit(frame, (x - frame.width / 2, y - frame.height / 2))
+
+    def get_rect(self, x, y):
+        """Geeft het Rect van het huidige frame terug, handig voor klikdetectie."""
+        frame = self.frames[self.huidig_frame]
+        frame = pygame.transform.scale_by(frame,self.scalefactor)
+
+        return pygame.Rect(x - frame.width / 2, y - frame.height / 2, frame.width, frame.height)
 
 def laad_frames(map_pad):
     frames = []
     bestanden = sorted(os.listdir(map_pad))
-    for bestand in bestanden:
-        if bestand.endswith(".gif"):
-            img = pygame.image.load(os.path.join(map_pad, bestand)).convert_alpha()
+
+    geldige_extensies = (".png",  ".gif")
+
+    for i,bestand in enumerate(bestanden):
+        if bestand.lower().endswith(geldige_extensies):
+            pad = os.path.join(map_pad, bestand)
+            img = pygame.image.load(pad).convert_alpha()
+            if i>62:
+                img = pygame.transform.scale_by(img,3)
             frames.append(img)
+
     return frames
-
-
-
 
 
 def BovenRechthoeken(rect_pos_x, rect_pos_y, ActiRect_Width,ActiRect_Height, Mouse,Mouse_pos,Mouse_JustPressed,slepen
