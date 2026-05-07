@@ -202,6 +202,9 @@ while running:
 
         screen.blit(buttonVlak, (0, 0))
 
+
+
+
     if State =="Meldingscherm":
         
         pygame.draw.rect(MeldingVlak,(120,120,120,90),MeldingRect,0,20)
