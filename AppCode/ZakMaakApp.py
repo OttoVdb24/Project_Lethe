@@ -223,7 +223,7 @@ while running:
     if State== "Klaarscherm":
         Klaaranimatie.update(dt)
         Klaaranimatie.draw(screen, width/2,height/2)
-        if time.time()-startAnimatieTijd>5:
+        if time.time()-startAnimatieTijd>8:
             running = False
 
 
