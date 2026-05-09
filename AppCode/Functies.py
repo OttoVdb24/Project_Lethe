@@ -286,6 +286,73 @@ class LottieAnimatie:
 
         return pygame.Rect(x - frame.width / 2, y - frame.height / 2, frame.width, frame.height)
 
+
+class inKleurButton:
+    def __init__(self, Leegsymbool, Kleursymbool, width, height, ondervlak, tekenvlak,X,Y):
+        self.Kleursymbool = Kleursymbool
+        self.ondervlak = ondervlak
+        self.tekenvlak = tekenvlak
+        self.leegsymbool = Leegsymbool
+        self.klaar = False
+        self.vorige_pos = None  # ← nieuw
+
+        ButtonRect_width = 0.5*width
+        ButtonRect_Height = 0.5*height
+        self.ButtonRect = pygame.Rect(X-ButtonRect_width/2, Y-ButtonRect_Height/2, ButtonRect_width, ButtonRect_Height)
+        self.symbool_Rect = Kleursymbool.get_rect(center=self.ButtonRect.center)
+        tekenvlak.blit(Leegsymbool, self.symbool_Rect)
+
+        checkRect_width = Leegsymbool.height/2.5
+        self.check = [False]*3
+        self.check_rect = [
+            pygame.Rect(self.symbool_Rect.centerx-checkRect_width/2, self.symbool_Rect.top, checkRect_width, checkRect_width),
+            pygame.Rect(self.symbool_Rect.centerx-checkRect_width/2, self.symbool_Rect.centery-checkRect_width/2, checkRect_width, checkRect_width),
+            pygame.Rect(self.symbool_Rect.centerx-checkRect_width/2, self.symbool_Rect.bottom-checkRect_width, checkRect_width, checkRect_width),
+        ]
+
+    def teken_op(self, pos):
+        """Teken een cirkel op pos, en een lijn vanaf de vorige positie."""
+        tekenRadius = 20
+        if self.ButtonRect.collidepoint(pos):
+            if self.vorige_pos and self.ButtonRect.collidepoint(self.vorige_pos):
+                pygame.draw.line(self.tekenvlak, 'green', self.vorige_pos, pos, tekenRadius * 2)
+            pygame.draw.circle(self.tekenvlak, 'green', pos, tekenRadius)
+            self.vorige_pos = pos
+
+    def handle_event(self, event):
+        """Verwerk muisevents voor vloeiend tekenen."""
+        if self.klaar:
+            return
+        if event.type == pygame.MOUSEMOTION and event.buttons[0]:
+            self.teken_op(event.pos)
+        elif event.type == pygame.MOUSEBUTTONUP:
+            self.vorige_pos = None  # ← reset bij loslaten
+
+    def draw(self, mouse, mouse_pos):
+        self.ondervlak.blit(self.Kleursymbool, self.symbool_Rect)
+        if self.klaar == False:
+            # Cirkel op huidige pos (vangt klikken zonder bewegen op)
+            if mouse[0] and self.ButtonRect.collidepoint(mouse_pos):
+                pygame.draw.circle(self.tekenvlak, 'green', mouse_pos, 20)
+
+            for i, rect in enumerate(self.check_rect):
+                #pygame.draw.rect(self.tekenvlak, 'blue', rect, 1)  #Tekenen van de controle rechthoeken
+                if rect.collidepoint(mouse_pos) and mouse[0]:
+                    self.check[i] = True
+
+            if sum(self.check) == 3:
+                print("ingekleurd")
+                self.klaar = True
+        else:
+            pygame.draw.rect(self.tekenvlak, 'green', self.symbool_Rect)
+
+        self.ondervlak.blit(self.tekenvlak, (0,0))
+
+
+
+
+
+
 def laad_frames(map_pad):
     frames = []
     bestanden = sorted(os.listdir(map_pad))
