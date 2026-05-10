@@ -130,7 +130,7 @@ X_sleepOffset = [0] * Nbenodigdheden
 Y_sleepOffset = [0] * Nbenodigdheden
 
 
-start_Y = 0.35*height
+start_Y = 0.33*height
 Breedte = width/(Nbenodigdheden+0.5*(Nbenodigdheden-1)+2*0.4)
 X_spacing = 0.5*Breedte
 randSpacing = 0.4*Breedte
@@ -214,9 +214,9 @@ def Sleepknoppen():
                 rect.y= mouse_pos[1]- Y_sleepOffset[i]
             
         pygame.draw.rect(buttonVlak,buttonKleur,rect,0,20)
-        buttonVlak.blit(Activiteit[4][i],(rect.centerx - Activiteit[4][i].width/2,rect.centery- Activiteit[4][i].height/2))
+        buttonVlak.blit(Activiteit[4][i],(rect.centerx - Activiteit[4][i].width/2,rect.centery- Activiteit[4][i].height/1.7))
         Titel = Font_PlanKop1.render(Activiteit[3][i],1,(255,255,255))
-        pygame.draw.rect(buttonVlak,'red',endZone,2)
+        #pygame.draw.rect(buttonVlak,'red',endZone,2)
         buttonVlak.blit(Titel,(rect.centerx-Titel.width/2,rect.bottom-1.1*Titel.height))
 
 
