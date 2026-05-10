@@ -156,6 +156,7 @@ Balkanimatie = LottieAnimatie(Balkframes,1.5,fps=30)
 
 klok = pygame.Clock()
 startAnimatieTijd = 0
+startdelayTijd = 0
 
 #_______________________________________________________________________________________________________________________
 #Game loop ____________________________________________________________________________________________________________
@@ -198,7 +199,11 @@ while running:
 
         # Controle
         if buttonStatus == [True] * len(Activiteit[3]):
-            State = "Meldingscherm"
+            if startdelayTijd==0:
+                startdelayTijd=time.time()
+            if time.time()-startdelayTijd >= 0.7:
+                startdelayTijd = 0
+                State = "Meldingscherm"
 
         screen.blit(buttonVlak, (0, 0))
 
