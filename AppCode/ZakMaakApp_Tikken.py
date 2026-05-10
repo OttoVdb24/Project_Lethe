@@ -29,7 +29,7 @@ RegularFont = os.path.join(basis,"Fonts","Montserrat-Regular.ttf")
 Font_Titel = pygame.font.Font(BlackFont,32)
 Font_Acti = pygame.font.Font(BlackFont,16)
 Font_PlanTitel = pygame.font.Font(RegularFont,30)
-Font_PlanKop1 = pygame.font.Font(BlackFont,24)
+Font_PlanKop1 = pygame.font.Font(BlackFont,20)
 Font_PlanKop2 = pygame.font.Font(RegularFont,18)
 Font_KnopText = pygame.font.Font(BlackFont,16)
 Font_Klok = pygame.font.Font(RegularFont,20)
@@ -61,10 +61,10 @@ Sym_zwemmen = laad_symbool(Map,"Zwemmen.svg")
 
 Map = os.path.join(GraphicsMap,"Benodigdheden")
 
-Sym_Handdoek = laad_symbool(Map,"Handdoek.svg")
-Sym_Badmuts = laad_symbool(Map,"Badmuts.svg")
-Sym_Zwembril = laad_symbool(Map,"Zwembril.svg")
-Sym_zwembroek = laad_symbool(Map,"Zwembroek.svg")
+Sym_Handdoek = laad_symbool(Map,"Handdoek.png")
+Sym_Badmuts = laad_symbool(Map,"Badmuts.png")
+Sym_Zwembril = laad_symbool(Map,"Zwembril.png")
+Sym_zwembroek = laad_symbool(Map,"Zwembroek.png")
 
 StreakMap = os.path.join(GraphicsMap,"Streak")
 
@@ -151,7 +151,7 @@ Klaaranimatie = LottieAnimatie(Klaarframes,1, fps=30)
 
 BalkanimatieMap = os.path.join(GraphicsMap,"Animatie_balk")
 Balkframes = laad_frames(BalkanimatieMap)
-Balkanimatie = LottieAnimatie(Balkframes,2,fps=30)
+Balkanimatie = LottieAnimatie(Balkframes,1.5,fps=30)
 
 
 klok = pygame.Clock()
@@ -187,7 +187,7 @@ while running:
 
         # Balk animatie tekenen
         Balkanimatie.update(dt)
-        Balkanimatie_X = width-1.1*Balkanimatie.frames[Balkanimatie.huidig_frame].width
+        Balkanimatie_X = width-0.6*Balkanimatie.frames[Balkanimatie.huidig_frame].width
         Balkanimatie_Y = 0.75*height
         Balkanimatie.draw(buttonVlak, Balkanimatie_X, Balkanimatie_Y)
 
