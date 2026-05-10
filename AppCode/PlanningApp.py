@@ -349,7 +349,7 @@ while running:
             if NieuweActiBevestig_knop.draw(1,Mouse,Mouse_Pos):
                 Actieve_Status = "Hoofdscherm"
                 Actieve_Status = "Planning"
-        
+            
 
 
 
@@ -496,6 +496,7 @@ while running:
         planningvlak.set_alpha(20)
         bovenvlak.set_alpha(20)
         ondervlak.set_alpha(0)
+        
 
         if Keyboard_Klaar.draw(1,Mouse,Mouse_Pos):
             if Text_dict["User_IP"].strip() != "":
@@ -504,8 +505,9 @@ while running:
             # Reset text parameters
             Text_dict["PlanText_Active"] = False
             Text_dict["User_IP"] = ""
+        
  
-        elif Keyboard_Annuleer.draw(1,Mouse,Mouse_Pos):
+        if Keyboard_Annuleer.draw(1,Mouse,Mouse_Pos):
             Text_dict["PlanText_Active"] = False
             Text_dict["User_IP"]=""
 
@@ -547,18 +549,18 @@ while running:
         ondervlak.set_alpha(255)
         klokvlak.set_alpha(255)
 
-    if not Text_dict["NieuweActiText_active"]:  
+    if not Text_dict["NieuweActiText_active"] and Actieve_Status == "NieuweActiviteit_Maken":  
         if Mouse_JustPressed and NieuweActiBevestig_knop.rect.collidepoint(Mouse_Pos):
-
+            
             if Text_dict["User_IP"].strip() != "":
                 PlanActiviteit[1] = (Text_dict["User_IP"])
-                
+            
 
             # Reset text parameters
             Text_dict["NieuweActiText_active"] = False
             Text_dict["User_IP"] = ""
             NieuweActiInput_Text="Typ hier..."
-
+            
 
         elif Mouse_JustPressed and  NieuweActiExt_knop.rect.collidepoint(Mouse_Pos):
             Text_dict["NieuweActiText_active"] = False
