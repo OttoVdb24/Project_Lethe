@@ -132,10 +132,10 @@ MeldingRect = pygame.Rect((screen.width-MeldingRect_width)/2,(screen.height-Meld
 
 buttonStatus = [0]*len(Activiteit[3])    #Status van alle benodigdheden knoppen
 Nbenodigdheden = len(Activiteit[4])
-Button_Y = 0.35*height
-Breedte = width/(Nbenodigdheden+0.5*(Nbenodigdheden-1)+2*0.6)
-X_spacing = 0.5*Breedte
-randSpacing = 0.6*Breedte
+Button_Y = 0.45*height
+Breedte = width/(Nbenodigdheden+0.2*(Nbenodigdheden-1)+2*0.2)
+X_spacing = 0.2*Breedte
+randSpacing = 0.2*Breedte
 BenodigdhedenRects = []
 for i in range(Nbenodigdheden):
     X = randSpacing+ i*(Breedte+X_spacing)
