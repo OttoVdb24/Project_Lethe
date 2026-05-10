@@ -31,7 +31,7 @@ BlackFont = os.path.join(basis,"Fonts", "Montserrat-Black.ttf")
 RegularFont = os.path.join(basis,"Fonts","Montserrat-Regular.ttf")
 
 PlanningsApp = os.path.join(basis,"PlanningApp.py")
-ZakMaakApp = os.path.join(basis,'ZakMaakApp.py')
+ZakMaakApp = os.path.join(basis,'ZakMaakApp_Kleuren.py')
 OverzichtApp = os.path.join(basis,'OverzichtApp.py')
 
 Apps = [OverzichtApp,ZakMaakApp,PlanningsApp]
@@ -58,7 +58,9 @@ overlay = pygame.Surface((screen.get_width(),screen.get_height()),pygame.SRCALPH
 for surface in (Achtergrondvlak, Bovenvlak):
     surface.set_colorkey((10,10,10))
 
+achtergrondKleur = pygame.Color(188,229,255)
 Achtergrondvlak.blit(Achtergrond_Foto,(0,0))
+Achtergrondvlak.fill(achtergrondKleur)
 overlay.fill((0,0,0))
 overlay.set_alpha(60)
 
