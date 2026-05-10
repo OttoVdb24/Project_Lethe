@@ -260,7 +260,7 @@ while running:
 
         # Balk animatie tekenen
         Balkanimatie.update(dt)
-        Balkanimatie_X = width-1.1*Balkanimatie.frames[Balkanimatie.huidig_frame].width
+        Balkanimatie_X = width-0.60*Balkanimatie.frames[Balkanimatie.huidig_frame].width
         Balkanimatie_Y = 0.75*height
         Balkanimatie.draw(buttonVlak, Balkanimatie_X, Balkanimatie_Y)
 
@@ -321,7 +321,6 @@ while running:
 
     pygame.display.flip()
 
-    clock.tick(60)  # limits FPS to 60
 
 
 
