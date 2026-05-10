@@ -298,7 +298,7 @@ class inKleurButton:
 
         ButtonRect_width = 0.5*width
         ButtonRect_Height = 0.5*height
-        self.ButtonRect = pygame.Rect(X-ButtonRect_width/2, Y-ButtonRect_Height/1.7, ButtonRect_width, ButtonRect_Height)
+        self.ButtonRect = pygame.Rect(X-ButtonRect_width/2, Y-ButtonRect_Height/1.8, ButtonRect_width, ButtonRect_Height)
         self.symbool_Rect = Kleursymbool.get_rect(center=self.ButtonRect.center)
         tekenvlak.blit(Leegsymbool, self.symbool_Rect)
 

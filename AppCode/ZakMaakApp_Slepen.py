@@ -61,10 +61,10 @@ Sym_zwemmen = laad_symbool(Map,"Zwemmen.svg")
 
 Map = os.path.join(GraphicsMap,"Benodigdheden")
 
-Sym_Handdoek = laad_symbool(Map,"Handdoek.svg")
-Sym_Badmuts = laad_symbool(Map,"Badmuts.svg")
-Sym_Zwembril = laad_symbool(Map,"Zwembril.svg")
-Sym_zwembroek = laad_symbool(Map,"Zwembroek.svg")
+Sym_Handdoek = laad_symbool(Map,"Handdoek.png")
+Sym_Badmuts = laad_symbool(Map,"Badmuts.png")
+Sym_Zwembril = laad_symbool(Map,"Zwembril.png")
+Sym_zwembroek = laad_symbool(Map,"Zwembroek.png")
 Sym_Rugzak = laad_symbool(Map,"Rugzak.png")
 
 StreakMap = os.path.join(GraphicsMap,"Streak")
@@ -141,7 +141,7 @@ for i in range(Nbenodigdheden):
     Benodigdheden.append(rect)
     start_X.append(X)
 
-endZone_width = 0.3*width
+endZone_width = 0.25*width
 endZone_height = 0.32*height
 endZone = pygame.Rect(width/2-endZone_width/2,height-endZone_height,endZone_width,endZone_height)
 
@@ -177,7 +177,7 @@ Klaaranimatie = LottieAnimatie(Klaarframes,1, fps=30)
 
 BalkanimatieMap = os.path.join(GraphicsMap,"Animatie_balk")
 Balkframes = laad_frames(BalkanimatieMap)
-Balkanimatie = LottieAnimatie(Balkframes,2,fps=30)
+Balkanimatie = LottieAnimatie(Balkframes,1.5,fps=30)
 
 
 klok = pygame.Clock()
@@ -216,6 +216,7 @@ def Sleepknoppen():
         pygame.draw.rect(buttonVlak,buttonKleur,rect,0,20)
         buttonVlak.blit(Activiteit[4][i],(rect.centerx - Activiteit[4][i].width/2,rect.centery- Activiteit[4][i].height/2))
         Titel = Font_PlanKop1.render(Activiteit[3][i],1,(255,255,255))
+        pygame.draw.rect(buttonVlak,'red',endZone,2)
         buttonVlak.blit(Titel,(rect.centerx-Titel.width/2,rect.bottom-1.1*Titel.height))
 
 
