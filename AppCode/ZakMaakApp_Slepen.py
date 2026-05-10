@@ -29,7 +29,7 @@ RegularFont = os.path.join(basis,"Fonts","Montserrat-Regular.ttf")
 Font_Titel = pygame.font.Font(BlackFont,32)
 Font_Acti = pygame.font.Font(BlackFont,16)
 Font_PlanTitel = pygame.font.Font(RegularFont,30)
-Font_PlanKop1 = pygame.font.Font(BlackFont,24)
+Font_PlanKop1 = pygame.font.Font(BlackFont,20)
 Font_PlanKop2 = pygame.font.Font(RegularFont,18)
 Font_KnopText = pygame.font.Font(BlackFont,16)
 Font_Klok = pygame.font.Font(RegularFont,20)
@@ -102,7 +102,7 @@ State = "Beginscherm"
 # Scherm Layout____________________________________________________________________________________________________
 
     #Activiteit symbool
-actiSymbool_width = 0.3*height
+actiSymbool_width = 0.35*height
 actiSymbool = pygame.transform.scale_by(Activiteit[5],(actiSymbool_width/Activiteit[5].width))
 actiSymboolRect = pygame.Rect((screenRec.width-actiSymbool_width)/2,0.05*height, actiSymbool_width, actiSymbool.height)
 
@@ -130,9 +130,9 @@ X_sleepOffset = [0] * Nbenodigdheden
 Y_sleepOffset = [0] * Nbenodigdheden
 
 
-start_Y = 0.45*height
-Breedte = width/(Nbenodigdheden+0.2*(Nbenodigdheden-1)+2*0.4)
-X_spacing = 0.2*Breedte
+start_Y = 0.35*height
+Breedte = width/(Nbenodigdheden+0.3*(Nbenodigdheden-1)+2*0.4)
+X_spacing = 0.3*Breedte
 randSpacing = 0.4*Breedte
 Benodigdheden = []
 for i in range(Nbenodigdheden):
