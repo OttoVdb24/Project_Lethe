@@ -177,11 +177,11 @@ AlgemeneExt_knop = Button(Exit_img,buttonVlak,(screen.get_width()-1.3*Exit_img.g
 KlaaranimatieMap = os.path.join(GraphicsMap,"Animatie_succes")
 Klaarframes = laad_frames(KlaaranimatieMap)
 Klaaranimatie = LottieAnimatie(Klaarframes,1, fps=30)
-
+"""
 BalkanimatieMap = os.path.join(GraphicsMap,"Animatie_balk")
 Balkframes = laad_frames(BalkanimatieMap)
 Balkanimatie = LottieAnimatie(Balkframes,2,fps=30)
-
+"""
 
 klok = pygame.Clock()
 startAnimatieTijd = 0
@@ -219,7 +219,7 @@ while running:
         #Knoppen 
         if AlgemeneExt_knop.draw(1, mouse, mouse_pos, mouse_justpressed):
             running = False
-        
+        """
         # Balk animatie tekenen
         Balkanimatie.update(dt)
         Balkanimatie_X = width-1.1*Balkanimatie.frames[Balkanimatie.huidig_frame].width
@@ -230,6 +230,7 @@ while running:
         balk_rect = Balkanimatie.get_rect(Balkanimatie_X, Balkanimatie_Y)
         if mouse_justpressed and balk_rect.collidepoint(mouse_pos):
             Balkanimatie.toggle()
+        """
 
         #Benodigdheden knoppen
         for i,rect in enumerate(BenodigdhedenRects):
