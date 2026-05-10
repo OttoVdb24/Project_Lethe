@@ -130,10 +130,10 @@ X_sleepOffset = [0] * Nbenodigdheden
 Y_sleepOffset = [0] * Nbenodigdheden
 
 
-start_Y = 0.35*height
-Breedte = width/(Nbenodigdheden+0.5*(Nbenodigdheden-1)+2*0.6)
-X_spacing = 0.5*Breedte
-randSpacing = 0.6*Breedte
+start_Y = 0.45*height
+Breedte = width/(Nbenodigdheden+0.2*(Nbenodigdheden-1)+2*0.4)
+X_spacing = 0.2*Breedte
+randSpacing = 0.4*Breedte
 Benodigdheden = []
 for i in range(Nbenodigdheden):
     X = randSpacing+ i*(Breedte+X_spacing)
