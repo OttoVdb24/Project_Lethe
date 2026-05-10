@@ -104,7 +104,7 @@ State = "Beginscherm"
     #Activiteit symbool
 actiSymbool_width = 0.35*height
 actiSymbool = pygame.transform.scale_by(Activiteit[5],(actiSymbool_width/Activiteit[5].width))
-actiSymboolRect = pygame.Rect((screenRec.width-actiSymbool_width)/2,0.05*height, actiSymbool_width, actiSymbool.height)
+actiSymboolRect = pygame.Rect((screenRec.width-actiSymbool_width)/2,0.03*height, actiSymbool_width, actiSymbool.height)
 
 
 
@@ -131,8 +131,8 @@ Y_sleepOffset = [0] * Nbenodigdheden
 
 
 start_Y = 0.35*height
-Breedte = width/(Nbenodigdheden+0.3*(Nbenodigdheden-1)+2*0.4)
-X_spacing = 0.3*Breedte
+Breedte = width/(Nbenodigdheden+0.5*(Nbenodigdheden-1)+2*0.4)
+X_spacing = 0.5*Breedte
 randSpacing = 0.4*Breedte
 Benodigdheden = []
 for i in range(Nbenodigdheden):
