@@ -31,10 +31,14 @@ BlackFont = os.path.join(basis,"Fonts", "Montserrat-Black.ttf")
 RegularFont = os.path.join(basis,"Fonts","Montserrat-Regular.ttf")
 
 PlanningsApp = os.path.join(basis,"PlanningApp.py")
-ZakMaakApp = os.path.join(basis,'ZakMaakApp_Kleuren.py')
+ZakMaakAppKleuren = os.path.join(basis,'ZakMaakApp_Kleuren.py')
+ZakMaakAppSlepen = os.path.join(basis,'ZakMaakApp_Slepen.py')
+ZakMaakAppTikken = os.path.join(basis,'ZakMaakApp_Tikken.py')
+
+ZakmaakAppCounter = 0
+ZakmaakApp = [ZakMaakAppKleuren,ZakMaakAppSlepen,ZakMaakAppTikken]
 OverzichtApp = os.path.join(basis,'OverzichtApp.py')
 
-Apps = [OverzichtApp,ZakMaakApp,PlanningsApp]
 
 
 #Fonts___________________________________________________
@@ -66,7 +70,7 @@ overlay.set_alpha(60)
 
 
 #StartKnoppen___________________________________________
-Knop_Titels = ["Week overzicht", "Zak maken", "Planning maken",]
+Knop_Titels = ["Zak maken", "Planning maken",]
 Knop_width = width/(len(Knop_Titels)+1)
 Knop_height = 0.5*Knop_width
 Knop_gap = 0.01*width
@@ -99,10 +103,20 @@ while running:
     for surface in (Bovenvlak,):
         surface.fill((10,10,10))
 
+
     if Actieve_Status=="Hoofdscherm":
+    
+        Apps = [ZakmaakApp[ZakmaakAppCounter],PlanningsApp]
+
         for i,Knop in enumerate(Knoppen):
             if Knop.draw(1,mouse,mouse_pos):
                 c.call_python_file(Apps[i])
+                if i == 0:
+                    ZakmaakAppCounter = ZakmaakAppCounter+1
+                    if ZakmaakAppCounter== 3:
+                        ZakmaakAppCounter=0
+
+
 
 
 
