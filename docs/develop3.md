@@ -14,7 +14,7 @@ Daarnaast ook het onderzoeken van het materiaalgebruik en de vormgeving van de s
 
 ### Stakeholder analyse
 <p align="center">
-  <img src="../img/Stakeholder analyse.png" width="75%">
+  <img src="../img/Stakeholder analyse.png" width="50%">
 </p>
 
 ### Emotieonderzoek
@@ -30,7 +30,7 @@ De uitgewerkte tweedelevenscenario’s boden nog onvoldoende zekerheid over een 
 Hieruit ontstonden twee mogelijke circulaire eigendomsmodellen. In het eerste model wordt het product gedurende één jaar uitgeleend door een gezin via scholen, waardoor het product continu en optimaal benut wordt. In het tweede model kunnen gezinnen het product aankopen, waarna het bedrijf het terugkoopt zodra de kinderen het ontgroeid zijn. Het product wordt vervolgens nagekeken, opgeknapt en opnieuw verkocht aan een nieuw gezin.
 Deze modellen bieden een duurzamer alternatief dan een traditioneel tweede leven, omdat het product zijn oorspronkelijke functie behoudt. Hierdoor wordt de levensduur aanzienlijk verlengd en wordt de circulaire waarde van het product gemaximaliseerd.
 <p align="center">
-  <img src="../img/circulair%20eigendomsmodel.png" width="100%">
+  <img src="../img/circulair%20eigendomsmodel.png" width="85%">
 </p>
 
 ## Customer journey
@@ -63,7 +63,7 @@ Er werd een selectie gemaakt uit een lijst met woorden die de gewenste CMF-richt
 ### CMF-moodboard
 Er werd een moodboard ontwikkeld om de visuele richting van het ontwerp te verkennen. Dit hielp bij het bepalen van de gewenste sfeer, materiaalkeuze en stijl van het product.
 <p align="center">
-  <img src="../img/CMF_moodboard.png" width="100%">
+  <img src="../img/CMF_moodboard.png" width="90%">
 </p>
 
 ## User tests met kinderen (N=6) en ouders (N=4)
@@ -92,13 +92,13 @@ Testpersonen werden gevraagd verschillende materialen te voelen en te rangschikk
 Testpersonen beoordeelden verschillende renders van productuitvoeringen en rangschikten deze van minst naar meest geschikt, waarna zij hun keuzes toelichtten.
 
 <p align="left">
-  <img src="../img/Render%20rond%20lamp.png" width="49%">
-  <img src="../img/Render%20rond%20lamp%20maan.png" width="49%">
+  <img src="../img/Render%20rond%20lamp.png" width="48%">
+  <img src="../img/Render%20rond%20lamp%20maan.png" width="50%">
 
 </p>
 <p align="left">
-  <img src="../img/Render%20leeuw.png" width="49%">
-  <img src="../img/Render%20kader.png" width="49%">
+  <img src="../img/Render%20leeuw.png" width="49.5%">
+  <img src="../img/Render%20kader.png" width="48.5%">
 
 </p>
 
