@@ -63,7 +63,7 @@ Er werd een selectie gemaakt uit een lijst met woorden die de gewenste CMF-richt
 ### CMF-moodboard
 Er werd een moodboard ontwikkeld om de visuele richting van het ontwerp te verkennen. Dit hielp bij het bepalen van de gewenste sfeer, materiaalkeuze en stijl van het product.
 <p align="center">
-  <img src="../img/CMF_moodboard.png" width="90%">
+  <img src="../img/CMF_moodboard.png" width="100%">
 </p>
 
 ## User tests met kinderen (N=6) en ouders (N=4)
@@ -92,8 +92,8 @@ Testpersonen werden gevraagd verschillende materialen te voelen en te rangschikk
 Testpersonen beoordeelden verschillende renders van productuitvoeringen en rangschikten deze van minst naar meest geschikt, waarna zij hun keuzes toelichtten.
 
 <p align="left">
-  <img src="../img/Render%20rond%20lamp.png" width="48%">
-  <img src="../img/Render%20rond%20lamp%20maan.png" width="50%">
+  <img src="../img/Render%20rond%20lamp.png" width="47%">
+  <img src="../img/Render%20rond%20lamp%20maan.png" width="51%">
 
 </p>
 <p align="left">
