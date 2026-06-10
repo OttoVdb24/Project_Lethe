@@ -35,12 +35,18 @@ Deze modellen bieden een duurzamer alternatief dan een traditioneel tweede leven
 
 ## Customer journey
 
-
 ## CMF-onderzoek
 
 ### CMF-analyse
 Er werd gekeken naar bestaande interieurmerken om een beter beeld te krijgen van gangbare CMF-strategieën. Op basis van deze analyse werd een CMF-overzicht opgesteld dat richting geeft aan de materiaal- en kleurkeuzes binnen het ontwerp.
 [📃CMF-analyse](../docs/CMF-analyse.pdf)
+
+**Resultaten:**
+* zachte, gedempte kleuren en lage contrasten 
+* matte en soft-touch materialen zonder glans 
+* afgeronde, veilige en vriendelijke vormen 
+* minimale zichtbare technologie of mechanische details 
+* een warme, diffuse lichtsfeer die het object laat “verdwijnen” in de ruimte
 
 ### CMF-strategie
 Er werd een selectie gemaakt uit een lijst met woorden die de gewenste CMF-richting van het product definiëren. Op basis hiervan werd, met behulp van onder andere AI, verder gewerkt aan het genereren van CMF-concepten.
@@ -76,22 +82,35 @@ Testpersonen werden gevraagd verschillende materialen te voelen en te rangschikk
   <img src="../img/Handvat%20materialen.png" width="100%">
 </p>
 
+**Resultaten:**
+* Onderhoudsvriendelijk
+* Zacht
+* Warm
+* Textuur mag 
+
 ### Uitzicht van de kapstok bepalen
 Testpersonen beoordeelden verschillende renders van productuitvoeringen en rangschikten deze van minst naar meest geschikt, waarna zij hun keuzes toelichtten.
 
 <p align="left">
-  <img src="../img/Render%20rond%20lamp.png" width="50%">
-  <img src="../img/Render%20rond%20lamp%20maan.png" width="50%">
+  <img src="../img/Render%20rond%20lamp.png" width="49%">
+  <img src="../img/Render%20rond%20lamp%20maan.png" width="49%">
 
 </p>
 <p align="left">
-  <img src="../img/Render%20leeuw.png" width="50%">
-  <img src="../img/Render%20kader.png" width="50%">
+  <img src="../img/Render%20leeuw.png" width="49%">
+  <img src="../img/Render%20kader.png" width="49%">
 
 </p>
 
+**Resultaten:**
+* Interessant maar niet kinderachtig (meegroei)
+* Afgerond 
+* Personaliseerbaar mag
+
 ### Deel van programma zak maken
 Er werden drie verschillende ingeefmethodes getest. Na elke methode vulden de kinderen een variatie op de SAM-vragenlijst in om hun beleving te beoordelen.
+
+**Resultaten:**
 
 ## Design Requirements
 
