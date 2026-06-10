@@ -23,12 +23,7 @@ Om de gewenste gebruikerservaring in kaart te brengen, werd een lijst opgesteld 
 
 ### Tweede leven storyboard
 Er werd onderzocht wat er met het product kan gebeuren wanneer de kinderen het ontgroeid zijn. Hiervoor werd een brainstormsessie georganiseerd waarin verschillende mogelijkheden voor een tweede leven van het product werden verkend. Vervolgens werden met behulp van AI meerdere storyboards uitgewerkt om deze scenario’s te visualiseren en te evalueren.
-<p align="center">
-  <img src="../img/Tweedeleven_Storyboards.png" width="100%">
-</p>
-<p align="center">
-  <img src="../img/Tweedeleven_Storyboards2.png" width="100%">
-</p>
+[📃Tweede leven storyboards](../docs/tweede%20leven.pdf)
 
 ### Circulaire eigendomsmodel
 De uitgewerkte tweedelevenscenario’s boden nog onvoldoende zekerheid over een langdurig en duurzaam gebruik van het product. Daarom werd opnieuw een brainstormsessie georganiseerd om alternatieven te onderzoeken die de levensduur van het product verder konden verlengen.
@@ -87,10 +82,12 @@ Testpersonen beoordeelden verschillende renders van productuitvoeringen en rangs
 <p align="left">
   <img src="../img/Render%20rond%20lamp.png" width="50%">
   <img src="../img/Render%20rond%20lamp%20maan.png" width="50%">
+
 </p>
 <p align="left">
   <img src="../img/Render%20leeuw.png" width="50%">
   <img src="../img/Render%20kader.png" width="50%">
+
 </p>
 
 ### Deel van programma zak maken
