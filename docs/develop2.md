@@ -152,7 +152,7 @@ Gebruikerstesten werden uitgevoerd bij twee gezinnen thuis. De test had drie gro
 [📃Protocel task based testing ](../reports%20and%20protocols/Protocol_ophangsysteem_testing.pdf)
 [📃Rapport task based testing ](../reports%20and%20protocols/Rapport_ophangsysteel_testing.pdf) 
 
-### Ophangsysteem, hadnvaten en grootte
+### Bevestigingssysteem, handvaten en grootte
 Er werd een draagbare wand gemaakt waarop de drie bevestigingsmethodes bevestigd konden worden. Alle prototypes werden gemaakt uit karton platen. Ieder prototype had telkens een variatie in afmeting en type handvaten. De kinderen kregen telkens een bevestigingssysteem met dezelfde taken:
 
 **1.**	De kapstok te bevestigen 
