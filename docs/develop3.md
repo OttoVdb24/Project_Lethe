@@ -10,7 +10,7 @@ Daarnaast ook het onderzoeken van het materiaalgebruik en de vormgeving van de s
 * User tests met kinderen (N=6) en ouders (N=4)
 
 
-## Lefespan
+## Lifespan
 
 ### Stakeholder analyse
 <p align="center">
@@ -19,7 +19,7 @@ Daarnaast ook het onderzoeken van het materiaalgebruik en de vormgeving van de s
 
 ### Emotieonderzoek
 Om de gewenste gebruikerservaring in kaart te brengen, werd een lijst opgesteld van de emoties die zowel kinderen als ouders idealiter ervaren tijdens het gebruik van de slimme kapstok.
-[📃Emotieonderzoek](../docs Emotieonderzoek.pdf)
+[📃Emotieonderzoek](../docs/Emotieonderzoek.pdf)
 
 ### Tweede leven storyboard
 Er werd onderzocht wat er met het product kan gebeuren wanneer de kinderen het ontgroeid zijn. Hiervoor werd een brainstormsessie georganiseerd waarin verschillende mogelijkheden voor een tweede leven van het product werden verkend. Vervolgens werden met behulp van AI meerdere storyboards uitgewerkt om deze scenario’s te visualiseren en te evalueren.
@@ -45,9 +45,9 @@ Deze modellen bieden een duurzamer alternatief dan een traditioneel tweede leven
 
 ### CMF-analyse
 Er werd gekeken naar bestaande interieurmerken om een beter beeld te krijgen van gangbare CMF-strategieën. Op basis van deze analyse werd een CMF-overzicht opgesteld dat richting geeft aan de materiaal- en kleurkeuzes binnen het ontwerp.
-[📃CMF-analyse](../docs CMF-analyse.pdf)
+[📃CMF-analyse](../docs/CMF-analyse.pdf)
 
-## CMF-strategie
+### CMF-strategie
 Er werd een selectie gemaakt uit een lijst met woorden die de gewenste CMF-richting van het product definiëren. Op basis hiervan werd, met behulp van onder andere AI, verder gewerkt aan het genereren van CMF-concepten.
 
 * Vorm:
@@ -66,10 +66,35 @@ Er werd een moodboard ontwikkeld om de visuele richting van het ontwerp te verke
 </p>
 
 ## User tests met kinderen (N=6) en ouders (N=4)
-Gebruikerstesten werden uitgevoerd bij twee gezinnen thuis. De test had drie grote delen:
+Gebruikerstesten werden uitgevoerd bij drie gezinnen thuis. De test had drie grote delen:
 •	Materiaal van handvaten bepalen
 •	Uitzicht van de kapstok bepalen
 •	Deel van programma zak maken 
+
+[📃Protocol CMF UX](../reports%20and%20protocols/Protocol_CMF_UX.pdf)
+[📃Rapport CMF UX](../reports%20and%20protocols/Rapport_CMF_UX.pdf) 
+
+
+### Materiaal van handvaten bepalen
+Testpersonen werden gevraagd verschillende materialen te voelen en te rangschikken van minst naar meest geschikt, waarna zij hun keuzes toelichtten. Bij de kinderen werd aanvullend een blinde test uitgevoerd om visuele beïnvloeding te vermijden, in combinatie met de think-aloud methode.
+<p align="left">
+  <img src="../img/Handvat%20materialen.png" width="100%">
+</p>
+
+### Uitzicht van de kapstok bepalen
+Testpersonen beoordeelden verschillende renders van productuitvoeringen en rangschikten deze van minst naar meest geschikt, waarna zij hun keuzes toelichtten.
+
+<p align="left">
+  <img src="../img/Render%20rond%20lamp.png" width="50%">
+  <img src="../img/Render%20rond%20lamp%20maan.png" width="50%">
+</p>
+<p align="left">
+  <img src="../img/Render%20leeuw.png" width="50%">
+  <img src="../img/Render%20kader.png" width="50%">
+</p>
+
+### Deel van programma zak maken
+Er werden drie verschillende ingeefmethodes getest. Na elke methode vulden de kinderen een variatie op de SAM-vragenlijst in om hun beleving te beoordelen.
 
 ## Design Requirements
 
