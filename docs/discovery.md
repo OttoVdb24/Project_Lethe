@@ -85,6 +85,7 @@ Uit dit onderzoek werden een aantal belangrijke product requirements gehaald:
 
 | PR nummer | Requirement | Source|
 |-------|-----|---|
-|1.1|Handelingen met het product moeten 's ochtends kunnen gebeuren zonder dat het tijd kost. | user interview & benchmark|
-|2.1| Het product moet kinderen in staat stellen om zelfstandig hun zakken te maken| user interview|
-|3.1| Het product moet binnen het budget van een gemiddeld gezin passen| user interview
+|1.1| Het product moet 's ochtends een overzicht van de dag geven | user interview & benchmark|
+|1.2| Interacties met het product mogen niet veel tijd kosten | user interview & benchmark|
+|1.3| Het product moet gebruikt kunnen worden door de kinderen en de ouders| user interview|
+|1.4| Het product moet binnen het budget van een gemiddeld gezin passen| user interview

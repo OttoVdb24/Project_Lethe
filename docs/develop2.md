@@ -1,18 +1,20 @@
 # Develop 2
 ## Inleiding
-In deze fase werd er hoofdzakelijk onderzoek gedaan naar de ergonomie en de fysieke vorm van de kapstok. Hiervoor moest eerst het bevestigingssyteem en het type handvaten bepaald worden. Ook de planningapp werd verder uitgewerkt in pygame aan de hand van usability goals, die tijdens de user testing werden geëvalueerd. 
+In deze fase werd er hoofdzakelijk onderzoek gedaan naar de ergonomie en de fysieke vorm van de kapstok. Hiervoor moest eerst het ophangsysteem en het type handvaten bepaald worden. Ook de planningapp werd verder uitgewerkt in pygame aan de hand van usability goals, die tijdens de user testing werden geëvalueerd. 
 
 - Long neck analyse en usability goals
 - Benchmark onderzoek naar losmakende verbindingenssystemen
 - Task based testing (N=4)
+## Pivot
+kapstok van de muur 
 
-### Long neck analyse
+## Long neck analyse
 Uit het story board werden de voornaamste acties met het product geanalyseerd en gecategoriseerd naar mate van voorkomen.
 <p align="center">
   <img src="../img/Long neck analyse.png" width="100%">
 </p>
 
-### Usability goals
+## Usability goals
 | Doel                                                                                                                              | Meten                | Type                          |
 |-----------------------------------------------------------------------------------------------------------------------------------|----------------------|-------------------------------|
 | Kinderen (vanaf de derde kleuterklas) moeten de kapstok binnen 5 seconden volledig zelfstandig van de muur kunnen halen.          | Timen                | efficiency                    |
@@ -150,7 +152,7 @@ Gebruikerstesten werden uitgevoerd bij twee gezinnen thuis. De test had drie gro
 [📃Protocel task based testing ](../reports%20and%20protocols/Protocol_ophangsysteem_testing.pdf)
 [📃Rapport task based testing ](../reports%20and%20protocols/Rapport_ophangsysteel_testing.pdf) 
 
-### Bevestigingssysteem, hadnvaten en grootte
+### Ophangsysteem, hadnvaten en grootte
 Er werd een draagbare wand gemaakt waarop de drie bevestigingsmethodes bevestigd konden worden. Alle prototypes werden gemaakt uit karton platen. Ieder prototype had telkens een variatie in afmeting en type handvaten. De kinderen kregen telkens een bevestigingssysteem met dezelfde taken:
 
 **1.**	De kapstok te bevestigen 
@@ -196,11 +198,20 @@ Aanvullend werd een korte test uitgevoerd met betrekking tot het mentale model v
 
 </p>
 
-## Vormkeuze
+## Handvat keuze
 Alle resultaten werden samengebracht en dienden als basis voor de selectie van de vorm waarmee verder wordt gegaan. Het ontwerp wordt zo compact mogelijk gehouden, waarbij het scherm en de handvaten voldoende groot blijven voor comfortabel gebruik.
-De afmetingen van de handvaten werden bepaald aan de hand van het principe **design for the tall**. Als referentiemaat werd de handgrootte van een volwassene gehanteerd, zodat zowel ouders als opgroeiende kinderen de kapstok zonder moeite kunnen dragen. Dit resulteerde in een minimale **hoogte van 99 mm.**
+De afmetingen van de handvaten werden bepaald aan de hand van het principe **design for the tall**. Als referentiemaat werd de handgrootte van een volwassene gehanteerd, zodat zowel ouders als opgroeiende kinderen de kapstok zonder moeite kunnen dragen. Dit resulteerde in een minimale **hoogte van 94 mm.**
 
 
 <p align="left">
   <img src="../img/Develop2_RenderAnnotatie.jpg" width="80%">
 </p>
+
+## Design Requirements
+
+| ID  | Design requirement | Source          |
+|-----|-------------------------------------------------------------------------------------|-----------------------------|
+| 4.1 | Het scherm moet van de muur gehaald kunnen worden| pivot brainstorm |
+| 4.2 | Het scherm moet doormiddel van een dovetail losneembaar verbonden worden aan de kapstok | User tesing|
+|4.3| Het product moet aan beide zijkanten een handvat bevatten, met een hoogte van 100mm| Antropometrische analyse, User testing|
+|4.4| Het product moet signifiers bevatten die duidelijk maken dat de activiteiten naar de juiste dag gesleepd moeten worden| User testing|

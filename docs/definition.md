@@ -50,6 +50,13 @@ Andere belangrijke take-aways uit deze testreeks zijn:
 -	Een alarm wanneer de zak niet op tijd klaar hangt of wordt weggenomen
 -	Een klein beloningssysteem, “Ik krijg ook geen snoepje als ik mijn werk gedaan heb” 
 
+| PR nummer | Requirement | Source|
+|-------|-----|---|
+|2.1| Het product ondersteunt het ophangen van tassen en rugzakken | user interview & benchmark|
+|2.2| Het product informeert het kind over de inhoud van de zak.| user interview & benchmark|
+|2.3| Er moet een trigger gegeven worden door de kapstok, wanneer het kind een actie moet ondernemen| user interview|
+|2.4| Het product moet intrinsieke motivatie stimuleren| user interview
+
 ## Wave 2
 
 Wave 1 toonde aan dat een slimme kapstok met een scherm de meest veelbelovende aanpak is. Destijds kon echter niet worden getest of de kinderen in staat zijn om, met de door ons meegegeven informatie, hun tas zelfstandig te maken. Deze volgende prototype wave had volgende onderzoeksvragen: 
@@ -86,14 +93,21 @@ Onderzoeksvraag 2
 -	De kinderen waren allemaal in staat om met hun eigen spullen de zak te maken. Moeilijkheden waren er met spullen die niet op de afgesproken plek lagen.
 -	De kinderen hadden niet door dat ze op de icoontjes konden klikken. 
 -	Een kind van 4 jaar (derde kleuter, kan dus niet lezen) kon ook zelfstandig haar zak maken.
--	De kapstok had leek niet genoeg op een kapstok. De zakken werden er niet aangehangen door de kinderen.
+-	De kapstok leek niet genoeg op een kapstok. De zakken werden er niet aangehangen door de kinderen. 
 ###### Observaties – test 2
 -	Schermen aan tafel zijn taboe bij de testgezinnen. 
 -	Meldingen op de gsm zijn niet handig, omdat gsm’s niet aan tafel gebruikt worden en omdat de ouders niet altijd aanwezig zijn wanneer de kinderen hun zak moeten maken. 
 -	De kinderen reageren zoals verwacht op het alarm van de kapstok.
--	Het alarm moet overal gehoord kunnen worden. Vaak hangt de kapstok in de garage of in een hal en is deze niet hoorbaar in de leefruimtes. 
+-	De hoorbaarheid van het alarm wordt door de gezinnen in vraag gesteld, aangezien de kapstok soms ver van de leefruimte gehangen zou worden.
 ### Conclusie 
 Kinderen van verschillende leeftijden zijn in staat om zelf hun zak te maken doormiddel van de kapstok. We leerden het belang van duidelijke pictogrammen. Daarnaast bleek dat de kapstok idealiter uiterlijke kenmerken vertoont die aansluiten bij de kapstokken die kinderen op school gewend zijn te gebruiken. Een alarm in de kapstokken lijkt het best geschikt. Dit target de kinderen het meest rechtstreeks. 
+
+| PR nummer | Requirement | Source|
+|-------|-----|---|
+|2.5| Het product toont een combinatie van pictogrammen en tekstuele informatie.  | user interview & benchmark|
+|2.6| Het product moet signifiers bevatten die duidelijk maken dat de benodigdheden aangevinkt kunnen worden| user interview & benchmark|
+|2.7| De kapstok moet het mentaal model van een kapstok triggeren bij kinderen vanaf het 3e kleuterklas| user interview|
+|2.8| De kapstok moet een auditieve trigger geven om kinderen aan te zetten tot actie| user interview
 
 Via deze link kunnen alle product requirements bekeken worden: [PRD](/docs/design_requirements.md)
 

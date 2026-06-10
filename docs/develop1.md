@@ -64,15 +64,29 @@ __4. Nabespreking:__ na de testen werd er tijd gemaakt om kwalitatief onderzoek 
   <img src="../img/SAM_vragenlijst.png" width="40%">
 </p>
 
-
 ### Test resultaten
 [📑Rapport benchmark testing ](../reports%20and%20protocols/Rapport_enchmarktesting.pdf)
 
-| ID  | Design requirement                                                                  | Voorbeeld app               |
+| Test resultaten    | Voorbeeld app               |
+|--------------------|-----------------------------|
+| Het programma moet op een overzichtelijke manier en volgorde alle user input vragen | Unicorn kalender, Figma app |
+| Het programma mag geen afleidingen creëren                                          | Figma app                   |
+ | De app moet een visueel leuke achtergrond hebben (volgens een thema)                | Unicorn kalender            |
+| Het kind moet actief meewerken aan het maken van de planning                        | Unicorn kalender, Figma app |
+| Typen moet worden vermeden om zo inclusief mogelijk te zijn                         | Figma app                   |
+| De planning moet een duidleijk overzicht van de week geven                          | Weeklo, Figma               |
+
+## Design Requirements
+
+| ID  | Design requirement | Source          |
 |-----|-------------------------------------------------------------------------------------|-----------------------------|
-| 4.1 | Het programma moet op een overzichtelijke manier en volgorde alle user input vragen | Unicorn kalender, Figma app |
-| 4.2 | Het programma mag geen afleidingen creëren                                          | Figma app                   |
-| 4.3 | De app moet een visueel leuke achtergrond hebben (volgens een thema)                | Unicorn kalender            |
-| 4.4 | Het kind moet actief meewerken aan het maken van de planning                        | Unicorn kalender, Figma app |
-| 4.5 | Typen moet worden vermeden om zo inclusief mogelijk te zijn                         | Figma app                   |
-| 4.6 | De planning moet een duidleijk overzicht van de week geven                          | Weeklo, Figma               |
+| 3.1 | De ondersteuningsgraad moet aangepast worden bij toenemende competentie van het kind | Vygotsky's theory, Expert interview |
+| 3.2 | Het programma moet voldoende ruimte laten voor germane cognitve load. | Bandura, Expert interview|
+| 3.3 | Het programma moet gepersonaliseerd kunnen worden naar een visueel thema                | Benchmark testing           |
+| 3.4 | De interacties tussen het kind en product moeten op maat zijn van het kind | Benchmark testing, Expert interview |
+| 3.5 | Het product moet ervoor zorgen dat het kind zich betrokken voelt bij zijn of haar agenda, van planning tot uitwerking                         | Expert interview              |
+| 3.6 | De planning moet een duidelijk overzicht van de week geven                          | Benchmark testing|
+|3.7| Het product moet intrinsieke motivatie stimuleren|Expert interview|
+|3.8| Het product moet repetitieve taken op een gevarieerde manier presenteren |Expert interview|
+|3.9| Het product moet een start doelgroep hebben van 4 jaar | Cognitieve functies, Expert interview |
+
