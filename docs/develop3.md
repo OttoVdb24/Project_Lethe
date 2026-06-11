@@ -22,14 +22,16 @@ Om de gewenste gebruikerservaring in kaart te brengen, werd een lijst opgesteld 
 [📃Emotieonderzoek protocol](../docs/Emotieonderzoek_protocol.pdf)
 [📃Emotieonderzoek rapport](../docs/Emotieonderzoek_rapport.pdf)
 
-**Resultaten:**
+**Resultaten:** 
+</p>
 Ontwerpomplementaties voor emoties van kind:
 * Duidelijk eindteken naar het kind indien de taak afgewerkt is. -> voldoening en trots
 * Zorgen dat kind de handelingen volledig zelfstandig kan uitvoeren. -> autonomie
 * Stem de moeilijkheidsgraad af op het niveau van het kind: uitdagend genoeg om te motiveren, maar niet zo moeilijk dat het frustrerend wordt. -> zelfvertrouwen
 * Voorzie een duidelijke, visuele structuur van de stappen en de inhoud van de zak. -> rust
 * Laat het kind werken op eigen tempo, zonder tijdsdruk. -> rust
-* Zorg dat het systeem voorspelbaar is. -> rust
+* Zorg dat het systeem voorspelbaar is. -> rust 
+</p>
 Ontwerpimplementaties voor emoties van ouder:
 * Zorgen dat kind de handelingen volledig zelfstandig kan uitvoeren. -> rust
 * Zorg voor een duidelijk en betrouwbaar systeem dat het kind stap voor stap begeleidt, zodat de ouder erop kan vertrouwen dat alles correct gebeurt zonder constante controle. -> vertrouwen
@@ -144,6 +146,26 @@ Er werden drie verschillende ingeefmethodes getest. Na elke methode vulden de ki
 | Kinderen > 8j | Goed<br>Efficiënt | Duurt wat lang | Leuk |
 | Conclusie | Goede afwisseling, zeer to the point en wordt geapprecieerd door oudere kinderen die het minder als spelletje zien. | Heel goed, de kinderen hadden een lach op hun gezicht.<br><br>Bugs of onduidelijkheden waarom het niet groen wordt verder uitwerken. | Goed, geeft duidelijk weer wat er nog in de zak moet.<br><br>Ouders waren grote fan van deze versie. |
 | Opmerking | Kinderen waren grote fan van het idee om willekeurig een andere versie te hebben op de kapstok. Deze variabiliteit is ook een extra motivator. |  |  |
+
+## Finale vormgeving
+De finale vormgeving combineert een subtiele integratie in het interieur met een aantrekkelijk en veilig ontwerp voor de doelgroep: kinderen vanaf 4 jaar. Dit werd gerealiseerd door verschillende ontwerpkeuzes:
+
+* Een schokbestendige siliconen rand rondom het product, die bescherming biedt bij stoten en vallen en tegelijkertijd een zachte, kindvriendelijke uitstraling creëert.
+* Een personaliseerbaar frontpaneel met verwisselbare thema's, zodat het product kan worden aangepast aan de voorkeuren van de gebruiker.
+* Een eenvoudige ronde basisvorm, wat de veiligheid verhoogt en zorgt voor een rustige, vriendelijke uitstraling binnen het interieur.
+* Een geïntegreerde lichtkrans met instelbare kleuren maakt het product aantrekkelijker en speelser voor kinderen, terwijl het ook voor sfeervolle verlichting zorgt.
+* Het gebruik van lichte kleuren en houtaccenten draagt bij aan een warme, huiselijke uitstraling die aansluit bij moderne interieurs.
+
+Daarnaast ondersteunt de vormgeving ook de functionaliteiten van het product:
+
+* Modulaire opbouw van het aantal haakjes, waardoor het kan worden aangepast aan de nood van de gebruiker.
+* Een eenvoudig losneembare maar stevige verbinding dankzij het dovetail-systeem.
+* Geïntegreerde handvaten aan beide zijden maken het product gemakkelijk draagbaar voor zowel kinderen als ouders.
+* Een vast, houten haak zorgt voor voldoende draagkracht voor zware zakken.
+* Het losneembare karakter voorkomt hinder (bv. haak) bij interactie met de display.
+
+Deze ontwerpkeuzes zorgen ervoor dat het product niet alleen functioneel en veilig is, maar ook esthetisch aansluit bij een huiselijke omgeving.
+
 
 ## Design Requirements
 
