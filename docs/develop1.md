@@ -34,6 +34,11 @@ Het maken van de weekplanning werd uiteengetrokken en in een hiërarchische taak
   <img src="../img/hiërarchische taakanalyse.png" width="100%">
 </p>
 
+## Storyboard
+Op basis van de taakanalyse werd een storyboard opgesteld om het gebruiksscenario van het product te visualiseren. De inzichten hieruit werden meegenomen in de functieanalyse.
+<p align="center">
+  <img src="../img/storyboard.png" width="100%">
+</p>
 
 ## Functie analyse
 Na feedback werd er beslist om een uitgewerktere functie analyse op te stellen. Deze heeft als doel om op een grafische manier alle functies, componenten en verbindingen tussen alle aspecten van het product weer te geven.

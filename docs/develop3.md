@@ -34,6 +34,9 @@ Deze modellen bieden een duurzamer alternatief dan een traditioneel tweede leven
 </p>
 
 ## Customer journey
+<p align="center">
+  <img src="../img/Customer%20journey.png" width="100%">
+</p>
 
 ## CMF-onderzoek
 
@@ -94,12 +97,14 @@ Testpersonen beoordeelden verschillende renders van productuitvoeringen en rangs
 <p align="left">
   <img src="../img/Render%20rond%20lamp.png" width="47%">
   <img src="../img/Render%20rond%20lamp%20maan.png" width="51%">
-
 </p>
 <p align="left">
   <img src="../img/Render%20leeuw.png" width="49.5%">
   <img src="../img/Render%20kader.png" width="48.5%">
+</p>
 
+<p align="center">
+  <img src="../img/Rangschikken%20renders.png" width="60%">
 </p>
 
 **Resultaten:**
@@ -109,8 +114,19 @@ Testpersonen beoordeelden verschillende renders van productuitvoeringen en rangs
 
 ### Deel van programma zak maken
 Er werden drie verschillende ingeefmethodes getest. Na elke methode vulden de kinderen een variatie op de SAM-vragenlijst in om hun beleving te beoordelen.
+ <p align="left">
+   <img src="/img/Tik_App.gif" width="33%">
+   <img src="/img/Kleur_App.gif" width="33%">
+   <img src="/img/Sleep_App.gif" width="33%">
+ </p>
 
 **Resultaten:**
+|                | Tikken | Kleuren | Slepen |
+|----------------|-------|-------|-------|
+| Kinderen < 8j | Eerder saai | Heel leuk! | Leuk |
+| Kinderen > 8j | Goed<br>Efficiënt | Duurt wat lang | Leuk |
+| Conclusie | Goede afwisseling, zeer to the point en wordt geapprecieerd door oudere kinderen die het minder als spelletje zien. | Heel goed, de kinderen hadden een lach op hun gezicht.<br><br>Bugs of onduidelijkheden waarom het niet groen wordt verder uitwerken. | Goed, geeft duidelijk weer wat er nog in de zak moet.<br><br>Ouders waren grote fan van deze versie. |
+| Opmerking | Kinderen waren grote fan van het idee om willekeurig een andere versie te hebben op de kapstok. Deze variabiliteit is ook een extra motivator. |  |  |
 
 ## Design Requirements
 

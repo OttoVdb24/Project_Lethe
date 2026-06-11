@@ -38,8 +38,9 @@ De gehanteerde boundary conditions zijn:
 3. [Defintion](./docs/definition.md)
 4. [Develop 1](./docs/develop1.md)
 5. [Develop 2](./docs/develop2.md)
-6. [Design Requirements](./docs/design_requirements.md)
-7. [Bill of materials](./docs/bom.md)
+6. [Develop 3](./docs/develop3.md)
+7. [Design Requirements](./docs/design_requirements.md)
+8. [Bill of materials](./docs/bom.md)
 
 ## Kritische reflectie
 De samenwerking binnen het team verliep over het algemeen goed, doordat de taken duidelijk werden verdeeld op basis van ieders sterke punten. Aan het begin van het semester hebben we gezamenlijk een planning opgesteld, waarin werd vastgelegd wanneer de verschillende onderdelen van de opdracht idealiter afgerond zouden zijn. Dit gaf ons vanaf het begin een helder overzicht van het project.
@@ -99,6 +100,15 @@ De inhoudelijke keuzes zijn steeds door het team bepaald.
   * [Protocol](./reports%20and%20protocols/Protocol_ophangsysteem_testing.pdf)
   * [Rapport](./reports%20and%20protocols/Rapport_ophangsysteel_testing.pdf)
 
+### Develop 3
+* Emotieonderzoek
+  * [Rapport](./docs/Emotieonderzoek.pdf)
+* [Tweede leven storyboard](./docs/tweede%20leven.pdf)
+* CMF-analyse
+  * [Rapport](./docs/CMF-analyse.pdf)
+* User testing
+  * [Protocol](./reports%20and%20protocols/Protocol_CMF_UX.pdf)
+  * [Rapport](./reports%20and%20protocols/Rapport_CMF_UX.pdf)
 
 ## Licentie
 This repository contains both software and design materials created as part of an industrial design energineering project at Ghent University.
