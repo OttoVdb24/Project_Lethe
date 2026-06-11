@@ -6,4 +6,11 @@
 | Touchscreen               | https://www.kiwi-electronics.com/nl/3-5inch-rpi-lcd-480x320-ips-resistief-touchscreen-4418?search=touchscreen                                                                                                                                                 | € 31    |
 | Speaker                   | https://www.kiwi-electronics.com/nl/kleine-ovale-luidspreker-8-ohm-1-watt-7283?search=speaker                                                                                                                                                                 | € 2.41  |
 
+Het finale ontwerp werd niet gematerialiseerd. Wel werd er een werkbaar en testbaar prototype ontwikkeld.
+
+In onderstaande tabel zijn de benodigdheden te vinden voor de slimme kapstok:
+
+
+In onderstaande tabel zijn de benodigdheden te vinden voor de "muur":
+
 
