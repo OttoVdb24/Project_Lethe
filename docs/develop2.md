@@ -211,7 +211,7 @@ De afmetingen van de handvaten werden bepaald aan de hand van het principe **des
 
 | ID  | Design requirement | Source          |
 |-----|-------------------------------------------------------------------------------------|-----------------------------|
-| 4.1 | Het scherm moet van de muur gehaald kunnen worden| pivot brainstorm |
-| 4.2 | Het scherm moet doormiddel van een dovetail losneembaar verbonden worden aan de kapstok | User tesing|
-|4.3| Het product moet aan beide zijkanten een handvat bevatten, met een hoogte van 100mm| Antropometrische analyse, User testing|
+| 4.1 | Het scherm moet in één beweging van de muur gehaald kunnen worden| pivot brainstorm |
+| 4.2 | Het scherm moet doormiddel van een dovetail losneembaar verbonden worden aan de kapstok | User testing|
+|4.3| Het product moet aan beide zijkanten een handvat bevatten, met een hoogte van 94mm| Antropometrische analyse, User testing|
 |4.4| Het product moet signifiers bevatten die duidelijk maken dat de activiteiten naar de juiste dag gesleepd moeten worden| User testing|

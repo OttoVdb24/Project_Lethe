@@ -52,10 +52,10 @@ Andere belangrijke take-aways uit deze testreeks zijn:
 
 | PR nummer | Requirement | Source|
 |-------|-----|---|
-|2.1| Het product ondersteunt het ophangen van tassen en rugzakken | user interview & benchmark|
-|2.2| Het product informeert het kind over de inhoud van de zak.| user interview & benchmark|
-|2.3| Er moet een trigger gegeven worden door de kapstok, wanneer het kind een actie moet ondernemen| user interview|
-|2.4| Het product moet intrinsieke motivatie stimuleren| user interview
+|2.1| Het product maakt het mogelijk om tassen en rugzakken op te hangen | user test & debrief|
+|2.2| Het product informeert het kind over de inhoud van de zak| user test & debrief|
+|2.3| Er moet een trigger gegeven worden door de kapstok, wanneer het kind een actie moet ondernemen| debrief|
+|2.4| Het product moet intrinsieke motivatie stimuleren| debrief|
 
 ## Wave 2
 
@@ -104,10 +104,10 @@ Kinderen van verschillende leeftijden zijn in staat om zelf hun zak te maken doo
 
 | PR nummer | Requirement | Source|
 |-------|-----|---|
-|2.5| Het product toont een combinatie van pictogrammen en tekstuele informatie.  | user interview & benchmark|
-|2.6| Het product moet signifiers bevatten die duidelijk maken dat de benodigdheden aangevinkt kunnen worden| user interview & benchmark|
-|2.7| De kapstok moet het mentaal model van een kapstok triggeren bij kinderen vanaf het 3e kleuterklas| user interview|
-|2.8| De kapstok moet een auditieve trigger geven om kinderen aan te zetten tot actie| user interview
+|2.5| Het product toont een combinatie van pictogrammen en tekstuele informatie.  | user test & debrief|
+|2.6| Het product moet signifiers bevatten die duidelijk maken dat de benodigdheden aangevinkt kunnen worden| user test & debrief|
+|2.7| De kapstok moet het mentaal model van een kapstok triggeren bij kinderen vanaf het 2e kleuterklas| user test|
+|2.8| De kapstok moet een auditieve trigger geven om kinderen aan te zetten tot actie| user test & debrief|
 
 Via deze link kunnen alle product requirements bekeken worden: [PRD](/docs/design_requirements.md)
 

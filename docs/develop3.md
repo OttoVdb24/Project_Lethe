@@ -115,7 +115,10 @@ Er werden drie verschillende ingeefmethodes getest. Na elke methode vulden de ki
 ## Design Requirements
 
 | ID  | Design requirement | Source          |
-|-----|-------------------------------------------------------------------------------------|-----------------------------|
-| 5.1 |Het materiaal van de handvaten moet voldoen aan volgende eigenschappen: Onderhoudsvriendelijk, zacht, warm | User testing
-| 5.2 | Het product moet schok- en valbestendig zijn | User tesing|
-|5.3| 
+|-----|--------------------|-----------------|
+|5.1 | De kapstok moet visueel aanleunen bij de leefwereld van het kind (cfr. [CMF-analyse](Develop3.md#cmf-analyse))| User testing, Debrief|
+|5.2| De kapstok moet low profile zijn wanneer deze niet in gebruik is| CMF analyse|
+|5.3|Het materiaal van de handvaten moet voldoen aan volgende eigenschappen: Onderhoudsvriendelijk, zacht, warm | User testing|
+| 5.4 | Het product moet schok- en valbestendig zijn | Debrief|
+|5.5| Het thema het product moet verwisselbaar zijn|Debrief|
+|5.6| Het aantal haakjes moet aangepast kunnen worden| Expert|

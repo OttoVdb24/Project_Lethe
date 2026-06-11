@@ -80,13 +80,13 @@ __4. Nabespreking:__ na de testen werd er tijd gemaakt om kwalitatief onderzoek 
 
 | ID  | Design requirement | Source          |
 |-----|-------------------------------------------------------------------------------------|-----------------------------|
-| 3.1 | De ondersteuningsgraad moet aangepast worden bij toenemende competentie van het kind | Vygotsky's theory, Expert interview |
-| 3.2 | Het programma moet voldoende ruimte laten voor germane cognitve load. | Bandura, Expert interview|
-| 3.3 | Het programma moet gepersonaliseerd kunnen worden naar een visueel thema                | Benchmark testing           |
-| 3.4 | De interacties tussen het kind en product moeten op maat zijn van het kind | Benchmark testing, Expert interview |
+| 3.1 | De ondersteuningsgraad moet aangepast worden bij toenemende competentie van het kind | Vygotsky's theory & Expert interview |
+| 3.2 | Het programma moet voldoende ruimte laten voor germane cognitve load | Bandura, Expert interview|
+| 3.3 | Het scherm moet gepersonaliseerd kunnen worden naar een visueel thema                | Benchmark testing           |
+| 3.4 | De interacties tussen het kind en product moeten op maat zijn van het kind | Benchmark testing & Expert interview |
 | 3.5 | Het product moet ervoor zorgen dat het kind zich betrokken voelt bij zijn of haar agenda, van planning tot uitwerking                         | Expert interview              |
 | 3.6 | De planning moet een duidelijk overzicht van de week geven                          | Benchmark testing|
 |3.7| Het product moet intrinsieke motivatie stimuleren|Expert interview|
 |3.8| Het product moet repetitieve taken op een gevarieerde manier presenteren |Expert interview|
-|3.9| Het product moet een start doelgroep hebben van 4 jaar | Cognitieve functies, Expert interview |
+|3.9| Het product moet een start doelgroep hebben van 4 jaar | Cognitieve functies & Expert interview |
 
