@@ -117,8 +117,8 @@ Er werden drie verschillende ingeefmethodes getest. Na elke methode vulden de ki
 | ID  | Design requirement | Source          |
 |-----|--------------------|-----------------|
 |5.1 | De kapstok moet visueel aanleunen bij de leefwereld van het kind (cfr. [CMF-analyse](Develop3.md#cmf-analyse))| User testing, Debrief|
-|5.2| De kapstok moet low profile zijn wanneer deze niet in gebruik is| CMF analyse|
-|5.3|Het materiaal van de handvaten moet voldoen aan volgende eigenschappen: Onderhoudsvriendelijk, zacht, warm | User testing|
+|5.2| De kapstok moet visueel low profile zijn wanneer deze niet in gebruik is| CMF analyse|
+|5.3|Het materiaal van de handvaten moet voldoen aan volgende eigenschappen: onderhoudsvriendelijk, zacht, warm | User testing|
 | 5.4 | Het product moet schok- en valbestendig zijn | Debrief|
-|5.5| Het thema het product moet verwisselbaar zijn|Debrief|
+|5.5| Het thema van het product moet verwisselbaar zijn|Debrief|
 |5.6| Het aantal haakjes moet aangepast kunnen worden| Expert|
