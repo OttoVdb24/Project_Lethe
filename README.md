@@ -102,10 +102,12 @@ De inhoudelijke keuzes zijn steeds door het team bepaald.
 
 ### Develop 3
 * Emotieonderzoek
-  * [Rapport](./docs/Emotieonderzoek.pdf)
+  * [Protocol](./docs/Emotieonderzoek_protocol.pdf)
+  * [Rapport](./docs/Emotieonderzoek_rapport.pdf)
 * [Tweede leven storyboard](./docs/tweede%20leven.pdf)
 * CMF-analyse
-  * [Rapport](./docs/CMF-analyse.pdf)
+  * [Protocol](./docs/CMF-analyse_protocol.pdf)
+  * [Rapport](./docs/CMF-analyse_rapport.pdf)
 * User testing
   * [Protocol](./reports%20and%20protocols/Protocol_CMF_UX.pdf)
   * [Rapport](./reports%20and%20protocols/Rapport_CMF_UX.pdf)

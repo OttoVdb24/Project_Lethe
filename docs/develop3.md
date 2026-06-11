@@ -18,16 +18,32 @@ Daarnaast ook het onderzoeken van het materiaalgebruik en de vormgeving van de s
 </p>
 
 ### Emotieonderzoek
-Om de gewenste gebruikerservaring in kaart te brengen, werd een lijst opgesteld van de emoties die zowel kinderen als ouders idealiter ervaren tijdens het gebruik van de slimme kapstok.
-[📃Emotieonderzoek](../docs/Emotieonderzoek.pdf)
+Om de gewenste gebruikerservaring in kaart te brengen, werd een lijst opgesteld van de emoties die zowel kinderen als ouders idealiter ervaren tijdens het gebruik van de slimme kapstok. Voor elke emotie worden vervolgens ontwerpbeslissingen geformuleerd die bijdragen aan het opwekken of ondersteunen van deze emotionele ervaring tijdens het gebruik van de slimme kapstok.
+[📃Emotieonderzoek protocol](../docs/Emotieonderzoek_protocol.pdf)
+[📃Emotieonderzoek rapport](../docs/Emotieonderzoek_rapport.pdf)
+
+**Resultaten:**
+Ontwerpomplementaties voor emoties van kind:
+* Duidelijk eindteken naar het kind indien de taak afgewerkt is. -> voldoening en trots
+* Zorgen dat kind de handelingen volledig zelfstandig kan uitvoeren. -> autonomie
+* Stem de moeilijkheidsgraad af op het niveau van het kind: uitdagend genoeg om te motiveren, maar niet zo moeilijk dat het frustrerend wordt. -> zelfvertrouwen
+* Voorzie een duidelijke, visuele structuur van de stappen en de inhoud van de zak. -> rust
+* Laat het kind werken op eigen tempo, zonder tijdsdruk. -> rust
+* Zorg dat het systeem voorspelbaar is. -> rust
+Ontwerpimplementaties voor emoties van ouder:
+* Zorgen dat kind de handelingen volledig zelfstandig kan uitvoeren. -> rust
+* Zorg voor een duidelijk en betrouwbaar systeem dat het kind stap voor stap begeleidt, zodat de ouder erop kan vertrouwen dat alles correct gebeurt zonder constante controle. -> vertrouwen
+* Geef een korte, positieve bevestiging wanneer het kind de taak zelfstandig afrondt. -> trots
+* Voorzie vaste momenten zoals een wekelijkse planning en reflectie, waarin de ouder kan bijsturen waar nodig. -> controle
+* Maak het mogelijk om de moeilijkheidsgraad aan te passen zodat de ondersteuning kan afnemen naarmate het kind zelfstandiger wordt. -> controle
 
 ### Tweede leven storyboard
 Er werd onderzocht wat er met het product kan gebeuren wanneer de kinderen het ontgroeid zijn. Hiervoor werd een brainstormsessie georganiseerd waarin verschillende mogelijkheden voor een tweede leven van het product werden verkend. Vervolgens werden met behulp van AI meerdere storyboards uitgewerkt om deze scenario’s te visualiseren en te evalueren.
 [📃Tweede leven storyboards](../docs/tweede%20leven.pdf)
 
-### Circulaire eigendomsmodel
+### Circulair eigendomsmodel
 De uitgewerkte tweedelevenscenario’s boden nog onvoldoende zekerheid over een langdurig en duurzaam gebruik van het product. Daarom werd opnieuw een brainstormsessie georganiseerd om alternatieven te onderzoeken die de levensduur van het product verder konden verlengen.
-Hieruit ontstonden twee mogelijke circulaire eigendomsmodellen. In het eerste model wordt het product gedurende één jaar uitgeleend door een gezin via scholen, waardoor het product continu en optimaal benut wordt. In het tweede model kunnen gezinnen het product aankopen, waarna het bedrijf het terugkoopt zodra de kinderen het ontgroeid zijn. Het product wordt vervolgens nagekeken, opgeknapt en opnieuw verkocht aan een nieuw gezin.
+Hieruit ontstonden twee mogelijke circulair eigendomsmodellen. In het eerste model wordt het product gedurende één jaar uitgeleend door een gezin via scholen, waardoor het product continu en optimaal benut wordt. In het tweede model kunnen gezinnen het product aankopen, waarna het bedrijf het terugkoopt zodra de kinderen het ontgroeid zijn. Het product wordt vervolgens nagekeken, opgeknapt en opnieuw verkocht aan een nieuw gezin.
 Deze modellen bieden een duurzamer alternatief dan een traditioneel tweede leven, omdat het product zijn oorspronkelijke functie behoudt. Hierdoor wordt de levensduur aanzienlijk verlengd en wordt de circulaire waarde van het product gemaximaliseerd.
 <p align="center">
   <img src="../img/circulair%20eigendomsmodel.png" width="85%">
@@ -42,7 +58,8 @@ Deze modellen bieden een duurzamer alternatief dan een traditioneel tweede leven
 
 ### CMF-analyse
 Er werd gekeken naar bestaande interieurmerken om een beter beeld te krijgen van gangbare CMF-strategieën. Op basis van deze analyse werd een CMF-overzicht opgesteld dat richting geeft aan de materiaal- en kleurkeuzes binnen het ontwerp.
-[📃CMF-analyse](../docs/CMF-analyse.pdf)
+[📃protocol CMF-analyse](../docs/CMF-analyse_protocol.pdf)
+[📃rapport CMF-analyse](../docs/CMF-analyse_rapport.pdf)
 
 **Resultaten:**
 * zachte, gedempte kleuren en lage contrasten 

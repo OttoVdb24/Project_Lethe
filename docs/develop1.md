@@ -37,7 +37,7 @@ Het maken van de weekplanning werd uiteengetrokken en in een hiërarchische taak
 ## Storyboard
 Op basis van de taakanalyse werd een storyboard opgesteld om het gebruiksscenario van het product te visualiseren. De inzichten hieruit werden meegenomen in de functieanalyse.
 <p align="center">
-  <img src="../img/storyboard.png" width="100%">
+  <img src="../img/storyboard.png" width="80%">
 </p>
 
 ## Functie analyse
