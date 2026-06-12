@@ -164,7 +164,11 @@ Na ieder prototype werd door de kinderen een SAM vragenlijst in gevuld om te pol
   <img src="../img/Prototypes-dovetail.jpg" width="33%">
   <img src="../img/Prototypes-magnetisch.jpg" width="33%">
   <img src="../img/Prototypes-schuifsysteem.jpg" width="33%">
-
+</p>
+<p align="left">
+  <img src="../img/ophangsysteem.jpeg" width="20%">
+  <img src="../img/zichtbaar_handvat.jpg" width="20%">
+  <img src="../img/onzichtbaar_handvat.jpg" width="20%">
 </p>
 
 **Resultaten:**
