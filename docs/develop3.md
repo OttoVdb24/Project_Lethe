@@ -3,14 +3,14 @@
 ## Inleiding
 In deze fase werden twee domeinen grondig onderzocht.
 Enerzijds werd de volledige levenscyclus van het product geanalyseerd. Hiervoor werden brainstormsessies georganiseerd en verschillende schema’s opgesteld om inzicht te krijgen in de interactie tussen gebruiker en product gedurende de volledige gebruiksperiode. Daarbij werd onder andere gekeken naar:
-* Lifespan
+* Omkadering
 * Customer journey
-Daarnaast ook het onderzoeken van het materiaalgebruik en de vormgeving van de slimme kapstok. Hiervoor werd eerst een CMF-analyse uitgevoerd van bestaande producten en merken. Vervolgens werden gebruikerstesten uitgevoerd om inzicht te krijgen in de wensen en ervaringen van de doelgroep. Tijdens deze testen werden tevens verschillende varianten van een deel van het programma geëvalueerd 
-* CMF-onderzoek
-* User tests met kinderen (N=6) en ouders (N=4)
+
+Daarnaast werd ook het materiaalgebruik en de vormgeving van de slimme kapstok onderzocht. Hiervoor werd eerst een CMF-analyse uitgevoerd van bestaande producten en merken die passen in de leefwereld van de doelgroep. Vervolgens werden gebruikerstesten uitgevoerd om de CMF aannames te valdideren bij de users (N=10)*. Tijdens deze testen werden tevens verschillende varianten van de kapstok interface geëvalueerd 
 
 
-## Lifespan
+
+## Omkadering
 
 ### Stakeholder analyse
 <p align="center">
@@ -22,23 +22,26 @@ Om de gewenste gebruikerservaring in kaart te brengen, werd een lijst opgesteld 
 [📃Emotieonderzoek protocol](../docs/Emotieonderzoek_protocol.pdf)
 [📃Emotieonderzoek rapport](../docs/Emotieonderzoek_rapport.pdf)
 
-**Resultaten:** 
-</p>
-Ontwerpomplementaties voor emoties van kind:
-* Duidelijk eindteken naar het kind indien de taak afgewerkt is. -> voldoening en trots
-* Zorgen dat kind de handelingen volledig zelfstandig kan uitvoeren. -> autonomie
-* Stem de moeilijkheidsgraad af op het niveau van het kind: uitdagend genoeg om te motiveren, maar niet zo moeilijk dat het frustrerend wordt. -> zelfvertrouwen
-* Voorzie een duidelijke, visuele structuur van de stappen en de inhoud van de zak. -> rust
-* Laat het kind werken op eigen tempo, zonder tijdsdruk. -> rust
-* Zorg dat het systeem voorspelbaar is. -> rust 
-</p>
-Ontwerpimplementaties voor emoties van ouder:
-* Zorgen dat kind de handelingen volledig zelfstandig kan uitvoeren. -> rust
-* Zorg voor een duidelijk en betrouwbaar systeem dat het kind stap voor stap begeleidt, zodat de ouder erop kan vertrouwen dat alles correct gebeurt zonder constante controle. -> vertrouwen
-* Geef een korte, positieve bevestiging wanneer het kind de taak zelfstandig afrondt. -> trots
-* Voorzie vaste momenten zoals een wekelijkse planning en reflectie, waarin de ouder kan bijsturen waar nodig. -> controle
-* Maak het mogelijk om de moeilijkheidsgraad aan te passen zodat de ondersteuning kan afnemen naarmate het kind zelfstandiger wordt. -> controle
+**Ontwerp implicaties voor het kind:** 
 
+| Actie | Emotie |
+|--------|--------|
+| Duidelijk eindteken naar het kind wanneer de taak afgewerkt is. | voldoening en trots |
+| Zorgen dat kind de handelingen volledig zelfstandig kan uitvoeren. | autonomie |
+| Stem de moeilijkheidsgraad af op het niveau van het kind: uitdagend genoeg om te motiveren, maar niet zo moeilijk dat het frustrerend wordt. | zelfvertrouwen |
+| Voorzie een duidelijke, visuele structuur van de stappen en de inhoud van de zak. | rust |
+| Laat het kind werken op eigen tempo, zonder tijdsdruk. | rust |
+| Zorg dat het systeem voorspelbaar is. | rust |
+
+**Ontwerp implicaties voor de ouder:** 
+
+| Actie | Emotie |
+|--------|--------|
+| Zorgen dat kind de handelingen volledig zelfstandig kan uitvoeren. | rust |
+| Zorg voor een duidelijk en betrouwbaar systeem dat het kind stap voor stap begeleidt, zodat de ouder erop kan vertrouwen dat alles correct gebeurt zonder constante controle. | vertrouwen |
+| Geef een korte, positieve bevestiging wanneer het kind de taak zelfstandig afrondt. | trots |
+| Voorzie vaste momenten zoals een wekelijkse planning en reflectie, waarin de ouder kan bijsturen waar nodig. | controle |
+| Maak het mogelijk om de moeilijkheidsgraad aan te passen zodat de ondersteuning kan afnemen naarmate het kind zelfstandiger wordt. | controle |
 ### Tweede leven storyboard
 Er werd onderzocht wat er met het product kan gebeuren wanneer de kinderen het ontgroeid zijn. Hiervoor werd een brainstormsessie georganiseerd waarin verschillende mogelijkheden voor een tweede leven van het product werden verkend. Vervolgens werden met behulp van AI meerdere storyboards uitgewerkt om deze scenario’s te visualiseren en te evalueren.
 [📃Tweede leven storyboards](../docs/tweede%20leven.pdf)
@@ -92,14 +95,14 @@ Er werd een moodboard ontwikkeld om de visuele richting van het ontwerp te verke
 Gebruikerstesten werden uitgevoerd bij drie gezinnen thuis. De test had drie grote delen:
 •	Materiaal van handvaten bepalen
 •	Uitzicht van de kapstok bepalen
-•	Deel van programma zak maken 
+•	Digitale interactie tijdens het maken van de zak valideren
 
 [📃Protocol CMF UX](../reports%20and%20protocols/Protocol_CMF_UX.pdf)
 [📃Rapport CMF UX](../reports%20and%20protocols/Rapport_CMF_UX.pdf) 
 
 
 ### Materiaal van handvaten bepalen
-Testpersonen werden gevraagd verschillende materialen te voelen en te rangschikken van minst naar meest geschikt, waarna zij hun keuzes toelichtten. Bij de kinderen werd aanvullend een blinde test uitgevoerd om visuele beïnvloeding te vermijden, in combinatie met de think-aloud methode.
+Testpersonen werden gevraagd verschillende materialen te voelen en te rangschikken van minst naar meest geschikt, waarna zij hun keuzes toelichtten. Bij de kinderen werd aanvullend een blinde test uitgevoerd om visuele beïnvloeding te vermijden, in combinatie met de think-aloud protocol.
 <p align="left">
   <img src="../img/Handvat%20materialen.png" width="100%">
 </p>
@@ -131,7 +134,7 @@ Testpersonen beoordeelden verschillende renders van productuitvoeringen en rangs
 * Afgerond 
 * Personaliseerbaar mag
 
-### Deel van programma zak maken
+### Kapstok interface: zak maken
 Er werden drie verschillende ingeefmethodes getest. Na elke methode vulden de kinderen een variatie op de SAM-vragenlijst in om hun beleving te beoordelen.
  <p align="left">
    <img src="/img/Tik_App.gif" width="33%">
@@ -148,12 +151,12 @@ Er werden drie verschillende ingeefmethodes getest. Na elke methode vulden de ki
 | Opmerking | Kinderen waren grote fan van het idee om willekeurig een andere versie te hebben op de kapstok. Deze variabiliteit is ook een extra motivator. |  |  |
 
 ## Finale vormgeving
-De finale vormgeving combineert een subtiele integratie in het interieur met een aantrekkelijk en veilig ontwerp voor de doelgroep: kinderen vanaf 4 jaar. Dit werd gerealiseerd door verschillende ontwerpkeuzes:
+De finale vormgeving combineert een subtiele integratie in het interieur met een aantrekkelijk en veilig ontwerp voor de doelgroep: kinderen vanaf 4 jaar. Dit werd gerealiseerd door volgende ontwerpkeuzes:
 
 * Een schokbestendige siliconen rand rondom het product, die bescherming biedt bij stoten en vallen en tegelijkertijd een zachte, kindvriendelijke uitstraling creëert.
 * Een personaliseerbaar frontpaneel met verwisselbare thema's, zodat het product kan worden aangepast aan de voorkeuren van de gebruiker.
 * Een eenvoudige ronde basisvorm, wat de veiligheid verhoogt en zorgt voor een rustige, vriendelijke uitstraling binnen het interieur.
-* Een geïntegreerde lichtkrans met instelbare kleuren maakt het product aantrekkelijker en speelser voor kinderen, terwijl het ook voor sfeervolle verlichting zorgt.
+* Een geïntegreerde lichtring met instelbare kleuren maakt het product aantrekkelijker en speelser voor kinderen, terwijl het ook voor sfeervolle verlichting zorgt. Bovendien geeft fungeert het als extra signifier dat een actie met de kapstok dient te gebeuren.
 * Het gebruik van lichte kleuren en houtaccenten draagt bij aan een warme, huiselijke uitstraling die aansluit bij moderne interieurs.
 
 Daarnaast ondersteunt de vormgeving ook de functionaliteiten van het product:
@@ -163,6 +166,7 @@ Daarnaast ondersteunt de vormgeving ook de functionaliteiten van het product:
 * Geïntegreerde handvaten aan beide zijden maken het product gemakkelijk draagbaar voor zowel kinderen als ouders.
 * Een vast, houten haak zorgt voor voldoende draagkracht voor zware zakken.
 * Het losneembare karakter voorkomt hinder (bv. haak) bij interactie met de display.
+* Een magneet op het raakvlak tussen de kapstok en het scherm geven auditieve feedback wanneer het scherm juist aan de kapstok bevestigd is.
 
 Deze ontwerpkeuzes zorgen ervoor dat het product niet alleen functioneel en veilig is, maar ook esthetisch aansluit bij een huiselijke omgeving.
 
