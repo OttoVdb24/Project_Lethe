@@ -24,12 +24,11 @@ In onderstaande tabel zijn de benodigdheden te vinden voor de slimme kapstok:
 | Code                  | /              | Programma                   |                                                        |      |
 
 In onderstaande tabel zijn de benodigdheden te vinden voor de "muur":
-| Naam                 | Afmetingen (mm) | Onderdelen hieruit gemaakt                                                     | Opmerking | Link |
-|----------------------|----------------|----------------------------------------------------------------------------------|------------|------|
-| Houten plaat (10 mm) A | 10 x 200 x 800 | Onderkant en stevigheidsdriehoeken                                              |            |      |
-| Houten plaat (3 mm)  | 3 x 400 x 500  | Verticale plaat = "muur"                                                        |            |      |
-| Houtschroeven 8x     |                | /                                                                                |            |      |
-| Houten plaat (10 mm) B | 10 x 200 x 180 | Vaste plaat waar losneembare behuizing en haakje aan worden vastgemaakt         |            |      |
-| Houten plaat (6 mm)  | 6 x 100 x 100  | Haakje                                                                           |            |      |
-| Bouten + moeren 2x   |                |                                                                                  |            |      |
-
+| Naam | Afmetingen (mm) | Onderdelen hieruit gemaakt |
+|------|----------------|-----------------------------|
+| Houten plaat (10 mm) A | 10 x 200 x 800 | Onderkant en stevigheidsdriehoeken |
+| Houten plaat (3 mm) | 3 x 400 x 500 | Verticale plaat = "muur" |
+| Houtschroeven 8x | | / |
+| Houten plaat (10 mm) B | 10 x 200 x 180 | Vaste plaat waar losneembare behuizing en haakje aan worden vastgemaakt |
+| Houten plaat (6 mm) | 6 x 100 x 100 | Haakje |
+| Bouten + moeren 2x | | |
