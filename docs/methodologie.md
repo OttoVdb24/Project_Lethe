@@ -21,5 +21,5 @@ In develop 3 stond de uitwerking van het volledige productverhaal en de CMF-aspe
 De develop-fase werd afgesloten met een integrerende evaluatie waarin het finale concept, de vormgeving en de CMF-keuzes werden vastgelegd en gepresenteerd.
 
 <p align="center">
-  <img src="../img/tijdlijn.png" width="100%"> 
+  <img src="../img/Tijdlijn.png" width="100%"> 
 </p>
