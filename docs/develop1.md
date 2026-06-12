@@ -66,7 +66,7 @@ __3. SAM-evaluatie:__ na elke app werd er een korte SAM evaluatie ingevuld door 
 __4. Nabespreking:__ na de testen werd er tijd gemaakt om kwalitatief onderzoek te doen aan de hand van open vragen. Hierbij werden ook de bevindingen van deze test meegedeeld met de test personen.
 
 <p align="left">
-  <img src="../img/planningapp%20benchmarktesting.png" width="50%"> 
+  <img src="../img/planningapp%20benchmarktesting.jpg" width="50%"> 
   <img src="../img/SAM_vragenlijst.png" width="33%">
 </p>
 
