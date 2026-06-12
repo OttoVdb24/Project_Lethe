@@ -166,9 +166,6 @@ Na ieder prototype werd door de kinderen een SAM vragenlijst in gevuld om te pol
   <img src="../img/Prototypes-schuifsysteem.jpg" width="33%">
 </p>
 <p align="center">
-  <img src="../img/ophangsysteem.jpeg" width="20%">
-</p>
-<p align="center">
   <img src="../img/zichtbaar_handvat.jpg" width="20%">
   <img src="../img/onzichtbaar_handvat.jpg" width="20%">
 </p>
