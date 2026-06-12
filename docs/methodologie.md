@@ -19,3 +19,7 @@ In develop 2 verschoof de focus naar fysieke vormgeving. Een long neck-analyse, 
 In develop 3 stond de uitwerking van het volledige productverhaal en de CMF-aspecten centraal. Verschillende ontwerpkaders zoals emotieonderzoek en customer journey-analyse verfijnden de gebruikerservaring. CMF-keuzes werden getest met gebruikers (N=6 en N=4) via materiaal-, kleur- en afwerkingsstudies, aangevuld met een kwalitatieve nabespreking. Vanaf develop 2 werden programma’s voor zak- en planningsfunctie getest met gebruikers en iteratief verbeterd.
 
 De develop-fase werd afgesloten met een integrerende evaluatie waarin het finale concept, de vormgeving en de CMF-keuzes werden vastgelegd en gepresenteerd.
+
+<p align="center">
+  <img src="../img/tijdlijn.png" width="100%"> 
+</p>
