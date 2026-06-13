@@ -104,6 +104,9 @@ Gebruikerstesten werden uitgevoerd bij drie gezinnen thuis. De test had drie gro
 ### Materiaal van handvaten bepalen
 Testpersonen werden gevraagd verschillende materialen te voelen en te rangschikken van minst naar meest geschikt, waarna zij hun keuzes toelichtten. Bij de kinderen werd aanvullend een blinde test uitgevoerd om visuele beïnvloeding te vermijden, in combinatie met de think-aloud protocol.
 <p align="left">
+  <img src="../img/Storyboard_materiaal_handvaten.png" width="100%">
+</p>
+<p align="left">
   <img src="../img/Handvat%20materialen.png" width="100%">
 </p>
 
@@ -115,7 +118,9 @@ Testpersonen werden gevraagd verschillende materialen te voelen en te rangschikk
 
 ### Uitzicht van de kapstok bepalen
 Testpersonen beoordeelden verschillende renders van productuitvoeringen en rangschikten deze van minst naar meest geschikt, waarna zij hun keuzes toelichtten.
-
+<p align="left">
+  <img src="../img/Storyboard_renders.png" width="100%">
+</p>
 <p align="left">
   <img src="../img/Render%20rond%20lamp.png" width="47%">
   <img src="../img/Render%20rond%20lamp%20maan.png" width="51%">

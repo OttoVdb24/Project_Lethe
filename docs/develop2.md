@@ -160,6 +160,10 @@ Er werd een draagbare wand gemaakt waarop de drie bevestigingsmethodes bevestigd
 **3.**	Een korte wandeling te maken met de kapstok 
 
 Na ieder prototype werd door de kinderen een SAM vragenlijst in gevuld om te polsen naar de gebruiksvriendelijkheid.
+<p align="center">
+  <img src="../img/storyboard_ophangsysteem.png" width="100%">
+</p>
+
 <p align="left">
   <img src="../img/Prototypes-dovetail.jpg" width="33%">
   <img src="../img/Prototypes-magnetisch.jpg" width="33%">
