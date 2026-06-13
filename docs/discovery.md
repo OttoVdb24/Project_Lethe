@@ -52,6 +52,7 @@ Op de vraag, 'wat moet een nieuw product vooral zijn?' kwamen volgende antwoorde
 - Het moet gebruikt kunnen worden door de kinderen en de ouders.
 - Eenvoudig zijn in gebruik.
 - Het mag 's ochtends geen tijd vragen
+</p>
 
   * [Rapport user interviews](./Rapport%20user%20interview.pdf)
 
@@ -69,13 +70,13 @@ We brachten alle informatie in een **decision matrix**.
   <img src="/img/Vergelijkende matrix.jpeg" width="100%">
 </p>
 
-  * [Rapport benchmark](./Rapport%20benchmarking.pdf)
-
 **Algemeen** 
 kan worden gesteld dat geen enkel product uit deze benchmark daadwerkelijk een oplossing biedt voor dit probleem. De producten zijn :
 > Te duur
 Vragen te veel tijd
 Zijn niet gericht op kinderen
+
+* [Rapport benchmark](./Rapport%20benchmarking.pdf)
 
 ### Conclusies & implicaties
 Via gesprekken met ouders en gezamenlijke ideevorming rond futuristische producten werd het onderliggende probleem scherper in kaart gebracht:
