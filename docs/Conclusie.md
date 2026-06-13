@@ -17,10 +17,7 @@ Lethe is een sterke oplossing omdat het:
 * ondersteuning op maat biedt die kan meegroeien met de competenties van het kind [PR 3.1].
 * het product kan gepersonaliseerd worden naar de voorkeuren en leefwereld van het kind  [PR 3.3, PR 5.5]
 </p>
-Het concept voldoet daarmee aan de 
 
-[design requirements](../docs/design_requirements.md)
-
-design requirements: het is intuïtief, ondersteunt de zelfstandigheid van het kind en integreert zich op een natuurlijke manier in het dagelijkse gezinsleven. Lethe is daardoor meer dan een slimme kapstok; het is een hulpmiddel dat gezinnen ondersteunt in het opbouwen van gezonde routines, het verminderen van stress en het stimuleren van zelfstandigheid bij kinderen.
+Het concept voldoet daarmee aan de [design requirements](../docs/design_requirements.md) design requirements: het is intuïtief, ondersteunt de zelfstandigheid van het kind en integreert zich op een natuurlijke manier in het dagelijkse gezinsleven. Lethe is daardoor meer dan een slimme kapstok; het is een hulpmiddel dat gezinnen ondersteunt in het opbouwen van gezonde routines, het verminderen van stress en het stimuleren van zelfstandigheid bij kinderen.
 
 
