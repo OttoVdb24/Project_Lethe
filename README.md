@@ -56,6 +56,7 @@ Het prototypen van onze testprototypes deden we grotendeels samen. Dit proces ve
 
 Uit dit project nemen we mee dat een duidelijke planning in combinatie met regelmatige afstemming goed werkt binnen een klein team. Daarnaast hebben we geleerd dat het belangrijk is om zo vroeg mogelijk te beginnen met het zoeken naar respondenten voor testen.
 
+Een volledig uitgewerkt eindproduct werd binnen de scope van dit project niet gerealiseerd. Verdere ontwikkeling vereist bijkomend onderzoek naar de exacte materialen, productietechnieken en technische haalbaarheid. Dit vormt een logische volgende stap om het concept verder te verfijnen en uiteindelijk tot een realiseerbaar en produceerbaar eindproduct te komen.
 
 ## Noot inzake het gebruik van AI
 Tijdens dit project is AI ingezet als ondersteunend hulpmiddel. 
