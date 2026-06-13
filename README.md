@@ -41,6 +41,7 @@ De gehanteerde boundary conditions zijn:
 6. [Develop 3](./docs/develop3.md)
 7. [Design Requirements](./docs/design_requirements.md)
 8. [Bill of materials](./docs/bom.md)
+9. [Conclusie](./docs/Conclusie.md)
 
 ## Kritische reflectie
 De samenwerking binnen het team verliep over het algemeen goed, doordat de taken duidelijk werden verdeeld op basis van ieders sterke punten. Aan het begin van het semester hebben we gezamenlijk een planning opgesteld, waarin werd vastgelegd wanneer de verschillende onderdelen van de opdracht idealiter afgerond zouden zijn. Dit gaf ons vanaf het begin een helder overzicht van het project.
