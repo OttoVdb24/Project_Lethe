@@ -18,7 +18,7 @@ Allemaal vragen waarop een antwoord werd gezocht.
 
 ### Materiaal & methoden
 #### User interviews (N=3)
-Het onderzoek maakte gebruik van diepte-interviews als kwalitatieveonderzoeks methode om inzicht te verkrijgen in de huidige gang van zaken binnen gezinnen. Aan de hand van gerichte, open vragen werden ervaringen, percepties in het dagelijkse leven van de deelnemers in kaart gebracht. 
+Het onderzoek maakte gebruik van diepte-interviews als kwalitatieve onderzoeksmethode om inzicht te verkrijgen in de huidige gang van zaken binnen gezinnen. Aan de hand van gerichte, open vragen werden ervaringen, percepties in het dagelijkse leven van de deelnemers in kaart gebracht. 
 
 Daarnaast werd binnen de interviews ruimte gecreëerd voor een toekomstgericht luik, waarin respondenten werden uitgenodigd te fantaseren over mogelijke futuristische hulpmiddelen. Dit stimuleerde creatief denken en bracht latente noden en verwachtingen aan het licht, wat bijdraagt aan een beter begrip van de situatie.
   * [Protocol user interview](./Protocol%20user%20interview.pdf)
@@ -35,13 +35,13 @@ Deze criteria werden opgesteld tijdens de user interviews.
 ### Resultaten
 
 #### User interviews
-De gezinnen die werden geinterviewd hadden kinderen tussen de 1 en 5 jaar oud.
+De gezinnen die werden geïnterviewd hadden kinderen tussen de 1 en 5 jaar oud.
 Ze ervaarden stuk voor stuk stress door het opvoeden. De stress ontwikkeld zich voornamelijk 's ochtends. Alles op tijd klaar krijgen is op zich al moeilijk. Daarbovenop komt nog eens de onvoorspelbaarheid van een jong kind. 
 > "Alles kan goed gaan 's ochtends, en dan geeft ze over op mij en zichzelf. Dan weet je al, we gaan te laat zijn. (Mama van een dochter)
 
 Er kwam ook ter sprake hoe planning een grote invloed heeft op het stressniveau. Zo haalden ze aan hoe de school, sportclubs, ... allemaal op een andere manier communiceren. Dit maakt het moeilijk om een overzicht te krijgen.
 
-Geen enkele van de geinterviewden gebruikt smart devices, specifiek voor de opvoeding van hun kinderen. Ze beneoemen wel hoe de telefoon en tv, goeie nieuwe uitvindingen zijn om een kind tot rust te laten komen, of om ze gewoon even bezig te houden. 
+Geen enkele van de geïnterviewden gebruikt smart devices, specifiek voor de opvoeding van hun kinderen. Ze benoemen wel hoe de telefoon en tv, goeie nieuwe uitvindingen zijn om een kind tot rust te laten komen, of om ze gewoon even bezig te houden. 
 Desondanks zijn er wel heel veel goede nieuwe producten op de markt die het leven van de ouders beter maken. 
 
 > “Ik vind zulke 'slimme producten' vaak te duur en te veel tijd vragen”
@@ -51,7 +51,9 @@ Op de vraag, 'wat moet een nieuw product vooral zijn?' kwamen volgende antwoorde
 - Het moet goedkoop zijn, jonge gezinnen hebben het vaak niet breed.
 - Het moet gebruikt kunnen worden door de kinderen en de ouders.
 - Eenvoudig zijn in gebruik.
-- Het mag geen tijd vragen 's ochtends
+- Het mag 's ochtends geen tijd vragen
+
+  * [Rapport user interviews](./Rapport%20user%20interview.pdf)
 
 #### Benchmark onderzoek
 
@@ -67,8 +69,10 @@ We brachten alle informatie in een **decision matrix**.
   <img src="/img/Vergelijkende matrix.jpeg" width="100%">
 </p>
 
+  * [Rapport benchmark](./Rapport%20benchmarking.pdf)
+
 **Algemeen** 
-Algemeen kan worden gesteld dat geen enkel product uit deze benchmark daadwerkelijk een oplossing biedt voor dit probleem. De producten zijn :
+kan worden gesteld dat geen enkel product uit deze benchmark daadwerkelijk een oplossing biedt voor dit probleem. De producten zijn :
 > Te duur
 Vragen te veel tijd
 Zijn niet gericht op kinderen
