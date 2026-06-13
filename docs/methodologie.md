@@ -16,7 +16,7 @@ In de develop-fase (februari–juni) werd het concept verder uitgewerkt en verfi
 
 In develop 2 verschoof de focus naar fysieke vormgeving. Een long neck-analyse, waaruit usability goals werden gehaald stuurden de ontwerpbeslissingen. Het ophangsysteem werd getest met kinderen (N=4) via verschillende varianten uit benchmarkonderzoek (N=10), wat inzichten gaf in gebruikservaring en voorkeuren.
 
-In develop 3 stond de uitwerking van het volledige productverhaal en de CMF-aspecten centraal. Verschillende ontwerpkaders zoals emotieonderzoek en customer journey-analyse verfijnden de gebruikerservaring. CMF-keuzes werden getest met gebruikers (N=6 en N=4) via materiaal-, kleur- en afwerkingsstudies, aangevuld met een kwalitatieve nabespreking. Vanaf develop 2 werden programma’s voor zak- en planningsfunctie getest met gebruikers en iteratief verbeterd.
+In develop 3 stond de uitwerking van het volledige productverhaal en de CMF-aspecten centraal. Verschillende ontwerpkaders zoals emotieonderzoek en customer journey-analyse verfijnden de gebruikerservaring. CMF-keuzes werden getest met gebruikers (N=6 en N=4) via materiaal-, kleur- en afwerkingsstudies, aangevuld met een kwalitatieve nabespreking. Doorheen de volledige develop fase werden programma’s voor zak- en planningsfunctie getest met gebruikers en iteratief verbeterd.
 
 De develop-fase werd afgesloten met een integrerende evaluatie waarin het finale concept, de vormgeving en de CMF-keuzes werden vastgelegd en gepresenteerd.
 

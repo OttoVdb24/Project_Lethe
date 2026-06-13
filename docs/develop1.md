@@ -29,6 +29,11 @@ Het is een voordeel wanneer de planning in samenwerking tussen kind en ouder wor
   <img src="../img/Mogelijkheden planning schematisch in kaart brengen.png" width="100%">
 </p>
 
+## Pivot
+Uit brainstormsessies en gesprekken met de doelgroep bleek dat een aparte app geen meerwaarde biedt. Daarom werd beslist om alle functionaliteiten te integreren in de slimme kapstok zelf. Zowel het opstellen van de weekplanning als het voorbereiden van de zakken gebeuren rechtstreeks via het systeem van de kapstok.
+
+Daarnaast bleek dat de locatie van de kapstok, bijvoorbeeld in de gang, niet altijd de meest comfortabele plek is voor kinderen om hun weekplanning op te stellen. Daarom werd beslist dat het scherm eenvoudig van de muur gehaald moet kunnen worden, zodat kinderen de planning op een rustigere en comfortabelere plaats kunnen invullen. Dit verhoogt het gebruiksgemak van het kind.
+
 
 ## Hiërarchische taakanalyse
 Het maken van de weekplanning werd uiteengetrokken en in een hiërarchische taakanalyse gegoten:

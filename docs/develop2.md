@@ -5,8 +5,6 @@ In deze fase werd er hoofdzakelijk onderzoek gedaan naar de ergonomie en de fysi
 - Long neck analyse en usability goals
 - Benchmark onderzoek naar losmakende verbindingenssystemen
 - Task based testing (N=4)
-## Pivot
-kapstok van de muur 
 
 ## Long neck analyse
 Uit het story board werden de voornaamste acties met het product geanalyseerd en gecategoriseerd naar mate van voorkomen.
@@ -161,7 +159,7 @@ Er werd een draagbare wand gemaakt waarop de drie bevestigingsmethodes bevestigd
 
 Na ieder prototype werd door de kinderen een SAM vragenlijst in gevuld om te polsen naar de gebruiksvriendelijkheid.
 <p align="center">
-  <img src="../img/storyboard_ophangsysteem.png" width="100%">
+  <img src="../img/storyboard_ophangsysteemm.png" width="100%">
 </p>
 
 <p align="left">
@@ -180,8 +178,8 @@ Na ieder prototype werd door de kinderen een SAM vragenlijst in gevuld om te pol
 -	De kinderen verkozen de twee kleinste prototypes, de lege ruimte rond het scherm wordt als *"onnodig"* aanzien.
 
 
-### App
-De kinderen kregen de opdracht om met de hulp van een ouder hun weekplanning te maken in de nieuwe app. 
+### Programma weekplanning maken
+De kinderen kregen de opdracht om met de hulp van een ouder hun weekplanning te maken in het nieuwe programma. 
 Nadien werden de kinderen nog gevraagd om een activiteit te verwijderen. 
 
 **Resultaten:**
