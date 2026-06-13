@@ -10,12 +10,14 @@
 ## Samenvatting
 Project Lethe is ontwikkeld om stress bij jonge gezinnen te verminderen. De rush bij het vertrekken naar school of een hobby is voor veel gezinnen herkenbaar. Op dat moment moeten ouders niet alleen zichzelf, maar ook hun kinderen en alle tassen in gereedheid brengen. Hierdoor zullen ouders vaak zelf de zakken etc. klaarmaken, omdat dit simpelweg sneller is. Dit is nochtans een ideaal leermoment tijdens de ontwikkeling van het kind.<br>
 
-Om hierop in te spelen en de stress bij de stress te verminderen werden er interviews en user tests uitgevoerd bij gezinnen met kinderen in het lager onderwijs. Met als resultaat project Lethe, de slimme kapstok die kinderen zelfstandigheid bijbrengt in een alledaagse omgeving. <br>
+Om hierop in te spelen en de stress tijdens de ochtendrush te verminderen werden er interviews en user tests uitgevoerd bij gezinnen met kinderen in het lager onderwijs. Met als resultaat project Lethe, de slimme kapstok die kinderen zelfstandigheid bijbrengt in een alledaagse omgeving. <br>
 
-Ze doet dit door de kinderen te helpen met het maken van hun zakken. De kapstok is verbonden met een app, waar de ouders de activiteiten van hun kinderen kunnen ingeven. Zo weet Lethe wie wanneer welke hobby heeft en worden de kinderen tijdig opgeroepen om hun tas klaar te maken. Doormiddel van een interactief touchscreen zien de kinderen wat er in de desbetreffende zak moet komen. Zit alles in de zak, en hangt die aan de kapstok, dan bedankt Lethe het kind en wordt opnieuw een moment van stress vermeden.
+Lethe ondersteunt kinderen bij het maken van hun zakken. De kapstok beschikt over verschillende programma’s: één voor het opstellen van een weekplanning en één voor het klaarmaken van zakken. Beide functies zijn met elkaar gekoppeld, waardoor het systeem weet welke zak op welk moment moet worden klaargemaakt of meegenomen. <br>
+
+Via een interactief touchscreen krijgen kinderen stap voor stap te zien welke spullen in de betreffende zak moeten. Zodra alles aanwezig is en de zak aan de kapstok hangt, bevestigt Lethe dat de taak succesvol is afgerond. Zo worden kinderen gestimuleerd om verantwoordelijkheid op te nemen en wordt opnieuw een potentieel stressmoment voor het gezin voorkomen.
 
 <p align="center">
-  <img src="img/render project Lethe.png" width="100%">
+  <img src="img/hal.png" width="80%">
 </p>
 
 ## Introductie
@@ -44,21 +46,25 @@ De gehanteerde boundary conditions zijn:
 9. [Conclusie](./docs/Conclusie.md)
 
 ## Kritische reflectie
-De samenwerking binnen het team verliep over het algemeen goed, doordat de taken duidelijk werden verdeeld op basis van ieders sterke punten. Aan het begin van het semester hebben we gezamenlijk een planning opgesteld, waarin werd vastgelegd wanneer de verschillende onderdelen van de opdracht idealiter afgerond zouden zijn. Dit gaf ons vanaf het begin een helder overzicht van het project.
+De samenwerking binnen het team verliep over het algemeen goed, doordat de taken duidelijk werden verdeeld op basis van ieders sterke punten. Aan het begin van elk semester hebben we gezamenlijk een planning opgesteld, waarin werd vastgelegd wanneer de verschillende onderdelen van de opdracht idealiter afgerond zouden zijn. Dit gaf ons vanaf het begin een helder overzicht van het project.
 
 Tijdens het project kwamen we minimaal één keer per week buiten de lessen samen, meestal in de vorm van een weekly sync. Wanneer er minder te bespreken was, verliep de afstemming informeler, bijvoorbeeld tijdens vervoer naar gebruikerstesten. 
 
-De taken werden steeds in overleg verdeeld en er deden zich geen grote problemen voor binnen het team. Wel ondervonden we moeilijkheden bij het vinden van respondenten voor onze concepttesten. Omdat we de testen bij voorkeur samen wilden uitvoeren en ver van elkaar wonen, richtten we ons op gezinnen in Kortrijk, wat lastiger bleek dan verwacht. Uiteindelijk hebben we dit opgelost door langs te gaan bij een lagere school, die een oproep plaatste in de wekelijkse nieuwsbrief.
+De taken werden steeds in overleg verdeeld en er deden zich geen grote problemen voor binnen het team. Wel ondervonden we moeilijkheden bij het vinden van respondenten voor onze concepttesten. Omdat we de testen bij voorkeur samen wilden uitvoeren en ver van elkaar wonen, richtten we ons op gezinnen in Kortrijk, wat lastiger bleek dan verwacht. Uiteindelijk hebben we dit opgelost door langs te gaan bij een lagere school, die een oproep plaatste in de wekelijkse nieuwsbrief. Door de oproep was er een pool van gebruikers ontstaan. Hierdoor werd het mogelijk om testen uit te voeren bij gebruikers die het product al kenden en gebruikers die een verse blik hadden op het geheel.
 
 Het prototypen van onze testprototypes deden we grotendeels samen. Dit proces verliep efficiënt, omdat we direct konden overleggen en beslissingen konden nemen, waardoor er weinig tijd verloren ging.
-Uit dit project nemen we mee dat een duidelijke planning in combinatie met regelmatige afstemming goed werkt binnen een klein team. Daarnaast hebben we geleerd dat het belangrijk is om zo vroeg mogelijk te beginnen met het zoeken naar respondenten voor testen.
 
-Door de oproep was er een pool van gebruikers ontstaan. Hierdoor werd het mogelijk om testen uit te voeren bij gebruikers die het product al kenden en gebruikers die een verse blik hadden op het geheel.
+Uit dit project nemen we mee dat een duidelijke planning in combinatie met regelmatige afstemming goed werkt binnen een klein team. Daarnaast hebben we geleerd dat het belangrijk is om zo vroeg mogelijk te beginnen met het zoeken naar respondenten voor testen.
 
 
 ## Noot inzake het gebruik van AI
-Tijdens dit project is AI ingezet als ondersteunend hulpmiddel. In de discoveryfase hebben we LLM's gebruikt voor ideeëngeneratie, om verschillende invalshoeken te verkennen en het creatieve denkproces te verrijken. Daarnaast is AI toegepast ter verbetering en aanscherping van teksten, met als doel de helderheid, consistentie en kwaliteit van de communicatie te verhogen. Voor het eerste beeld in ons verslag hebben we een render gecreëerd met Vizcom. Deze render is voornamelijk bedoeld ter illustratie en biedt een aantrekkelijk, verhalend beeld van ons concept.
-De inhoudelijke keuzes zijn steeds door het team bepaald.
+Tijdens dit project is AI ingezet als ondersteunend hulpmiddel. 
+
+In de discoveryfase hebben we LLM's gebruikt voor ideeëngeneratie, om verschillende invalshoeken te verkennen en het creatieve denkproces te verrijken. Tijdens Develop 3 werd daarnaast gebruikgemaakt van Vizcom om op basis van schetsen en tekeningen realistische renders te genereren. Deze visualisaties werden ingezet tijdens gebruikerstesten om concepten duidelijker te communiceren en feedback te verzamelen. Ook de CMF-analyse werd met ondersteuning van AI opgesteld.
+
+Verder werd AI gebruikt voor het verbeteren en verfijnen van teksten, met als doel de helderheid, consistentie en algemene kwaliteit van de communicatie te verhogen.
+
+Alle inhoudelijke beslissingen, ontwerpkeuzes en conclusies werden echter steeds door het projectteam genomen. AI fungeerde uitsluitend als ondersteunend instrument en niet als beslissende factor binnen het ontwerpproces.
 
 ## Bijlagen
 ### Discovery
