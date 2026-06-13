@@ -1,37 +1,35 @@
 ## Overzicht van Design Requirements
-| ID   | Desing Requirement                                                                                                                                                                                                   | Source                                   | status |
-|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|--------|
-| __1__    | __Gebruikers__                                                                                                                                                                                                           |                                          |        |
-| 1.1  | Het product moet kinderen in staat stellen om zelfstandig hun zakken te maken                                                                                                                                        | user interview                           |        |
-| 1.2  | Een kind moet samen met de ouders in staat zijn om begeleid door de app een weekplanning op te stellen.                                                                                                              | Concept test wave 1                      |        |
-| 1.3  | Kinderen moeten zelfstandig hun zak kunnen maken met een gepaste hoeveelheid begeleiding van de kapstok                                                                                                              | Literatuurstudie pedagogie |        |
-| 1.4  | Kinderen mogen niet instaat zijn instellingen omtrent planning aan te passen                                                                                                                                         | Concept test wave 1                      |        |
-| 1.5  | Kinderen moeten beloond worden worden na het correct uitvoeren van de handeling                                                                                                                                      | Demo markt                               |        |
-| __2__    | __Algemeen__                                                                                                                                                                                                             |                                          |        |
-| 2.1  | De kapstok moet kunnen tonen welke zak er gemaakt moet worden                                                                                                                                                        | user interview                           |        |
-| 2.3  | Het product moet goedkoper zijn dan de bestaande family tablets                                                                                                                                                      | benchmark                                |        |
-| 2.4  | Het product moet zware zakken kunnen dragen.                                                                                                                                                                         | Concept test wave 1                      |        |
-| 2.7  | Het product moet opgaan in de meeste interieurs, terwijl het ook aantrekkelijk is voor kinderen.                                                                                                                     | Concept test wave 2                      |        |
-| __3__    |  __Technisch kapstok__                                                                                                                                                                                                   |                                          |        |
-| 3.01 | De kapstok moet zowel aan en los van de muur stroomtoevoer hebben.                                                                                                                                                   | Develop 1                                |        |
-| 3.02 | De kapstok moet losneembaar zijn van de muur                                                                                                                                                                         | Develop 1                                |        |
-| 3.03 | De kapstok moet toelaten zowel de planning als het maken van de zak op het product uit te voeren                                                                                                                     | Expert interview develop 1               |        |
-| 3.04 | De kapstok moet herkenbaar zijn als kapstok voor kinderen                                                                                                                                                            | Concept test wave 2                      |        |
-| 3.05 | De kapstok moet kunnen detecteren dat er een zak aan hangt                                                                                                                                                           | Concept test wave 2                      |        |
-| 3.06 | De user moet interactief met de kapstok kunnen werken tijdens het maken van de zak                                                                                                                                   | Concept test wave 2                      |        |
-| 3.07 | De kapstok moet een luidspreker bevatten die een melding kan geven                                                                                                                                                   | Concept test wave 2                      |        |
-| __4__    | __Plannings programma__                                                                                                                                                                                                  |                                          |        |
-| 4.1  | Het programma moet op een overzichtelijke manier en volgorde alle user input vragen                                                                                                                                  | Benchmark testing  develop 1             |        |
-| 4.2  | Het programma mag geen afleidingen creëren                                                                                                                                                                           | Benchmark testing  develop 1             |        |
-| 4.3  | De app moet een visueel leuke achtergrond hebben (volgens een thema)                                                                                                                                                 | Benchmark testing  develop 1             |        |
-| 4.4  | Het kind moet actief meewerken aan het planning maken                                                                                                                                                                | Benchmark testing  develop 1             |        |
-| 4.5  | Typen moet worden vermeden om zo inclusief mogelijk te zijn                                                                                                                                                          | Benchmark testing  develop 1             |        |
-| 4.6  | De planning moet een duidleijk overzicht van de week geven                                                                                                                                                           | Benchmark testing  develop 1             |        |
-| 4.7  | Iedere activiteit moet kunnen ingesteld worden op volgende punten:                                                                                                                                                   | Concept test wave 2                      |        |
-|      | Benodigdheden                                                                                                                                                                                                        | Concept test wave 2                      |        |
-|      | Uur van klaarmaken van de zak                                                                                                                                                                                        | Concept test wave 2                      |        |
-|      | Uur van meenemen van de zak                                                                                                                                                                                          | Concept test wave 2                      |        |
-|      | Meldings type                                                                                                                                                                                                        | Concept test wave 2                      |        |
-|      | Kleur van de achtergrond                                                                                                                                                                                             | Concept test wave 2                      |        |
-|      | Stickers                                                                                                                                                                                                             | Benchmark testing  develop 1             |        |
-| 4.8  | De benodigdheden voor standaard activiteiten moeten onthouden kunnnen worden in het programma                                                                                                                        | Benchmark testing  develop 1             |        |
+| nummer | design  | source | uitvoeringsgraad |
+|:---:|:---:|:---:|:---:|
+|  | **Algemeen** |  |  |
+| 1.3 |  het product moet gebruikt kunnen worden door de kinderen en de ouders | user interview | ✅ |
+| 2.4 & 3.7 |  het product moet intrinsieke motivatie stimuleren | debrief  & expert interview | ➖ |
+| 3.4 | de interacties tussen het kind en product moeten op maat zijn van het kind | benchmark testing & expert interview | ❌ |
+| 1.2 | interacties met het product mogen niet veel tijd kosten | user interview | ✅ |
+| 3.2 | het programma moet voldoende ruimte laten voor germane cognitve load | bandura, expert interview | ➖ |
+| 3.5 |  het product moet ervoor zorgen dat het kind zich betrokken voelt bij zijn of haar agenda, van planning tot uitwerking    | expert interview | ✅ |
+| 3.6 | de planning moet een duidelijk overzicht van de week geven               | benckmark testing | ✅ |
+| 3.1 |  de ondersteuningsgraad moet aangepast worden bij toenemende competentie van het kind  |  vygotsky's theory & expert interview | ❌ |
+| 1.5 | het product moet binnen het budget van een gemiddeld gezin passen | user interview | ❌ |
+| 3.9 | het product moet een start doelgroep hebben van 4 jaar | cognitieve functies & expert interview | ➖ |
+|  | **Kapstok** |  |  |
+| 2.1 |  het product maakt het mogelijk om tassen en rugzakken op te hangen  | user test & debrief | ✅ |
+| 2.3 |  er moet een trigger gegeven worden door de kapstok, wanneer het kind een actie moet ondernemen | debrief | ✅ |
+| 5.4 | het product moet schok- en valbestendig zijn | debrief | ✅ |
+| 2.7 | de kapstok moet het mentaal model van een kapstok triggeren bij kinderen vanaf het 2e kleuterklas | user test  | ✅ |
+| 4.1 | het scherm moet in één beweging van de muur gehaald kunnen worden | pivot brainstorm | ✅ |
+| 4.2 | het scherm moet doormiddel van een dovetail losneembaar verbonden worden aan de kapstok | user testing | ✅ |
+| 5.1 | de kapstok moet visueel aanleunen bij de leefwereld van het kind (cfr. [cmf-analyse](develop3.md#cmf-analyse)) | user testing, debrief | ✅ |
+| 5.2 | de kapstok moet visueel low profile zijn wanneer deze niet in gebruik is | cmf analyse | ✅ |
+| 5.3 | het materiaal van de handvaten moet voldoen aan volgende eigenschappen: onderhoudsvriendelijk, zacht, warm | user testing | ✅ |
+| 4.3 | het product moet aan beide zijkanten een handvat bevatten, met een hoogte van 94mm | antropometrische analyse, user testing | ✅ |
+| 2.8 | de kapstok moet een auditieve trigger geven om kinderen aan te zetten tot actie | user test & debrief | ➖ |
+| 5.5 | het thema van het product moet verwisselbaar zijn | debrief | ➖ |
+| 5.6 | het aantal haakjes moet aangepast kunnen worden | expert | ✅ |
+|  | **Interface** |  |  |
+| 2.5 |  het product toont een combinatie van pictogrammen en tekstuele informatie. | user test & debrief | ✅ |
+| 2.6* | het product moet signifiers bevatten die duidelijk maken dat de benodigdheden bevestigd kunnen worden | user test & debrief | ➖ |
+| 3.3 | de interface moet gepersonaliseerd kunnen worden naar een visueel thema | benchmark testing | ❌ |
+| 3.8 | het product moet repetitieve taken op een gevarieerde manier presenteren | expert interview | ✅ |
+| 4.4 | het product moet signifiers bevatten die duidelijk maken dat de activiteiten naar de juiste dag gesleepd moeten worden | user testing | ❌ |
+| 2.2 | het product informeert het kind over de inhoud van de zak | user test & debrief | ✅ |
