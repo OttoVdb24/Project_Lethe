@@ -158,20 +158,15 @@ Er werden drie verschillende ingeefmethodes getest. Na elke methode vulden de ki
 ## Finale vormgeving
 De finale vormgeving combineert een subtiele integratie in het interieur met een aantrekkelijk en veilig ontwerp voor de doelgroep: kinderen vanaf 4 jaar. Dit werd gerealiseerd door volgende ontwerpkeuzes:
 
-* Een schokbestendige siliconen rand rondom het product, die bescherming biedt bij stoten en vallen en tegelijkertijd een zachte, kindvriendelijke uitstraling creëert.
-* Een personaliseerbaar frontpaneel met verwisselbare thema's, zodat het product kan worden aangepast aan de voorkeuren van de gebruiker.
-* Een eenvoudige ronde basisvorm, wat de veiligheid verhoogt en zorgt voor een rustige, vriendelijke uitstraling binnen het interieur.
-* Een geïntegreerde lichtring met instelbare kleuren maakt het product aantrekkelijker en speelser voor kinderen. Bovendien geeft fungeert het als extra signifier dat een actie met de kapstok dient te gebeuren.
-* Het gebruik van lichte kleuren en houtaccenten draagt bij aan een warme, huiselijke uitstraling die aansluit bij moderne interieurs.
+<p align="center">
+  <img src="../img/vormgeving_en_CMF.png" width="100%">
+</p>
 
 Daarnaast ondersteunt de vormgeving ook de functionaliteiten van het product:
 
-* Modulaire opbouw van het aantal haakjes, waardoor het kan worden aangepast aan de nood van de gebruiker.
-* Een eenvoudig losneembare maar stevige verbinding dankzij het dovetail-systeem.
-* Geïntegreerde handvaten aan beide zijden maken het product gemakkelijk draagbaar voor zowel kinderen als ouders.
-* Een vast, houten haak zorgt voor voldoende draagkracht voor zware zakken.
-* Het losneembare karakter voorkomt hinder (bv. haak) bij interactie met de display.
-* Een magneet op het raakvlak tussen de kapstok en het scherm geven auditieve feedback wanneer het scherm juist aan de kapstok bevestigd is.
+<p align="center">
+  <img src="../img/functievormgeving.png" width="100%">
+</p>
 
 Deze ontwerpkeuzes zorgen ervoor dat het product niet alleen functioneel en veilig is, maar ook esthetisch aansluit bij een huiselijke omgeving.
 
