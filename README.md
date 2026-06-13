@@ -17,7 +17,7 @@ Lethe ondersteunt kinderen bij het maken van hun zakken. De kapstok beschikt ove
 Via een interactief touchscreen krijgen kinderen stap voor stap te zien welke spullen in de betreffende zak moeten. Zodra alles aanwezig is en de zak aan de kapstok hangt, bevestigt Lethe dat de taak succesvol is afgerond. Zo worden kinderen gestimuleerd om verantwoordelijkheid op te nemen en wordt opnieuw een potentieel stressmoment voor het gezin voorkomen.
 
 <p align="center">
-  <img src="/img/Hal.png" width="70%">
+  <img src="/img/heroshot.png" width="90%">
 </p>
 
 ## Introductie
