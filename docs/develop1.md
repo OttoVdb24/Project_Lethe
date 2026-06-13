@@ -3,20 +3,22 @@
 Deze fase werd uitgevoerd in de eerste vier weken van het tweede semester. Er werd hoofdzakelijk onderzoek gedaan naar een pedagogisch kader om dit project in te nestelen. 
 
 - Literatuurstudie omtrent pedagogie
-- Expert interview met master studente pedagogie `Lize Dierickx, UGent`
-- Functie analyse
+- Expertinterview met master studente pedagogie `Lize Dierickx, UGent`
+- Functieanalyse
 - Task based benchmark testing (N=4)
+
 ## Literatuuronderzoek pedagogie
 Om vat te krijgen op de cognitieve processen die een kind doorloopt bij het aanleren van nieuwe handelingen, werd er onderzoek gedaan naar pedagogische psychologische frameworks.
 Op deze pagina zullen er een aantal frameworks kort besproken worden die toegepast kunnen worden op project Lethe, telkens met een kind als protagonist.
 [📃Literatuuronderzoek ](../docs/Literatuuronderzoek_pedagogie.md)
+
 ### Implicaties op ons ontwerp
 <p align="center">
   <img src="../img/Design_implicaties_literatuur onderzoek.png" width="100%">
 </p>
 
-## Expert interview 
-Om nog meer grip te krijgen op het pedagogische kader achter dit product, werd er een expert interview gedaan. `Lize Dierickx` master studente pedagogische wetenschappen aan de Ugent, gaf in een online interview haar visie op project Lethe.
+## Expertinterview 
+Om nog meer grip te krijgen op het pedagogische kader achter dit product, werd er een expertinterview gedaan. `Lize Dierickx` master studente pedagogische wetenschappen aan de Ugent, gaf in een online interview haar visie op project Lethe.
 
 [📃Protocol Expert interview ](../reports%20and%20protocols/Protocol_expert%20interview.pdf) [📑Rapport Expert interview ](../reports%20and%20protocols/Rapport_expert%20interview.pdf)
 
@@ -35,13 +37,13 @@ Het maken van de weekplanning werd uiteengetrokken en in een hiërarchische taak
 </p>
 
 ## Storyboard
-Op basis van de taakanalyse werd een storyboard opgesteld om het gebruiksscenario van het product te visualiseren. De inzichten hieruit werden meegenomen in de functieanalyse.
+Op basis van de taakanalyse, het vorige storyboard en nieuwe inzichten werd een storyboard opgesteld om het gebruiksscenario van het product te visualiseren. De inzichten hieruit werden meegenomen in de functieanalyse.
 <p align="center">
   <img src="../img/storyboard.png" width="80%">
 </p>
 
 ## Functie analyse
-Na feedback werd er beslist om een uitgewerktere functie analyse op te stellen. Deze heeft als doel om op een grafische manier alle functies, componenten en verbindingen tussen alle aspecten van het product weer te geven.
+Na feedback werd er beslist om een uitgewerkte functie analyse op te stellen. Deze heeft als doel om op een grafische manier alle functies, componenten en verbindingen tussen alle aspecten van het product weer te geven.
 <p align="center">
   <img src="../img/FunctieAnalyse.png" width="100%">
 </p>
@@ -63,7 +65,7 @@ __2. Planning op de app:__ nadien werd er gevraagd om de planning te maken met b
 __3. SAM-evaluatie:__ na elke app werd er een korte SAM evaluatie ingevuld door de ouder en het kind.
 
 
-__4. Nabespreking:__ na de testen werd er tijd gemaakt om kwalitatief onderzoek te doen aan de hand van open vragen. Hierbij werden ook de bevindingen van deze test meegedeeld met de test personen.
+__4. Nabespreking:__ na de testen werd er tijd gemaakt om kwalitatief onderzoek te doen aan de hand van open vragen. Hierbij werden ook de bevindingen van deze test meegedeeld met de testpersonen.
 
 <p align="left">
   <img src="../img/planningapp%20benchmarktesting.jpg" width="50%"> 
