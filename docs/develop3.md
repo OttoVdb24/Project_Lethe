@@ -92,17 +92,17 @@ Er werd een moodboard ontwikkeld om de visuele richting van het ontwerp te verke
 </p>
 
 ## User tests met kinderen (N=6) en ouders (N=4)
-Gebruikerstesten werden uitgevoerd bij drie gezinnen thuis. De test had drie grote delen:
-•	Materiaal van handvaten bepalen
-•	Uitzicht van de kapstok bepalen
-•	Digitale interactie tijdens het maken van de zak valideren
+Gebruikerstesten werden uitgevoerd bij drie gezinnen thuis. De test had drie grote delen: </p>
+•	Materiaal van handvaten bepalen </p>
+•	Uitzicht van de kapstok bepalen </p>
+•	Digitale interactie tijdens het maken van de zak valideren 
 
 [📃Protocol CMF UX](../reports%20and%20protocols/Protocol_CMF_UX.pdf)
 [📃Rapport CMF UX](../reports%20and%20protocols/Rapport_CMF_UX.pdf) 
 
 
 ### Materiaal van handvaten bepalen
-Testpersonen werden gevraagd verschillende materialen te voelen en te rangschikken van minst naar meest geschikt, waarna zij hun keuzes toelichtten. Bij de kinderen werd aanvullend een blinde test uitgevoerd om visuele beïnvloeding te vermijden, in combinatie met de think-aloud protocol.
+Testpersonen werden gevraagd om aan verschillende materialen te voelen en ze te rangschikken van minst naar meest geschikt, waarna zij hun keuzes toelichtten. Bij de kinderen werd aanvullend een blinde test uitgevoerd om visuele beïnvloeding te vermijden, in combinatie met een think-aloud protocol.
 <p align="left">
   <img src="../img/Storyboard_materiaal_handvaten.png" width="100%">
 </p>
