@@ -98,6 +98,9 @@ Onderzoeksvraag 2
    <img src="/img/wave 2 test 2 protocol.jpg" width="70%">
 
 ### Resultaten
+
+* [Rapport discovery wave 2](./concept%20testing%20wave%202%20-%20report.pdf)
+
 ###### Observaties – test  1
 -	De kinderen waren allemaal in staat om met hun eigen spullen de zak te maken. Moeilijkheden waren er met spullen die niet op de afgesproken plek lagen.
 -	De kinderen hadden niet door dat ze op de icoontjes konden klikken. 
@@ -108,8 +111,6 @@ Onderzoeksvraag 2
 -	Meldingen op de gsm zijn niet handig, omdat gsm’s niet aan tafel gebruikt worden en omdat de ouders niet altijd aanwezig zijn wanneer de kinderen hun zak moeten maken. 
 -	De kinderen reageren zoals verwacht op het alarm van de kapstok.
 -	De hoorbaarheid van het alarm wordt door de gezinnen in vraag gesteld, aangezien de kapstok soms ver van de leefruimte gehangen zou worden.
-
-* [Rapport discovery wave 2](./Concept%20testing%20wave%202%20-%20report.pdf)
 
 ### Conclusie 
 Kinderen van verschillende leeftijden zijn in staat om zelf hun zak te maken doormiddel van de kapstok. We leerden het belang van duidelijke pictogrammen. Daarnaast bleek dat de kapstok idealiter uiterlijke kenmerken vertoont die aansluiten bij de kapstokken die kinderen op school gewend zijn te gebruiken. Een alarm in de kapstokken lijkt het best geschikt. Dit target de kinderen het meest rechtstreeks. 
