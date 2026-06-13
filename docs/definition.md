@@ -4,7 +4,7 @@ Om testgezinnen te rekruteren, werd contact opgenomen met Basisschool Sint-Paulu
 ## Wave 1
 Het concept valt in twee delen te splitsen:
 -	De functionaliteit die kinderen zelfstandig hun zakken laat maken
--	De functionaliteit die overzicht geeft aan de ouders, welke activiteit wanneer plaatsvind.
+-	De functionaliteit die overzicht geeft aan de ouders, welke activiteiten wanneer plaatsvinden.
 >De doelstelling van dit onderzoek 
  “de uitvoeringsvorm van het product bepalen” 
 
@@ -20,7 +20,7 @@ Er werden ook kartonnen dozen gemaakt waar de kinderen hun zakken konden inlegge
  
 ### Test protocol
 Er werd aan de **kinderen** gevraagd zich voor te stellen dat het avond was en dat ze met behulp van de slimme kapstok hun zak voor de volgende dag moesten klaarmaken. Via een projectie zagen ze het logo en de kleur van de juiste zak. Wanneer de correcte zak aan de kapstok hing, ging het licht uit. 
-Daarna beelden ze zich in dat het ochtend was en dat ze naar school vertrokken. De kapstok lichtte opnieuw op en doofde zodra ze de juiste zak namen.
+Daarna beeldden ze zich in dat het ochtend was en dat ze naar school vertrokken. De kapstok lichtte opnieuw op en doofde zodra ze de juiste zak namen.
 Deze oefening werd zowel met de kapstok als met dozen gedaan.
 Bij deze test werd gebruikgemaakt van het principe van Wizard of Oz-testing.
 
@@ -32,6 +32,8 @@ Op tafel werd een afgebakend “schermoppervlak” getekend. De testers kregen k
 </p>
    <img src="/img/Wave_1_cardsorting.jpg" width="41%">
  </p>
+
+* [Protocol discovery wave 1](./Concept%20testing%20wave%201%20-%20protocol.pdf)
 
 ### Resultaten
 
@@ -49,6 +51,10 @@ Andere belangrijke take-aways uit deze testreeks zijn:
 -	De kapstok zal allerlei soorten zakken moeten kunnen dragen
 -	Een alarm wanneer de zak niet op tijd klaar hangt of wordt weggenomen
 -	Een klein beloningssysteem, “Ik krijg ook geen snoepje als ik mijn werk gedaan heb” 
+
+</p>
+
+* [Rapport discovery wave 1](./concept%20testing%20wave%201%20-%20report.pdf)
 
 | PR nummer | Requirement | Source|
 |-------|-----|---|
@@ -81,6 +87,9 @@ Voor de triggertest werd een kartonnen doosje gemaakt waar een gsm in past. Door
 
  
 ### Test protocol
+
+* [Protocol discovery wave 2](./Concept%20testing%20wave%202%20-%20protocol.pdf)
+
 Onderzoeksvraag 1
 <p align="left">
    <img src="/img/wave 2 test 1 foto.jpg">
@@ -99,6 +108,9 @@ Onderzoeksvraag 2
 -	Meldingen op de gsm zijn niet handig, omdat gsm’s niet aan tafel gebruikt worden en omdat de ouders niet altijd aanwezig zijn wanneer de kinderen hun zak moeten maken. 
 -	De kinderen reageren zoals verwacht op het alarm van de kapstok.
 -	De hoorbaarheid van het alarm wordt door de gezinnen in vraag gesteld, aangezien de kapstok soms ver van de leefruimte gehangen zou worden.
+
+* [Rapport discovery wave 2](./Concept%20testing%20wave%202%20-%20report.pdf)
+
 ### Conclusie 
 Kinderen van verschillende leeftijden zijn in staat om zelf hun zak te maken doormiddel van de kapstok. We leerden het belang van duidelijke pictogrammen. Daarnaast bleek dat de kapstok idealiter uiterlijke kenmerken vertoont die aansluiten bij de kapstokken die kinderen op school gewend zijn te gebruiken. Een alarm in de kapstokken lijkt het best geschikt. Dit target de kinderen het meest rechtstreeks. 
 
