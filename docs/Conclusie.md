@@ -1,6 +1,6 @@
 # Conclusie
 
-Project Lethe ontstond vanuit de vraag: Hoe kunnen slimme producten opvoedstress bij verse ouders helpen reduceren? Tijdens het onderzoek werd deze vraag verfijnd naar: Hoe kunnen we met een slim product ochtendstress bij jonge gezinnen verminderen?
+Project Lethe ontstond vanuit de vraag: Hoe kunnen slimme producten opvoedstress bij verse ouders helpen reduceren? Tijdens het onderzoek werd deze vraag verfijnd naar: **Hoe kunnen we met een slim product ochtendstress bij jonge gezinnen verminderen?**
 </p>
 Lethe biedt hierop een antwoord door kinderen zelfstandig hun school- en hobbytassen te laten voorbereiden. Dankzij de ingeplande activiteiten weet het systeem welke tas wanneer nodig is en welke benodigdheden meegenomen moeten worden. Hierdoor worden tassen minder snel vergeten en verdwijnen last-minute voorbereidingen uit de ochtendroutine.
 Lethe is een sterke oplossing omdat het:
@@ -18,6 +18,6 @@ Lethe is een sterke oplossing omdat het:
 * het product kan gepersonaliseerd worden naar de voorkeuren en leefwereld van het kind  [DR 3.3, DR 5.5]
 </p>
 
-Het concept voldoet daarmee aan de [design requirements](../docs/design_requirements.md): het is intuïtief, ondersteunt de zelfstandigheid van het kind en integreert zich op een natuurlijke manier in het dagelijkse gezinsleven. Lethe is daardoor meer dan een slimme kapstok; het is een hulpmiddel dat gezinnen ondersteunt in het opbouwen van gezonde routines, het verminderen van stress en het stimuleren van zelfstandigheid bij kinderen.
+Het concept voldoet daarmee aan de [design requirements](../docs/design_requirements.md): het is intuïtief, ondersteunt de zelfstandigheid van het kind en integreert zich op een natuurlijke manier in het dagelijkse gezinsleven. Lethe is daardoor meer dan een slimme kapstok: het is een hulpmiddel dat gezinnen ondersteunt in het opbouwen van gezonde routines, het verminderen van stress en het stimuleren van zelfstandigheid bij kinderen.
 
 
