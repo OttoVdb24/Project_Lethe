@@ -161,7 +161,7 @@ De finale vormgeving combineert een subtiele integratie in het interieur met een
 * Een schokbestendige siliconen rand rondom het product, die bescherming biedt bij stoten en vallen en tegelijkertijd een zachte, kindvriendelijke uitstraling creëert.
 * Een personaliseerbaar frontpaneel met verwisselbare thema's, zodat het product kan worden aangepast aan de voorkeuren van de gebruiker.
 * Een eenvoudige ronde basisvorm, wat de veiligheid verhoogt en zorgt voor een rustige, vriendelijke uitstraling binnen het interieur.
-* Een geïntegreerde lichtring met instelbare kleuren maakt het product aantrekkelijker en speelser voor kinderen, terwijl het ook voor sfeervolle verlichting zorgt. Bovendien geeft fungeert het als extra signifier dat een actie met de kapstok dient te gebeuren.
+* Een geïntegreerde lichtring met instelbare kleuren maakt het product aantrekkelijker en speelser voor kinderen. Bovendien geeft fungeert het als extra signifier dat een actie met de kapstok dient te gebeuren.
 * Het gebruik van lichte kleuren en houtaccenten draagt bij aan een warme, huiselijke uitstraling die aansluit bij moderne interieurs.
 
 Daarnaast ondersteunt de vormgeving ook de functionaliteiten van het product:
